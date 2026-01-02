@@ -16,7 +16,7 @@ export default function Home() {
             <div className="left w-2/5 flex flex-col justify-between ">
               <p className="text-primary uppercase font-semibold">.About Us</p>
               <ParallaxProfileCard
-                img="/images/person.webp"
+                img="./images/person.webp"
                 name="Sai Ram"
                 role="CEO & Founder"
               />
