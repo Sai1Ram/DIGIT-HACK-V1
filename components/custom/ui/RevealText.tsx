@@ -1,32 +1,38 @@
 "use client";
 
+import useInView from "@/hooks/useInView";
 import { motion } from "framer-motion";
 
 interface RevealTextProps {
   text: string;
-  speed?: number;     // letter reveal speed
-  delay?: number;     // delay before start
+  speed?: number;
+  delay?: number;
   className?: string;
 }
 
 export default function RevealText({
   text,
-  speed = 0.01,       // lower = faster reveal
+  speed = 0.03,
   delay = 0,
-  className = "text-3xl font-semibold"
+  className = "text-8xl font-semibold",
 }: RevealTextProps) {
-
   const words = text.split(" ");
+  const { ref, isVisible } = useInView({ threshold: 0.2, once: true });
 
   return (
     <motion.span
+      ref={ref}
       initial="hidden"
-      animate="visible"
+      animate={isVisible ? "visible" : "hidden"}
       variants={{
-        visible: { transition: { staggerChildren: speed, delay } }
+        visible: {
+          transition: {
+            staggerChildren: speed,
+            delayChildren: delay,
+          },
+        },
       }}
-      className={`${className} leading-[0.7] flex flex-wrap gap-[0.8ch]`} 
-      // gap ensures natural spacing but not shown as animated blank
+      className={`${className} flex flex-wrap gap-[0.8ch]`}
     >
       {words.map((word, wIndex) => (
         <span key={wIndex} className="flex">
@@ -34,8 +40,8 @@ export default function RevealText({
             <motion.span
               key={i}
               variants={{
-                hidden: { opacity: 0, },
-                visible: { opacity: 1, }
+                hidden: { opacity: 0, y: "0.25em" },
+                visible: { opacity: 1, y: "0em" },
               }}
               transition={{ duration: 0.3, ease: "easeOut" }}
               className="inline-block"

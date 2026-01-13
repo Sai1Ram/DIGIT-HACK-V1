@@ -68,7 +68,7 @@ export function HeroNavbar() {
           })}
         </div>
 
-        <AnimatedButton label="Lets Talk" href="/" />
+        <AnimatedButton label="Lets Talk" href="/" className="bg-primary" />
       </motion.div>
     </Container>
   );
@@ -83,23 +83,25 @@ export default function Hero() {
   // Scale from 0.6 → 1 based on scroll
   const scale = useTransform(scrollYProgress, [0, 0.6], [0.6, 1]);
   return (
-      <div className="relative w-full h-full mt-4">
+    <div className="relative w-full h-full mt-4">
+      <div className="relative z-5">
         <HeroNavbar />
-        {/* BACKGROUND COLOR */}
-        <div className="absolute top-0 left-0 w-full h-full rounded-t-xl -z-2 bg-linear-to-b from-[#EDE1FF] to-[#F6F0FF]" />
-        {/* PATTERN STARTS */}
-        <div className="min-h-screen w-full absolute top-0 left-0 -z-1">
-          {/* Dashed Top Left Fade Grid */}
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `
-              linear-gradient(to right, #D0CECD 1px, transparent 1px),
-              linear-gradient(to bottom, #D0CECD 1px, transparent 1px)
+      </div>
+      {/* BACKGROUND COLOR */}
+      <div className="absolute inset-0 w-full h-full rounded-t-xl z-0 bg-linear-to-b from-[#EDE1FF] to-[#F6F0FF]" />
+      {/* PATTERN STARTS */}
+      <div className="min-h-screen w-full absolute inset-0 z-0">
+        {/* Dashed Top Left Fade Grid */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `
+              linear-gradient(to right, #a6a5a4 1px, transparent 1px),
+              linear-gradient(to bottom, #a6a5a4 1px, transparent 1px)
               `,
-              backgroundSize: "20px 20px",
-              backgroundPosition: "0 0, 0 0",
-              maskImage: `
+            backgroundSize: "20px 20px",
+            backgroundPosition: "0 0, 0 0",
+            maskImage: `
               repeating-linear-gradient(
                 to right,
                 black 0px,
@@ -116,7 +118,7 @@ export default function Hero() {
                   ),
                   radial-gradient(ellipse 80% 80% at 0% 0%, #000 50%, transparent 90%)
       `,
-              WebkitMaskImage: `
+            WebkitMaskImage: `
   repeating-linear-gradient(
               to right,
               black 0px,
@@ -133,21 +135,21 @@ export default function Hero() {
             ),
             radial-gradient(ellipse 80% 80% at 0% 0%, #000 50%, transparent 90%)
       `,
-              maskComposite: "intersect",
-              WebkitMaskComposite: "source-in",
-            }}
-          />
-          {/* Your Content/Components */}
-        </div>
-        {/* PATTERN ENDS */}
-
-        <div className="flex items-center justify-center lg:p-24 px-6 lg:gap-24 gap-6 max-h-screen h-3/5">
-          <div className="left h-full flex flex-col justify-between">
+            maskComposite: "intersect",
+            WebkitMaskComposite: "source-in",
+          }}
+        />
+        {/* Your Content/Components */}
+      </div>
+      {/* PATTERN ENDS */}
+      <div className="relative z-5">
+        <div className="flex justify-center lg:p-24 px-6 lg:gap-24 gap-6 max-h-screen">
+          <div className="left flex flex-col justify-between">
             <Reveal direction="up" delay={0.2} distance={10}>
               <div className="w-72 bg-gray-50 rounded-2xl h-1">
                 <div className="h-1 w-10 bg-primary rounded-2xl"></div>
               </div>
-              <p className="mt-2">
+              <p className="my-2">
                 Recognized by industry award leaders, award winning team has be
                 a proven record.
               </p>
@@ -159,14 +161,14 @@ export default function Hero() {
               />
             </Reveal>
           </div>
-          <div className="right h-full min-w-2/3">
+          <div className="right min-w-2/3">
             <RevealText
               text="Driving Innovation to Transform Business Futures"
-              className="text-[4.5em] font-semibold leading-20 tracking-tighter"
+              className="text-[5.4rem] font-semibold leading-[0.8] tracking-tighter"
             />
             <Reveal direction="up" distance={10} delay={0.2}>
-              <div className="flex justify-start items-center my-10 gap-6">
-                <AnimatedButton label="Get Started" href="/" />
+              <div className="flex justify-start items-center mt-16 gap-6">
+                <AnimatedButton label="Get Started" href="/" className="bg-primary" />
 
                 <p className="">
                   Recognized by industry award leaders, <br />
@@ -178,7 +180,10 @@ export default function Hero() {
         </div>
         <div ref={ref} className="rounded-xl overflow-hidden w-full h-full">
           {/* VIDEO stays full width, but scales INSIDE → no layout shift */}
-          <motion.div style={{ scale, transformOrigin:"top center" }} className="w-full h-full rounded-xl ">
+          <motion.div
+            style={{ scale, transformOrigin: "top center" }}
+            className="w-full h-full rounded-xl "
+          >
             <video
               src="/videos/hero-banner.mp4"
               autoPlay
@@ -189,5 +194,6 @@ export default function Hero() {
           </motion.div>
         </div>
       </div>
+    </div>
   );
 }

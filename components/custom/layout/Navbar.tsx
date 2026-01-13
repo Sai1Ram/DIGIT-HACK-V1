@@ -62,7 +62,7 @@ export default function Navbar() {
             })}
           </div>
           <div className="right">
-            <AnimatedButton label="Lets Talk" href="/" />
+            <AnimatedButton label="Lets Talk" href="/" className="bg-primary" />
           </div>
         </motion.div>
       </Container>
