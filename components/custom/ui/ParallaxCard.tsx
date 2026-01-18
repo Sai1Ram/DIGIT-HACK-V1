@@ -37,7 +37,7 @@ export default function ParallaxCard({
   return (
     <div
       ref={ref}
-      className="relative overflow-hidden w-full aspect-square rounded-t-xl rounded-bl-xl"
+      className="relative overflow-hidden w-full aspect-square rounded-xl"
     >
       {/* Parallax Image */}
       <motion.img

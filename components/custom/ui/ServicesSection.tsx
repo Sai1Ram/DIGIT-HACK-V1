@@ -7,44 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import ServiceImg from "@/public/images/service-1.webp";
 import { motion, useScroll, useTransform } from "motion/react";
-import useMeasure from "@/hooks/useMeasure";
-interface ServiceItem {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-}
-
-const services: ServiceItem[] = [
-  {
-    id: 1,
-    title: "Business Strategy Development",
-    description:
-      "Recognize that exceptional customer experiences are at the heart of every successful business. Our Customer Experience Solutions are crafted to help you transform every interaction your customers have with your brand busin.",
-    image: "/api/placeholder/800/600",
-  },
-  {
-    id: 2,
-    title: "Customer Experience Solutions",
-    description:
-      "Recognize that exceptional customer experiences are at the heart of every successful business. Our Customer Experience Solutions are crafted to help you transform every interaction your customers have with your brand busin.",
-    image: "/api/placeholder/800/600",
-  },
-  {
-    id: 3,
-    title: "Digital Transformation",
-    description:
-      "Leverage cutting-edge technology to modernize your business operations and stay ahead of the competition in the digital age.",
-    image: "/api/placeholder/800/600",
-  },
-  {
-    id: 4,
-    title: "Marketing Analytics",
-    description:
-      "Make data-driven decisions with comprehensive analytics that provide insights into your marketing performance and ROI.",
-    image: "/api/placeholder/800/600",
-  },
-];
+import { FEATURED_SERVICES_LIMIT, SERVICES } from "@/lib/data";
 
 export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -87,7 +50,7 @@ export default function ServicesSection() {
 
   return (
     <div
-      className="relative px-4 min-h-[150vh] bg-[#402C68] rounded-xl mx-4"
+      className="relative px-4 min-h-[150vh] bg-primary-dark rounded-xl mx-4"
       ref={sectionRef}
     >
       <Section>
@@ -101,19 +64,19 @@ export default function ServicesSection() {
             <h2 className="font-semibold text-white text-3xl">
               Scalable business services
             </h2>
-            <AnimatedButton label="More Services" href="/services" className="bg-primary" />
+            <AnimatedButton label="More Services" href="/services" />
           </div>
           {/* 3. Right side - Regular scrolling content */}
           <div className="right w-2/3 relative">
             <div
-              className={`z-10 sticky top-0 bg-transparent ${activeIndex === 0 ? "h-auto" : "h-[70vh]"}`}
+              className={`z-5 sticky top-0 bg-transparent ${activeIndex === 0 ? "h-auto" : "h-[70vh]"}`}
             >
               <motion.div
               style={{ height: shieldHeight, opacity: shieldOpacity }}
-              className="w-full bg-[#402C68] pointer-events-none"
+              className="w-full bg-primary-dark pointer-events-none"
             />
               <div className="flex gap-2 bg-linear-to-b from-[#402C68] to-transparent from-30% h-16 items-start">
-                {services.map((_, idx) => {
+                {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((_, idx) => {
                   const isActive = idx === activeIndex;
                   return (
                     <div key={idx} className="flex items-center gap-2">
@@ -125,7 +88,7 @@ export default function ServicesSection() {
                         {String(idx + 1).padStart(2, "0")}.
                       </span>
                       {/* ANIMATED ACTIVE BAR */}
-                      {isActive && idx !== services.length - 1 && (
+                      {isActive && idx !== FEATURED_SERVICES_LIMIT - 1 && (
                         <div className="h-1 w-16 bg-gray-600 rounded-full relative overflow-hidden">
                           <motion.div
                             layoutId="activeServiceBar"
@@ -147,13 +110,12 @@ export default function ServicesSection() {
 
             {/* Content cards - these scroll naturally up the page */}
             <div className="space-y-12">
-              {services.map((service, idx) => (
+              {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((service, idx) => (
                 <motion.div
                   key={idx}
                   data-index={idx}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ margin: "-5% 0px -20% 0px" }}
                   className="w-full p-4 rounded-xl bg-black/20 space-y-4 mb-10 service-card"
                 >
                   <div className="flex justify-between">

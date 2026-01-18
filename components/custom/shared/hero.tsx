@@ -3,7 +3,7 @@ import Container from "../ui/Container";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import AnimatedButton from "../ui/AnimatedBtn";
-import { motion, useScroll, useTransform } from "motion/react";
+import { easeInOut, motion, useScroll, useTransform } from "motion/react";
 import useScrollDirection from "@/hooks/useScrollDirection";
 import useInView from "@/hooks/useInView";
 import useScrollY from "@/hooks/useScrollY";
@@ -11,6 +11,8 @@ import CircularBtn from "../ui/CircularBtn";
 import RevealText from "../ui/RevealText";
 import Reveal from "../ui/Reveal";
 import { useRef } from "react";
+import { NAV_LINKS } from "@/lib/data";
+import { ChevronDown } from "lucide-react";
 export function HeroNavbar() {
   const pathname = usePathname();
   const scrollDir = useScrollDirection();
@@ -24,15 +26,26 @@ export function HeroNavbar() {
 
   const showNavbar = initialLoad || showReturningUp;
 
-  const NAV_LINKS = [
-    { id: 1, label: "Home", href: "/" },
-    { id: 2, label: "About", href: "/about" },
-    { id: 3, label: "Services", href: "/services" },
-    { id: 4, label: "Contact", href: "/contact" },
-  ];
-
+const dropdownVariants = {
+  hidden: {
+    height: 0,
+    opacity: 0,
+    transition: {
+      duration: 0.25,
+      ease: easeInOut,
+    },
+  },
+  visible: {
+    height: "auto",
+    opacity: 1,
+    transition: {
+      duration: 0.3,
+      ease: easeInOut,
+    },
+  },
+};
   return (
-    <Container>
+    <>
       <div ref={ref} className="h-4 w-full" /> {/* viewport trigger */}
       <motion.div
         initial={{ y: -60, opacity: 0 }}
@@ -41,36 +54,87 @@ export function HeroNavbar() {
           opacity: showNavbar ? 1 : 0,
         }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="flex justify-between items-center"
+        className="flex justify-between items-center px-4"
       >
         <Link href="/">
           <h1 className="text-2xl font-bold">DigitHack</h1>
         </Link>
 
         <div className="flex gap-8 font-medium rounded-4xl px-8 py-3 bg-white">
-          {NAV_LINKS.map((link) => {
-            const active =
-              link.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(link.href);
+           {NAV_LINKS.map((link) => {
+          const isActive =
+            link.href === "/"
+              ? pathname === "/"
+              : pathname.startsWith(link.href);
 
-            return (
+          const hasDropdown = !!link.children;
+
+          return (
+            <motion.div
+              key={link.id}
+              className="relative group"
+              initial="hidden"
+              whileHover="visible"
+              animate="hidden"
+            >
+              {/* Main link */}
               <Link
-                key={link.id}
                 href={link.href}
-                className={`transition-colors duration-300 hover:text-primary text-xl ${
-                  active ? "text-primary" : "text-foreground/80"
-                }`}
+                className={`text-xl transition-colors duration-300
+          hover:text-primary
+          ${isActive ? "text-primary" : "text-foreground/80"}`}
               >
-                {link.label}
+                {hasDropdown ? (
+                  <span className="flex gap-1 items-center">
+                    {link.label}
+                    <ChevronDown
+                      className="mt-1 transition-transform duration-300
+                motion-safe:group-hover:rotate-180"
+                    />
+                  </span>
+                ) : (
+                  link.label
+                )}
               </Link>
-            );
-          })}
+
+              {/* Dropdown */}
+              {hasDropdown && (
+                <motion.div
+                  variants={dropdownVariants}
+                  className="
+            absolute top-full left-1/2 z-10 -translate-x-1/2
+            mt-3 w-56 rounded-lg bg-white
+            shadow-[0_10px_30px_rgba(0,0,0,0.12)]
+            border border-black/5
+            overflow-hidden
+          "
+                >
+                  <div className="py-2">
+                    {link.children!.map((child) => (
+                      <Link
+                        key={child.id}
+                        href={child.link}
+                        className="
+                  px-5 py-3 text-sm text-gray-700
+                  hover:bg-primary/10 hover:text-primary
+                  transition-colors flex items-center gap-2 
+                "
+                      >
+                        <child.icon className="w-4 h-4" />
+                        <p>{child.title}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </motion.div>
+          );
+        })}
         </div>
 
-        <AnimatedButton label="Lets Talk" href="/" className="bg-primary" />
+        <AnimatedButton label="Lets Talk" href="/contact" />
       </motion.div>
-    </Container>
+    </>
   );
 }
 export default function Hero() {
@@ -83,8 +147,8 @@ export default function Hero() {
   // Scale from 0.6 → 1 based on scroll
   const scale = useTransform(scrollYProgress, [0, 0.6], [0.6, 1]);
   return (
-    <div className="relative w-full h-full mt-4">
-      <div className="relative z-5">
+    <div className="relative w-full h-full">
+      <div className="relative z-10">
         <HeroNavbar />
       </div>
       {/* BACKGROUND COLOR */}
@@ -168,7 +232,7 @@ export default function Hero() {
             />
             <Reveal direction="up" distance={10} delay={0.2}>
               <div className="flex justify-start items-center mt-16 gap-6">
-                <AnimatedButton label="Get Started" href="/" className="bg-primary" />
+                <AnimatedButton label="Get Started" href="/contact" />
 
                 <p className="">
                   Recognized by industry award leaders, <br />

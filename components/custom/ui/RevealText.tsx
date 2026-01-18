@@ -1,23 +1,25 @@
 "use client";
-
 import useInView from "@/hooks/useInView";
-import { motion } from "framer-motion";
-
+import { motion } from "motion/react";
 interface RevealTextProps {
   text: string;
   speed?: number;
   delay?: number;
   className?: string;
-}
 
+  /** optional per-word class */
+  getWordClassName?: (word: string, index: number) => string;
+}
+// text-8xl font-semibold
 export default function RevealText({
   text,
-  speed = 0.03,
+  speed = 0.02,
   delay = 0,
-  className = "text-8xl font-semibold",
+  className = "text-3xl sm:text-4xl lg:text-5xl font-semibold leading-6",
+  getWordClassName,
 }: RevealTextProps) {
-  const words = text.split(" ");
   const { ref, isVisible } = useInView({ threshold: 0.2, once: true });
+  const words = text.split(" ");
 
   return (
     <motion.span
@@ -32,10 +34,13 @@ export default function RevealText({
           },
         },
       }}
-      className={`${className} flex flex-wrap gap-[0.8ch]`}
+      className={`flex flex-wrap gap-[0.8ch] ${className}`}
     >
       {words.map((word, wIndex) => (
-        <span key={wIndex} className="flex">
+        <span
+          key={wIndex}
+          className={`flex ${getWordClassName?.(word, wIndex) ?? ""}`}
+        >
           {word.split("").map((char, i) => (
             <motion.span
               key={i}

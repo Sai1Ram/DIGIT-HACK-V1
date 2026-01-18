@@ -1,15 +1,15 @@
-import Image from "next/image";
+import { NAV_LINKS, SERVICES } from "@/lib/data";
 import AnimatedButton from "../ui/AnimatedBtn";
 import Container from "../ui/Container";
-import catImg from "@/public/images/CAT-BG.png";
 import Section from "../ui/Section";
+import Link from "next/link";
+
 export default function Footer() {
-  //657x338
   return (
     <Container>
-      <footer className="relative rounded-2xl mb-4">
+      <footer className="relative rounded-2xl mb-4 mt-24 sm:mt-32">
         {/* FOOTER BACKGROUND */}
-        <div className="absolute inset-0 bg-linear-to-b from-[#EDE1FF] to-[#F6F0FF] rounded-2xl" />
+        <div className="absolute inset-0 bg-linear-to-b from-[#EDE1FF] to-[#F6F0FF] rounded-2xl z-0" />
 
         {/* Grid pattern */}
         <div
@@ -29,36 +29,58 @@ export default function Footer() {
 
         {/* FLOATING CTA */}
         <div
-          className="relative z-10 w-4/5 left-1/2 top-1/2 mt-40 -translate-1/2
-             flex rounded-2xl bg-[#402C68] items-stretch overflow-hidden"
-          style={{
-            backgroundImage: `
-      linear-gradient(to left, rgba(64,44,104,0.3) 40%, rgba(64,44,104,0.9) 60%, transparent 100%),
-      url(${catImg.src})
-    `,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "auto 100%",
-            backgroundPosition: "right center",
-          }}
+          className="
+            absolute left-1/2 -translate-x-1/2
+            -top-16 sm:-top-20
+            w-[92%] sm:w-4/5
+            bg-primary-dark rounded-2xl
+            z-10
+          "
         >
-          {/* Left */}
-          <div className="text-white space-y-10 p-12 z-10 w-1/2">
-            <h2 className="text-5xl font-semibold leading-tight max-w-xl">
-              Let’s Build Future Together.
+          <div
+            className="
+              text-white
+              p-6 sm:p-10 lg:p-12
+              flex flex-col lg:flex-row
+              gap-6
+              items-start lg:items-center
+              justify-between
+            "
+          >
+            <h2
+              className="
+                text-2xl sm:text-3xl lg:text-5xl
+                font-semibold leading-tight
+                max-w-xl
+              "
+            >
+              Let’s Build Future <br className="hidden sm:block" /> Together.
             </h2>
 
             <AnimatedButton label="Get Started" href="/contact" />
           </div>
         </div>
 
-        {/* <Section> */}
-        <div className="lg:px-24 -mt-10 lg:pb-24">
+        <Section>
           {/* FOOTER CONTENT */}
-          <div className="relative z-10  grid grid-cols-4 gap-10 text-gray-700 border border-black">
+          <div
+            className="
+              relative z-5
+              grid
+              grid-cols-1
+              sm:grid-cols-2
+              lg:grid-cols-4
+              gap-8 lg:gap-10
+              mt-32 sm:mt-40
+              text-gray-700
+            "
+          >
             {/* Logo / About */}
             <div>
-              <h3 className="text-xl font-semibold mb-4">Bexon</h3>
-              <p className="text-sm">
+              <h3 className="font-semibold mb-4 text-2xl sm:text-3xl">
+                DigIT-Hack
+              </h3>
+              <p className="text-sm sm:text-base lg:text-lg">
                 Developing personalized customer journeys to increase
                 satisfaction & loyalty of our expansion.
               </p>
@@ -66,41 +88,71 @@ export default function Footer() {
 
             {/* Services */}
             <div>
-              <h4 className="font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-sm">
-                <li>Customer Experience</li>
-                <li>Training Programs</li>
-                <li>Business Strategy</li>
+              <h4 className="font-semibold mb-4 text-lg">Services</h4>
+              <ul className="space-y-2 text-sm sm:text-base">
+                {SERVICES.map((service, idx) => (
+                  <Link
+                    key={idx}
+                    href={`/services/${service.link}`}
+                    className="hover:underline block"
+                  >
+                    {service.title}
+                  </Link>
+                ))}
               </ul>
             </div>
 
             {/* Resources */}
             <div>
-              <h4 className="font-semibold mb-4">Resources</h4>
-              <ul className="space-y-2 text-sm">
-                <li>Contact Us</li>
-                <li>Team Member</li>
-                <li>Recognitions</li>
+              <h4 className="font-semibold mb-4 text-lg">Resources</h4>
+              <ul className="space-y-2 text-sm sm:text-base">
+                {NAV_LINKS.map((link, idx) => (
+                  <Link
+                    key={idx}
+                    href={link.href}
+                    className="hover:underline block"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
               </ul>
             </div>
 
             {/* Newsletter */}
             <div>
-              <h4 className="font-semibold mb-4">
-                Subscribe to Our Newsletter.
+              <h4 className="font-semibold mb-4 text-lg">
+                Subscribe to Our Newsletter
               </h4>
-              <div className="flex bg-white rounded-lg overflow-hidden">
+
+              <div
+                className="
+                  flex flex-col sm:flex-row
+                  bg-white rounded-lg overflow-hidden
+                "
+              >
                 <input
                   type="email"
                   placeholder="Enter email"
-                  className="flex-1 px-4 py-3 outline-none"
+                  className="
+                    flex-1
+                    px-4 py-3
+                    outline-none
+                    text-sm sm:text-base
+                  "
                 />
-                <button className="px-4 bg-primary text-white">→</button>
+                <button
+                  className="
+                    px-4 py-3
+                    bg-primary text-white
+                    text-sm sm:text-base
+                  "
+                >
+                  →
+                </button>
               </div>
             </div>
           </div>
-          </div>
-        {/* </Section> */}
+        </Section>
       </footer>
     </Container>
   );

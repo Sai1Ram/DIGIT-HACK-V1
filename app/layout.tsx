@@ -5,6 +5,7 @@ import "./globals.css";
 import BackToTop from "@/components/custom/ui/BackToTop";
 import Navbar from "@/components/custom/layout/Navbar";
 import Footer from "@/components/custom/layout/Footer";
+import SecondaryNavbar from "@/components/custom/layout/SecondaryNavbar";
 
 
 const geistMono = Geist_Mono({

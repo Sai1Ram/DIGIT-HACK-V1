@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight } from "lucide-react"; // shadcn icons | install if not present
+import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
 interface AnimatedButtonProps {
@@ -12,22 +12,29 @@ interface AnimatedButtonProps {
 export default function AnimatedButton({
   label,
   href = "#",
-  className = "bg-primary",
+  className = "bg-primary text-white",
 }: AnimatedButtonProps) {
   return (
     <Link
       href={href}
-      className={`relative inline-flex items-center overflow-hidden  rounded-full  font-medium group transition text-xl 
-         text-white pl-6 pr-2 py-2 ${className}`}
+      className={`
+        relative inline-flex items-center justify-center
+        overflow-hidden rounded-full font-medium group transition
+        text-sm sm:text-base lg:text-xl
+        pl-4 sm:pl-5 lg:pl-6
+        pr-2
+        py-1.5 sm:py-2
+        ${className}
+      `}
     >
-      {/* Text layer wrapper */}
-      <span className="relative h-5 overflow-hidden flex items-center">
+      {/* Text */}
+      <span className="relative h-4 sm:h-5 overflow-hidden flex items-center">
         {/* Default text */}
         <span className="block transition-transform duration-300 group-hover:-translate-y-[120%]">
           {label}
         </span>
 
-        {/* Second text (revealed on hover) */}
+        {/* Hover text */}
         <span className="absolute block translate-y-[120%] transition-transform duration-300 group-hover:translate-y-0">
           {label}
         </span>
@@ -35,10 +42,22 @@ export default function AnimatedButton({
 
       {/* Arrow */}
       <span
-        className="ml-3 inline-flex items-center justify-center size-9 rounded-full 
-                       bg-black/40 group-hover:bg-black/60 transition-colors"
+        className="
+          ml-2 sm:ml-3
+          inline-flex items-center justify-center
+          size-7 sm:size-8 lg:size-9
+          rounded-full
+          bg-black/40 group-hover:bg-black/60
+          transition-colors
+        "
       >
-        <ArrowUpRight className="size-6 transition-transform duration-300 group-hover:rotate-45" />
+        <ArrowUpRight
+          className="
+            size-4 sm:size-5 lg:size-6
+            transition-transform duration-300
+            group-hover:rotate-45
+          "
+        />
       </span>
     </Link>
   );

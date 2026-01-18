@@ -1,18 +1,16 @@
 "use client";
 
 import { animate, motion, useMotionValue } from "framer-motion";
-import { brands } from "@/lib/data";
+import { BRANDS } from "@/lib/data";
 import Image from "next/image";
 import { useEffect } from "react";
 import useMeasure from "@/hooks/useMeasure";
 import Link from "next/link";
 export default function BrandSlider() {
-
-  // Duplicate array to create seamless infinite loop
-  const logos = [...brands, ...brands];
   const xTranslation = useMotionValue(0);
   const { ref, width } = useMeasure();
-
+  // Duplicate array to create seamless infinite loop
+  const logos = [...BRANDS, ...BRANDS];
   useEffect(() => {
     let controls;
     let finalPosition = -width / 2 - 10; // Halfway point
