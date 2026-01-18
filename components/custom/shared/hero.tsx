@@ -249,7 +249,7 @@ export default function Hero() {
             className="w-full h-full rounded-xl "
           >
             <video
-              src="/videos/hero-banner.mp4"
+              src="./videos/hero-banner.mp4"
               autoPlay
               loop
               muted
