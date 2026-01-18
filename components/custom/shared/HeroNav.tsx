@@ -56,7 +56,8 @@ export function HeroNavbar() {
           opacity: showNavbar ? 1 : 0,
         }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        className="flex items-center justify-between px-4 md:px-6 lg:px-10">
+        className="flex items-center justify-between px-4 md:px-6 lg:px-10"
+      >
         {/* LOGO */}
         <Link href="/">
           <h1 className="text-xl sm:text-2xl font-bold">DigitHack</h1>
@@ -151,34 +152,39 @@ export function HeroNavbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.3 }}
-              className="absolute top-full left-0 w-full bg-white shadow-lg rounded-b-2xl lg:hidden z-50">
+              className="absolute top-full left-0 w-full bg-white shadow-lg rounded-b-2xl lg:hidden z-50"
+            >
               <div className="flex flex-col px-6 py-6 gap-4">
                 {NAV_LINKS.map((link) => {
                   const hasDropdown = !!link.children;
 
                   return (
                     <div key={link.id}>
-                      <button
-                        onClick={() =>
-                          hasDropdown
-                            ? toggleMobileDropdown(link.id)
-                            : setMobileOpen(false)
-                        }
-                        className="
+                      <Link
+                        href={link.href}
+                        onClick={() => setMobileOpen(false)}
+                      >
+                        <button
+                          onClick={() =>
+                            hasDropdown
+                              ? toggleMobileDropdown(link.id)
+                              : setMobileOpen(false)
+                          }
+                          className="
                     w-full flex justify-between items-center
                     text-lg font-medium text-left
                   "
-                      >
-                        {link.label}
-                        {hasDropdown && (
-                          <ChevronDown
-                            className={`transition-transform ${
-                              mobileDropdown === link.id ? "rotate-180" : ""
-                            }`}
-                          />
-                        )}
-                      </button>
-
+                        >
+                          {link.label}
+                          {hasDropdown && (
+                            <ChevronDown
+                              className={`transition-transform ${
+                                mobileDropdown === link.id ? "rotate-180" : ""
+                              }`}
+                            />
+                          )}
+                        </button>
+                      </Link>
                       {/* Mobile Dropdown */}
                       <AnimatePresence>
                         {hasDropdown && mobileDropdown === link.id && (
