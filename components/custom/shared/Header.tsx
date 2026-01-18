@@ -34,13 +34,7 @@ export default function Header({ children }: { children: ReactNode }) {
       />
 
       {/* Content */}
-      <div
-        className="
-      relative z-10
-      flex flex-col items-center text-center
-      gap-2 sm:gap-4 lg:gap-8
-    "
-      >
+      <div className="relative flex flex-col items-center text-center gap-2 sm:gap-4 lg:gap-8">
         <h2
           className="
         text-white font-semibold
