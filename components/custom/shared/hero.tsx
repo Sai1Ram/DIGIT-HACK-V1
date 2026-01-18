@@ -1,151 +1,35 @@
 "use client";
-import Container from "../ui/Container";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import AnimatedButton from "../ui/AnimatedBtn";
-import { easeInOut, motion, useScroll, useTransform } from "motion/react";
-import useScrollDirection from "@/hooks/useScrollDirection";
-import useInView from "@/hooks/useInView";
-import useScrollY from "@/hooks/useScrollY";
+import { motion, useScroll, useTransform } from "motion/react";
 import CircularBtn from "../ui/CircularBtn";
 import RevealText from "../ui/RevealText";
 import Reveal from "../ui/Reveal";
-import { useRef } from "react";
-import { NAV_LINKS } from "@/lib/data";
-import { ChevronDown } from "lucide-react";
-export function HeroNavbar() {
-  const pathname = usePathname();
-  const scrollDir = useScrollDirection();
-  const scrollY = useScrollY();
-  const { ref, isVisible } = useInView({ threshold: 0.1, once: false });
+import { useEffect, useRef, useState } from "react";
+import Section from "../ui/Section";
+import { HeroNavbar } from "./HeroNav";
 
-  // Core behavior:
-  const nearTop = scrollY <= 10; // Case 3 trigger area
-  const initialLoad = scrollY < 50 && isVisible; // Case 1
-  const showReturningUp = scrollDir === "up" && nearTop; // Case 3
-
-  const showNavbar = initialLoad || showReturningUp;
-
-const dropdownVariants = {
-  hidden: {
-    height: 0,
-    opacity: 0,
-    transition: {
-      duration: 0.25,
-      ease: easeInOut,
-    },
-  },
-  visible: {
-    height: "auto",
-    opacity: 1,
-    transition: {
-      duration: 0.3,
-      ease: easeInOut,
-    },
-  },
-};
-  return (
-    <>
-      <div ref={ref} className="h-4 w-full" /> {/* viewport trigger */}
-      <motion.div
-        initial={{ y: -60, opacity: 0 }}
-        animate={{
-          y: showNavbar ? 0 : -60,
-          opacity: showNavbar ? 1 : 0,
-        }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-        className="flex justify-between items-center px-4"
-      >
-        <Link href="/">
-          <h1 className="text-2xl font-bold">DigitHack</h1>
-        </Link>
-
-        <div className="flex gap-8 font-medium rounded-4xl px-8 py-3 bg-white">
-           {NAV_LINKS.map((link) => {
-          const isActive =
-            link.href === "/"
-              ? pathname === "/"
-              : pathname.startsWith(link.href);
-
-          const hasDropdown = !!link.children;
-
-          return (
-            <motion.div
-              key={link.id}
-              className="relative group"
-              initial="hidden"
-              whileHover="visible"
-              animate="hidden"
-            >
-              {/* Main link */}
-              <Link
-                href={link.href}
-                className={`text-xl transition-colors duration-300
-          hover:text-primary
-          ${isActive ? "text-primary" : "text-foreground/80"}`}
-              >
-                {hasDropdown ? (
-                  <span className="flex gap-1 items-center">
-                    {link.label}
-                    <ChevronDown
-                      className="mt-1 transition-transform duration-300
-                motion-safe:group-hover:rotate-180"
-                    />
-                  </span>
-                ) : (
-                  link.label
-                )}
-              </Link>
-
-              {/* Dropdown */}
-              {hasDropdown && (
-                <motion.div
-                  variants={dropdownVariants}
-                  className="
-            absolute top-full left-1/2 z-10 -translate-x-1/2
-            mt-3 w-56 rounded-lg bg-white
-            shadow-[0_10px_30px_rgba(0,0,0,0.12)]
-            border border-black/5
-            overflow-hidden
-          "
-                >
-                  <div className="py-2">
-                    {link.children!.map((child) => (
-                      <Link
-                        key={child.id}
-                        href={child.link}
-                        className="
-                  px-5 py-3 text-sm text-gray-700
-                  hover:bg-primary/10 hover:text-primary
-                  transition-colors flex items-center gap-2 
-                "
-                      >
-                        <child.icon className="w-4 h-4" />
-                        <p>{child.title}</p>
-                      </Link>
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-            </motion.div>
-          );
-        })}
-        </div>
-
-        <AnimatedButton label="Lets Talk" href="/contact" />
-      </motion.div>
-    </>
-  );
-}
 export default function Hero() {
   const ref = useRef(null);
+  const [isDesktop, setIsDesktop] = useState(false);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "center start"], // adjust reveal sensitivity
   });
+  const isDesktopQuery = "(min-width: 1024px)";
+  useEffect(() => {
+    const media = window.matchMedia(isDesktopQuery);
 
+    const update = () => setIsDesktop(media.matches);
+    update();
+
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
   // Scale from 0.6 → 1 based on scroll
-  const scale = useTransform(scrollYProgress, [0, 0.6], [0.6, 1]);
+  const animatedScale = useTransform(scrollYProgress, [0, 0.6], [0.6, 1]);
+
+  // Mobile = static scale
+  const scale = isDesktop ? animatedScale : 1;
   return (
     <div className="relative w-full h-full">
       <div className="relative z-10">
@@ -207,42 +91,47 @@ export default function Hero() {
       </div>
       {/* PATTERN ENDS */}
       <div className="relative z-5">
-        <div className="flex justify-center lg:p-24 px-6 lg:gap-24 gap-6 max-h-screen">
-          <div className="left flex flex-col justify-between">
-            <Reveal direction="up" delay={0.2} distance={10}>
-              <div className="w-72 bg-gray-50 rounded-2xl h-1">
-                <div className="h-1 w-10 bg-primary rounded-2xl"></div>
-              </div>
-              <p className="my-2">
-                Recognized by industry award leaders, award winning team has be
-                a proven record.
-              </p>
-            </Reveal>
-            <Reveal direction="right" delay={0.2}>
-              <CircularBtn
-                circularText="Award winning business - since 2021 - "
-                middleText="W"
-              />
-            </Reveal>
-          </div>
-          <div className="right min-w-2/3">
-            <RevealText
-              text="Driving Innovation to Transform Business Futures"
-              className="text-[5.4rem] font-semibold leading-[0.8] tracking-tighter"
-            />
-            <Reveal direction="up" distance={10} delay={0.2}>
-              <div className="flex justify-start items-center mt-16 gap-6">
-                <AnimatedButton label="Get Started" href="/contact" />
-
-                <p className="">
-                  Recognized by industry award leaders, <br />
-                  award winning team has be a proven record.
+        <Section>
+          <div className="flex justify-center gap-8 sm:gap-10 lg:gap-20 xl:gap-24 flex-col lg:flex-row max-h-none lg:max-h-screen">
+            <div className="left flex flex-col justify-between lg:order-1 order-2">
+              <Reveal direction="up" delay={0.2} distance={10}>
+                <div className="w-full sm:w-60 lg:w-72 bg-gray-50 rounded-2xl h-1">
+                  <div className="h-1 w-10 bg-primary rounded-2xl"></div>
+                </div>
+                <p className="my-2 text-sm sm:text-base max-w-md">
+                  Recognized by industry award leaders, award winning team has
+                  be a proven record.
                 </p>
-              </div>
-            </Reveal>
+              </Reveal>
+              <Reveal direction="right" delay={0.2}>
+                <CircularBtn
+                  circularText="Award winning business - since 2021 - "
+                  middleText="W"
+                />
+              </Reveal>
+            </div>
+            <div className="right lg:min-w-2/3 min-w-full lg:order-2 order-1">
+              <RevealText
+                text="Driving Innovation to Transform Business Futures"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-[4.5rem] xl:text-[5.4rem] font-semibold leading-[0.8] tracking-tighter"
+              />
+              <Reveal direction="up" distance={10} delay={0.2}>
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 mt-8 sm:mt-10 lg:mt-16">
+                  <AnimatedButton label="Get Started" href="/contact" />
+
+                  <p className="">
+                    Recognized by industry award leaders, <br />
+                    award winning team has be a proven record.
+                  </p>
+                </div>
+              </Reveal>
+            </div>
           </div>
-        </div>
-        <div ref={ref} className="rounded-xl overflow-hidden w-full h-full">
+        </Section>
+        <div
+          ref={ref}
+          className="rounded-xl overflow-hidden w-full h-full mt-10 sm:mt-12 lg:mt-0"
+        >
           {/* VIDEO stays full width, but scales INSIDE → no layout shift */}
           <motion.div
             style={{ scale, transformOrigin: "top center" }}
