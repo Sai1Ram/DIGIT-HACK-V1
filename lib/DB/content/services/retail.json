@@ -1,0 +1,154 @@
+{
+    "slug": "retail",
+    "title": "Retail Solutions",
+    "meta": {
+        "title": "Retail Solutions | Custom Software Development for Retail Businesses in India",
+        "description": "Transform your retail business with custom software solutions. Jewellery shop management, billing software & salon management systems. Trusted by 500+ retailers across India."
+    },
+    "hero": {
+        "headline": "Smart Retail Software Solutions for Modern Indian Businesses",
+        "subLine": "Streamline operations, boost sales, and deliver exceptional customer experiences with custom-built retail management systems."
+    },
+    "image": "/images/service-1.webp",
+    "products": [
+        {
+        "name": "Jewellery Store Management System",
+        "slug": "jewellery-management"
+      },
+      { "name": "Billing Software", "slug": "billing-software" },
+      { "name": "Salon Management System", "slug": "salon-management" },
+      { "name": "Tailoring ERP", "slug": "tailoring-erp" }
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "title": "Custom Retail Software Development Company in India",
+            "content": "DigITHack delivers intelligent retail management systems designed specifically for Indian businesses. From jewellery showrooms in Mumbai to salon chains in Bangalore, our custom software solutions help retailers across India automate operations, manage inventory efficiently, and create seamless customer experiences. We combine deep retail domain expertise with cutting-edge technology to build scalable solutions that grow with your business."
+        },
+        {
+            "type": "stats",
+            "title": "Trusted by Growing Retail Businesses",
+            "items": [
+                {
+                    "value": "500+",
+                    "label": "Retail Businesses Served"
+                },
+                {
+                    "value": "70%",
+                    "label": "Average Efficiency Improvement"
+                },
+                {
+                    "value": "99.9%",
+                    "label": "System Uptime Guarantee"
+                },
+                {
+                    "value": "24/7",
+                    "label": "Technical Support"
+                }
+            ]
+        },
+        {
+            "type": "features",
+            "title": "Comprehensive Retail Management Solutions",
+            "items": [
+                {
+                    "title": "Jewellery Shop Management System",
+                    "description": "Complete jewellery retail solution with inventory tracking, making charges calculation, purity management, barcode printing, GST-compliant billing, and customer order management. Perfect for gold, silver, and diamond retailers.",
+                    "icon": "diamond"
+                },
+                {
+                    "title": "GST Billing Software",
+                    "description": "Fast, accurate billing with automated GST calculations, e-invoicing, inventory sync, payment gateway integration, and real-time reporting. Supports multiple stores and counters with cloud-based access.",
+                    "icon": "receipt"
+                },
+                {
+                    "title": "Salon & Spa Management",
+                    "description": "All-in-one salon software with appointment scheduling, staff management, service packages, membership plans, SMS reminders, and customer history tracking. Boost bookings and reduce no-shows.",
+                    "icon": "scissors"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "title": "Key Features That Drive Results",
+            "items": [
+                "Real-time inventory management with low-stock alerts and automated reordering",
+                "GST-compliant invoicing with e-way bills and GSTR report generation",
+                "Customer loyalty programs with points, rewards, and personalized offers",
+                "Multi-location support for chain stores with centralized dashboard",
+                "Mobile app integration for on-the-go business management",
+                "Advanced analytics and sales reporting with profit margin tracking",
+                "Barcode and QR code scanning for faster checkout",
+                "Supplier and purchase order management",
+                "Employee performance tracking and commission calculation",
+                "Seamless integration with payment gateways (Razorpay, PayU, Paytm)"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Benefits of Custom Retail Software",
+            "content": "Off-the-shelf software forces you to adapt your business to its limitations. Our custom retail solutions are built around your specific needs. Reduce billing errors by 95%, cut inventory shrinkage by 60%, and increase customer retention by 40% with software designed for your business model. Get features that matter to you—not unnecessary bells and whistles you'll never use. Plus, own your data and scale without per-user licensing costs eating into your profits."
+        },
+        {
+            "type": "text",
+            "title": "Why Choose DigITHack for Retail Software Development?",
+            "content": "As a leading custom software development company in India, we understand the unique challenges faced by Indian retailers. Our solutions are built keeping GST compliance, local business practices, and scalability in mind. We've helped retailers in Delhi, Mumbai, Bangalore, Hyderabad, Pune, and across India transform their operations with technology that actually works. Whether you run a single store or manage a retail chain, our software adapts to your workflow—not the other way around."
+        },
+        {
+            "type": "list",
+            "title": "Implementation Process",
+            "items": [
+                "Business requirement analysis and workflow mapping (Week 1-2)",
+                "Custom solution design with your feedback and approval (Week 3-4)",
+                "Agile development with weekly progress updates (Week 5-10)",
+                "Staff training and system migration support (Week 11-12)",
+                "Go-live with dedicated technical support",
+                "Ongoing maintenance, updates, and feature enhancements"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Technology Stack for Reliable Performance",
+            "content": "We build retail software using modern, proven technologies that ensure speed, security, and scalability. Our solutions leverage cloud infrastructure for 99.9% uptime, responsive frameworks for mobile-friendly interfaces, and robust databases for handling high transaction volumes. Whether you need a desktop application, web-based system, or mobile app—we've got you covered with the right tech stack for your requirements and budget."
+        },
+        {
+            "type": "cta",
+            "title": "Ready to Transform Your Retail Business?",
+            "description": "Join 500+ retailers who've automated their operations with DigITHack. Get a free consultation and custom quote.",
+            "button": {
+                "label": "Contact Us",
+                "href": "/contact"
+            }
+        }
+    ],
+    "FAQs": [
+        {
+            "question": "Is your retail software GST-compliant and suitable for Indian businesses?",
+            "answer": "Yes, absolutely. All our retail solutions are fully GST-compliant with features like automated tax calculations, HSN/SAC codes, GSTR-1, GSTR-3B report generation, e-invoicing integration, and e-way bill creation. We stay updated with Indian tax regulations and provide free compliance updates whenever GST rules change. Our software also supports multiple payment methods popular in India including UPI, wallets, and card payments."
+        },
+        {
+            "question": "Can I integrate the retail software with my existing systems or e-commerce store?",
+            "answer": "Yes, our custom retail solutions are built with integration capabilities. We can connect your POS system with e-commerce platforms (Shopify, WooCommerce, Magento), accounting software (Tally, QuickBooks), payment gateways, SMS services, WhatsApp Business API, and third-party logistics providers. We use APIs and webhooks to ensure real-time data synchronization across all systems."
+        },
+        {
+            "question": "Do you provide cloud-based or on-premise retail software solutions?",
+            "answer": "We offer both options based on your preference. Cloud-based solutions provide anywhere access, automatic backups, and no server maintenance costs—ideal for multi-location businesses. On-premise solutions give you complete data control and work without internet dependency. We also offer hybrid models. Most of our clients prefer cloud-based systems for scalability and cost-effectiveness, starting at just ₹999/month per store."
+        },
+        {
+            "question": "How long does it take to develop and deploy custom retail software?",
+            "answer": "A standard retail POS with inventory management takes 8-12 weeks from requirement gathering to deployment. Complex systems with custom features, integrations, and mobile apps may take 16-20 weeks. We follow agile methodology with weekly demos, so you see progress continuously. Emergency quick-launch solutions can be deployed in 4-6 weeks with phased feature rollout. We also handle data migration from your existing system."
+        },
+        {
+            "question": "What kind of support and training do you provide after software deployment?",
+            "answer": "We provide comprehensive support including: on-site/online staff training for all users, detailed user manuals and video tutorials, 24/7 technical support via phone, email, and chat, free bug fixes for 6 months, regular software updates and security patches, and remote troubleshooting for quick issue resolution. We also offer AMC packages starting at ₹15,000/year for ongoing maintenance and priority support."
+        },
+        {
+            "question": "Can the software handle multiple stores or branches with centralized control?",
+            "answer": "Yes, our retail software is designed for scalability. You can manage unlimited stores from a centralized dashboard with real-time visibility into sales, inventory, and performance across all locations. Features include inter-store stock transfers, consolidated reporting, role-based access control for each branch, centralized product catalog with location-specific pricing, and automated data synchronization. Perfect for retail chains expanding across cities."
+        },
+        {
+            "question": "Is mobile app included or can I manage my retail business from phone?",
+            "answer": "We provide responsive web applications that work perfectly on mobile browsers, plus native Android/iOS apps can be developed as an add-on. Mobile features include: real-time sales monitoring, inventory checks, customer order updates, expense tracking, sales reports and analytics, and staff attendance management. Business owners can monitor their stores from anywhere. Mobile app development adds ₹1.5-3 lakhs to the project cost."
+        }
+    ]
+}

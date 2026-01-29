@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "src": "samosa",
+    "link": "https://samosaexpresspvtltd.com/"
+  },
+  {
+    "id": 2,
+    "src": "indulge",
+    "link": "https://indulge.com/"
+  },
+  {
+    "id": 3,
+    "src": "kfc",
+    "link": "https://online.kfc.co.in/"
+  },
+  {
+    "id": 4,
+    "src": "pizzaHut",
+    "link": "https://www.pizzahut.co.in/"
+  },
+  {
+    "id": 5,
+    "src": "arsalan",
+    "link": "https://www.arsalanrestaurants.com"
+  },
+  {
+    "id": 6,
+    "src": "baskinRobbins",
+    "link": "https://baskinrobbinsindia.com/"
+  },
+  {
+    "id": 7,
+    "src": "khadiIndia",
+    "link": "https://www.ekhadiindia.com/"
+  }
+]

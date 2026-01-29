@@ -1,12 +1,11 @@
-"use client";
 import Header from "@/components/custom/shared/Header";
 import AnimatedCard from "@/components/custom/ui/AnimatedCard";
 import Container from "@/components/custom/ui/Container";
-import RevealText from "@/components/custom/ui/RevealText";
 import Section from "@/components/custom/ui/Section";
-import { CONTACT_INFO } from "@/lib/data";
-import { Box } from "lucide-react";
+import { CONTACT_INFO } from "@/lib/DB/ui/mapper";
 import Link from "next/link";
+import { Box } from "lucide-react";
+import HighlightedText from "@/components/custom/shared/HighlightedText";
 
 export default function ContactUs() {
   return (
@@ -20,21 +19,23 @@ export default function ContactUs() {
       
       {/* Heading */}
       <div className="flex flex-col gap-3 items-center text-center">
-        <div className="flex gap-2 items-center text-xs sm:text-sm px-3 py-1 w-fit 
-                        border border-dashed border-gray-300 rounded">
-          <Box className="text-primary size-4" />
-          <p className="font-semibold uppercase tracking-wide">
-            Contact info
-          </p>
-        </div>
-
-        <RevealText
-          text="Reach Out to Us"
-          getWordClassName={(word) =>
-            word === "Reach" ? "text-primary" : ""
-          }
-        />
+      {/* Badge */}
+      <div
+        className="flex gap-2 items-center text-xs sm:text-sm px-3 py-1 w-fit
+        border border-dashed border-gray-300 rounded"
+      >
+        <Box className="text-primary size-4" />
+        <p className="font-semibold uppercase tracking-wide">
+          choose the best
+        </p>
       </div>
+
+      {/* Animated Title */}
+      <HighlightedText
+        text={"Reach Out to Us"}
+        highlight={"Reach"}
+      />
+    </div>
 
       {/* Cards */}
       <div

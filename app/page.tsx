@@ -1,7 +1,7 @@
 import BrandSlider from "@/components/custom/layout/BrandSlider";
 import Testimonial from "@/components/custom/layout/Testimonial";
 import AboutUs from "@/components/custom/shared/AboutUs";
-import Hero from "@/components/custom/shared/hero";
+import Hero from "@/components/custom/shared/Hero";
 import Container from "@/components/custom/ui/Container";
 import ServicesSection from "@/components/custom/ui/ServicesSection";
 

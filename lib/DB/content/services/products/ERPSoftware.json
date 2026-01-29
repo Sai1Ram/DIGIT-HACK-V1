@@ -1,0 +1,57 @@
+{
+  "slug": "ERPSoftware",
+  "title": "Manufacturing(ERP) Management Software",
+  "meta": {
+    "title": "Manufacturing ERP Management Software | Resource Planning, Inventory, Production & Analytics | DigIT-Hack",
+    "description": "DigIT-Hack Manufacturing ERP Management Software helps industries manage resource planning, inventory, production scheduling, BOM, quality control, supply chain, financials, document management, analytics and CRM integration to streamline operations."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DigIT-Hack Manufacturing(ERP) Management Software",
+    "subLine": "In today's rapidly evolving landscape, industries worldwide are embracing advanced software solutions tailored to enhance their operations. Whether it's revolutionizing or streamlining manufacturing processes, the advent of specialized software has become the cornerstone of success. DigIT-Hack covers all of the aspects to manage the workflow of the ERP system!"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "Our Manufacturing ERP (Enterprise Resource Planning) software offers comprehensive tools to manage various aspects of manufacturing operations. Some key features include:"
+    },
+    {
+      "type": "features",
+      "title": "Core Features",
+      "items": [
+        {
+          "title": "Resource Planning",
+          "description": "Managing and optimizing the allocation of resources like raw materials, equipment, and labor to maximize efficiency and minimize waste."
+        },
+        {
+          "title": "Inventory Management",
+          "description": "Tracking inventory levels in real-time, managing stock, and ensuring seamless supply chain operations."
+        },
+        {
+          "title": "Production Planning and Scheduling",
+          "description": "Creating production schedules, managing workflows, and optimizing processes to meet demand while reducing lead times and costs."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Additional ERP Modules",
+      "items": [
+        "Bill of Materials (BOM): Maintaining a detailed list of components and materials needed for each product, ensuring accurate production planning and cost estimation.",
+        "Quality Control and Assurance: Implementing quality checks at various stages of production to maintain product standards and compliance with regulations.",
+        "Supply Chain Management: Integrating with suppliers, managing procurement processes, and optimizing the supply chain for timely and cost-effective deliveries.",
+        "Shop Floor Control: Monitoring and managing activities on the factory floor, tracking work orders, and ensuring smooth operations.",
+        "Traceability and Lot Tracking: Tracking raw materials or components through production to finished goods, allowing for traceability in case of defects or recalls.",
+        "Cost Estimation and Analysis: Calculating the cost of production, analyzing expenses, and identifying areas for cost reduction and efficiency improvement.",
+        "Financial Management: Integrating accounting functions, managing invoices, payments, and financial reporting to ensure transparency and accuracy in financial operations.",
+        "Document Management: Storing and managing documents related to manufacturing processes, including specifications, compliance certificates, and work instructions.",
+        "Business Intelligence and Analytics: Generating reports and analytics to gain insights into production performance, resource utilization, and areas for improvement.",
+        "CRM Integration: Integrating customer relationship management to manage customer orders, inquiries, and feedback seamlessly."
+      ]
+    },
+    {
+      "type": "text",
+      "content": "We Can customize as per the requirement. We are pretty sure that we can meet all your needs and deliver you our product along with upmost quality service. Contact us to schedule a demo or discuss how our software can optimize your school management!"
+    }
+  ]
+}

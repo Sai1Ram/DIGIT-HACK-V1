@@ -1,0 +1,171 @@
+{
+  "slug": "restaurant-management",
+  "title": "Restaurant Management System",
+  "meta": {
+    "title": "Restaurant Management System | POS Billing Software for Restaurants, Cafes & QSR in India",
+    "description": "Complete restaurant management software with POS billing, inventory management, online ordering integration, and kitchen management. Trusted by fine dine restaurants, cafes, and QSRs across India."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DigIT-Hack Restaurant Management System",
+    "subLine": "Manages all your restaurant operations efficiently so that you can focus on growing your brand, like a real boss! We provide a one stop solution for all the activities related to restaurant business, right from finance part till the customer relation part."
+  },
+  "blocks": [
+    {
+      "type": "list",
+      "title": "Perfect for Every Food Business",
+      "items": [
+        "Fine Dine Restaurants",
+        "Fast Food & Cafes",
+        "Food Trucks",
+        "Quick Service Restaurants",
+        "Retail Stores",
+        "Ice Cream Parlor"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Our Key Features",
+      "items": [
+        "Minimal clicks leading to all kind of billings",
+        "Inventory Management (Live stock updates)",
+        "Staff Management",
+        "Kitchen Management",
+        "Digital Ordering System (Including QRs for Dine In)",
+        "Integration with Online Orders"
+      ]
+    },
+{
+      "type": "features",
+      "title": "Billing System",
+      "items": [
+        {
+          "title": "Customizable bill format",
+          "description": "Print your restaurant logo, create bill break-ups, edit customer details or add a dynamic QR code for payments right at the billing counter - everything is possible with DigIT-Hack restaurant POS software",
+          "icon": "FileText"
+        },
+        {
+          "title": "Multi-terminal billing",
+          "description": "In need of multiple billing terminals for your different areas and menus? Don't worry! DigIT-Hack POS lets you easily create multiple billing counters and sync them with one master station so that your captains can generate KOTs and settle bills from the right station.",
+          "icon": "Monitor"
+        },
+        {
+          "title": "Station-wise KOT printing",
+          "description": "Got different cooking stations? No worries! Assign a unique printer to every station and send KOTs to the respective stations. Smoothly sync them all with the master POS to keep track of all your orders and their running status.",
+          "icon": "Printer"
+        },
+        {
+          "title": "Table and area management",
+          "description": "Big restaurants, big problems. Minimize your problems by making your area and table management simple with DigIT-Hack restaurant POS. Configure different dine-in areas with their respective menus, service tax rates and customizable seating arrangements",
+          "icon": "LayoutGrid"
+        },
+        {
+          "title": "Configure taxes & discounts",
+          "description": "Switch to a restaurant billing software that lets you easily configure and levy different taxes, update tax rates and offer discounts depending on your service types, regional norms and business needs!",
+          "icon": "Percent"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Inventory Management",
+      "items": [
+        {
+          "title": "Central kitchen module",
+          "description": "An inventory management software that lets you create a central kitchen for all your single & multiple outlets. Request or supply inventory, manage suppliers, and return the damaged stock back to its source without hassle!",
+          "icon": "Building"
+        },
+        {
+          "title": "Raw material management",
+          "description": "Plan your inventory restocking and set 'low stock' alerts on DigIT-Hack's inventory management system. Easily manage the availability of menu items both for dine-in & online menu.",
+          "icon": "Package"
+        },
+        {
+          "title": "Multi-stage recipe management",
+          "description": "A restaurant POS system designed to automatically deduct your stock when used. Upload your item-wise recipe in the software & let the smart POS look after your consumption rate at every stage without you having to worry about stock-outs!",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Purchase order management",
+          "description": "Raise & accept purchase order tickets directly from your suppliers or your central kitchen right from the POS dashboard. Keep track of the frequently ordered items from each supplier and particular outlet or zone.",
+          "icon": "ShoppingCart"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Inventory management for Retail Briefing",
+      "content": "Sales – Purchase – Stock – Warehouse – Reports – Suppliers – Reconcile"
+    },
+    {
+      "type": "list",
+      "title": "Recipe Inventory Management for QSR, Cafes & Restaurants",
+      "items": [
+        "Create Recipe",
+        "Multiple Measuring Units",
+        "Raw Materials",
+        "Items Costing",
+        "Order wise Consumption",
+        "Manual Consumption",
+        "Waste Items Management",
+        "Reports & Analytics"
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Order Management",
+      "items": [
+        {
+          "title": "Online ordering integrations",
+          "description": "Don't shuffle between different screens to accept orders. Do all of it and more from a single screen easily with DigIT-Hack restaurant POS software! Seamlessly integrate your system with Swiggy, Zomato, Dineout, etc., to increase your restaurant sales. Features include: Delivery apps orders and its management directly on DigIT-Hack, Enable & disable menu items on delivery app from DigIT-Hack, Options like menu sync, Locations sync etc.",
+          "icon": "Smartphone"
+        },
+        {
+          "title": "Regulate menu availability",
+          "description": "Add store timing, packaging charges, and discounts. Easily manage the online menu for your single or chain outlets from one single screen. Cross-check the stock availability with your DigIT-HACK POS system and toggle any online menu item On or Off as per your inventory!",
+          "icon": "ToggleRight"
+        },
+        {
+          "title": "Menu updates & changes",
+          "description": "Easily add new menu items, offer different kinds of packaging and delicious add-ons, launch special offers or update menu prices across all your aggregators without hassles with your DigIT-Hack restaurant billing software.",
+          "icon": "Edit"
+        },
+        {
+          "title": "Online order reconciliation",
+          "description": "DigIT-Hack POS tracks and compiles platform-wise reconciled reports about your online orders, their commission rate, surplus charges, profit margins, taxes, etc., so that you don't lose your hard-earned profits to wrongful payout reports.",
+          "icon": "Calculator"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title":"Real-time insightful reports of your restaurant (Analytics)",
+      "items": [
+        {
+          "title": "Single dashboard monitoring",
+          "description": "Don't crush yourself and your restaurant business under stacks of paper files and complicated excel sheets. Switch to DigIT-Hack restaurant billing software and get all your data and more at one single screen!",
+          "icon": "BarChart"
+        },
+        {
+          "title": "Easy tax reporting",
+          "description": "Confused about how to simplify the taxation process for your business? Let DigIT-Hack POS software prepare downloadable reports for simpler and exact taxation! Single or chain outlet, the POS keeps track of every income and allows you to file taxes in a jiffy.",
+          "icon": "FileText"
+        },
+        {
+          "title": "User rights management",
+          "description": "Regulate staff access and controls what they see or do in your absence. Get detailed reports on bill modifications, discounted/cancelled orders, cash drawer operations, and much more to maintain centralized control over your outlet's operations.",
+          "icon": "Users"
+        },
+        {
+          "title": "Head office module",
+          "description": "With DigIT-Hack, data from all your outlets can be monitored on a single dashboard. City-wise and Zone-wise groupings allow you to aggregate data the way you want. Head-office module also allows you to centrally manage all your menus and raw material masters seamlessly.",
+          "icon": "Building2"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "We can customize as per the requirement. We will make sure that we can solve all your problems, and will also make your customer relation smooth and can make your business accessible to you on your fingerprints."
+    }
+  ]
+}

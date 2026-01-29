@@ -1,7 +1,7 @@
 "use client";
 
 import { animate, motion, useMotionValue } from "framer-motion";
-import { BRANDS } from "@/lib/data";
+import { BRANDS } from "@/lib/DB/ui/mapper";
 import Image from "next/image";
 import { useEffect } from "react";
 import useMeasure from "@/hooks/useMeasure";

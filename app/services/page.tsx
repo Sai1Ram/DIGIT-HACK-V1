@@ -3,9 +3,9 @@ import AnimatedButton from "@/components/custom/ui/AnimatedBtn";
 import AnimatedCard from "@/components/custom/ui/AnimatedCard";
 import Container from "@/components/custom/ui/Container";
 import Section from "@/components/custom/ui/Section";
-import { ABOUT_CARDS, SERVICES } from "@/lib/data";
-
+import { loadServices } from "@/lib/loadServices";
 export default function Services() {
+  const SERVICES = loadServices();
   return (
     <Container>
       <Header>Services</Header>

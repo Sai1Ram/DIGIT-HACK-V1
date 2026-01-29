@@ -1,0 +1,70 @@
+{
+  "slug": "web-app",
+  "title": "Website And Application Development",
+  "meta": {
+    "title": "Website & Application Development Services | Custom Web, Mobile Apps & Enterprise Solutions | DigIT-Hack",
+    "description": "DigIT-Hack builds custom websites and high-performance applications tailored to your business needs. Get responsive web development, e-commerce solutions, CMS platforms, mobile apps, enterprise software, API integrations and user-centric design."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "Website And Application Development",
+    "subLine": "At DigIT-Hack, we craft bespoke digital solutions to elevate your online presence and optimize user experiences. Our expert team specializes in creating dynamic websites and intuitive applications tailored to meet your specific business needs."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Website Development",
+      "content": "Our website development services focus on creating visually stunning, user-friendly, and responsive websites that leave a lasting impression. Whether it's a corporate website, e-commerce platform, or a specialized site for your industry, we ensure a seamless and engaging user experience."
+    },
+    {
+      "type": "list",
+      "title": "Website Development - Key Offerings",
+      "items": [
+        "Custom Design: Unique and visually appealing designs that align with your brand identity.",
+        "Responsive Development: Websites optimized for all devices, ensuring an exceptional user experience across desktops, tablets, and mobiles.",
+        "E-commerce Solutions: Robust online stores equipped with secure payment gateways and intuitive shopping experiences.",
+        "Content Management Systems (CMS): Easy-to-manage platforms that empower you to update content effortlessly."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Application Development",
+      "content": "From concept to launch, our application development services cover a wide spectrum, including mobile apps, enterprise solutions, and innovative software. We focus on delivering scalable, high-performance applications that meet your business objectives."
+    },
+    {
+      "type": "features",
+      "title": "Application Development - Key Offerings",
+      "items": [
+        {
+          "title": "Mobile Apps",
+          "description": "Android and IOS applications tailored to your specifications and user preferences."
+        },
+        {
+          "title": "Enterprise Solutions",
+          "description": "Custom software designed to streamline internal processes and enhance productivity."
+        },
+        {
+          "title": "User-Centric Design",
+          "description": "Intuitive interfaces and user experiences to drive engagement and retention."
+        },
+        {
+          "title": "API Integration",
+          "description": "Seamless integration with third-party services to expand functionality and accessibility."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Why Choose Us?",
+      "items": [
+        "Tailored Solutions: Customized strategies and designs crafted to align with your business goals and objectives.",
+        "Expert Team: A dedicated team of experienced professionals proficient in the latest technologies and trends.",
+        "Scalability and Support: Solutions that scale as your business grows, backed by ongoing support and maintenance."
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Ready to Elevate Your Digital Presence? Let us be your partner in digital transformation. Whether it's a stunning website or a powerful application, we have the expertise to bring your vision to life. Contact us to discuss how we can create a digital solution that propels your business forward!"
+    }
+  ]
+}

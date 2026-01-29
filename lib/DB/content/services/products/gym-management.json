@@ -1,0 +1,75 @@
+{
+  "slug": "gym-management",
+  "title": "Gym Management Software",
+  "meta": {
+    "title": "Gym Management Software | Fitness Club CRM & Membership Management System in India",
+    "description": "Cloud-based gym management software for admissions, renewals, billing, staff management & membership tracking. Complete fitness club CRM solution with SMS alerts and biometric integration."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DigIT-Hack Gym Management Software",
+    "subLine": "Gym Management Software is CRM Software, which is used for Management of Gym Business related activities like Admissions, Renewals, Accounts, Due Reminder and all other activities that's needed in gym management. DigIT-Hack Management Software is a Cloud based Gym Software that is used for manage gymnasium and fitness Club."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "What is Gym Management Software",
+      "content": "Gym Management Software is CRM Software, which is used for Management of Gym Business related activities like Admissions, Renewals, Accounts, Due Reminder and all other activities that's needed in gym management. DigIT-Hack Management Software is a Cloud based Gym Software that is used for manage gymnasium and fitness Club."
+    }, 
+    {
+      "type": "features",
+      "title": "Our Key Features",
+      "items": [
+        {
+          "title": "Admission and Renewal Management",
+          "description": "Members management is a primary key for gym's success. Best Gym Manager do it extremely well. It manages member personal details, attendances, membership plans and fee details.",
+          "icon": "UserPlus"
+        },
+        {
+          "title": "Active and Inactive Membership",
+          "description": "Gyms, Yoga Centers and Fitness Clubs can manage their membership plans, pricing, offers and active time period with this feature.",
+          "icon": "Users"
+        },
+        {
+          "title": "Enquiry & Follow Up Management",
+          "description": "Its very important feature for gyms and yoga centers to keep a record of enquiries. It not only helps in getting new clients and but also help in client retention. DigIT-Hack Management Software comes with Follow Up feature to communicate with enquirer in super easy way.",
+          "icon": "PhoneCall"
+        },
+        {
+          "title": "Bills, Invoices & Sales Management",
+          "description": "Best Gym Manager manages bills, invoices and sales. It provides customized billing formats. It also helps in analyzing daily, weekly, monthly or yearly sales.",
+          "icon": "FileText"
+        },
+        {
+          "title": "Staff Management System",
+          "description": "Managing Staff is a pain in ass kind of task for Gyms and Fitness Clubs. DigIT-Hack Management Software helps in get rid of this pain. Clubs can manage Employee details, id proofs, attendances and payroll using this tool in a very easy manner.",
+          "icon": "UserCheck"
+        },
+        {
+          "title": "Stocks And Inventory Management",
+          "description": "Manage all the stocks of merchandise items like supplements, t-shirts, etc., and also any inventory kinds of stuff.",
+          "icon": "Package"
+        },
+        {
+          "title": "Diet Management And Class Scheduling",
+          "description": "Schedule the classes and allots trainers as per the workout plans. Provide diet plans directly through our website for different plans.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Reminders & Alerts",
+          "description": "It automatically sends SMS and Email alerts to members about fee payments and membership expirations. Gyms and Fitness clubs can also send SMS and Emails manually.",
+          "icon": "Bell"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "*Biometric Device Integration can be availed by us as per the requirement."
+    },
+    {
+      "type": "text",
+      "title": "Ready to Streamline Your Gym Operations?",
+      "content": "Transform your Gym's efficiency and customer satisfaction with our management software. Contact us to schedule a demo or discuss how our software can optimize your gym management!"
+    }
+  ]
+}

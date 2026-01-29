@@ -1,0 +1,1 @@
+export const FEATURED_SERVICES_LIMIT = 4;

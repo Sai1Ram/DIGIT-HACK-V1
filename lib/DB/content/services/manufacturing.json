@@ -1,0 +1,253 @@
+{
+  "slug": "manufacturing",
+  "title": "Manufacturing Software Solutions",
+  "meta": {
+    "title": "Manufacturing ERP Software Development | Custom Solutions for Indian Manufacturing Units",
+    "description": "Custom ERP software development for manufacturing companies in India. Streamline production, inventory & supply chain with digital transformation solutions. Trusted by 150+ manufacturing units."
+  },
+  "hero": {
+    "headline": "Digital Transformation for Indian Manufacturing Units",
+    "subLine": "Optimize production workflows, reduce costs, and scale operations with custom ERP software tailored for manufacturing excellence."
+  },
+  "image": "/images/service-1.webp",
+  "products": [{ "name": "ERP Software", "slug": "ERPSoftware" }],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Transform Your Manufacturing Operations",
+      "content": "Manufacturing companies across India face unique challenges—from managing complex supply chains to ensuring quality control and maintaining compliance. DigITHack delivers custom software solutions designed specifically for manufacturing units, helping businesses in Bangalore, Pune, Mumbai, Delhi, and across India achieve operational excellence through digital transformation."
+    },
+    {
+      "type": "features",
+      "title": "Comprehensive Manufacturing Solutions",
+      "items": [
+        {
+          "title": "Complete ERP Integration",
+          "description": "Unified ERP software development connecting production, inventory, finance, and HR modules for seamless manufacturing operations across your entire organization.",
+          "icon": "Database"
+        },
+        {
+          "title": "Real-Time Production Tracking",
+          "description": "Monitor manufacturing processes in real-time with IoT-enabled dashboards, reducing downtime and improving throughput by up to 40%.",
+          "icon": "Activity"
+        },
+        {
+          "title": "Smart Inventory Management",
+          "description": "Automated stock control, vendor management, and procurement workflows that minimize waste and optimize working capital for MSMEs and large manufacturers.",
+          "icon": "Package"
+        },
+        {
+          "title": "Quality Assurance Systems",
+          "description": "Digital quality control workflows ensuring compliance with ISO standards, reducing defects, and maintaining consistent product quality.",
+          "icon": "CheckCircle"
+        },
+        {
+          "title": "Supply Chain Optimization",
+          "description": "End-to-end visibility across your supply chain with predictive analytics, vendor portals, and automated reorder points.",
+          "icon": "TruckIcon"
+        },
+        {
+          "title": "Mobile-First Solutions",
+          "description": "Native mobile applications for shop floor managers, quality inspectors, and warehouse teams to access critical data on-the-go.",
+          "icon": "Smartphone"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "title": "Manufacturing Success by the Numbers",
+      "items": [
+        {
+          "value": "150+",
+          "label": "Manufacturing Units Served"
+        },
+        {
+          "value": "70%",
+          "label": "Average Processing Time Reduction"
+        },
+        {
+          "value": "45%",
+          "label": "Inventory Cost Savings"
+        },
+        {
+          "value": "99.8%",
+          "label": "System Uptime Guarantee"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Why Choose DigITHack for Manufacturing Software?",
+      "content": "As a leading ERP software development company in India, we understand the complexities of manufacturing operations. Our team has delivered custom software solutions for automotive, FMCG, textile, pharmaceutical, and engineering manufacturing units across Hyderabad, Chennai, and other major industrial hubs. We combine industry expertise with cutting-edge technology to build scalable, future-ready solutions."
+    },
+    {
+      "type": "list",
+      "title": "Industries We Serve",
+      "items": [
+        "Automotive & Auto Components Manufacturing",
+        "FMCG & Food Processing Units",
+        "Textile & Garment Manufacturing",
+        "Pharmaceutical & Chemical Production",
+        "Electronics & Electrical Equipment",
+        "Metal Fabrication & Engineering",
+        "Packaging & Paper Manufacturing",
+        "Plastic & Rubber Processing"
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Key Features of Our Manufacturing ERP",
+      "items": [
+        {
+          "title": "Bill of Materials (BOM) Management",
+          "description": "Create, manage, and version control complex BOMs with multi-level assemblies, alternative materials, and cost tracking.",
+          "icon": "FileText"
+        },
+        {
+          "title": "Production Scheduling",
+          "description": "Advanced planning algorithms that optimize machine utilization, reduce changeover times, and meet delivery deadlines consistently.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Shop Floor Control",
+          "description": "Real-time work order tracking, labor management, and machine monitoring with barcode/RFID integration for accurate data capture.",
+          "icon": "Settings"
+        },
+        {
+          "title": "Cost Accounting",
+          "description": "Accurate job costing, variance analysis, and profitability reporting at product, batch, and order levels for better decision-making.",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "Vendor Management",
+          "description": "Supplier portals, automated PO generation, quality ratings, and performance analytics to strengthen your supply chain partnerships.",
+          "icon": "Users"
+        },
+        {
+          "title": "Compliance & Documentation",
+          "description": "Digital record-keeping for regulatory compliance, audit trails, and automated reporting for GST, excise, and industry-specific regulations.",
+          "icon": "Shield"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Our Manufacturing Software Development Process",
+      "content": "We follow an agile methodology tailored for manufacturing complexity. Starting with a comprehensive process audit, we map your current workflows, identify bottlenecks, and design custom solutions that integrate seamlessly with existing machinery and systems. Our phased implementation approach ensures minimal disruption to ongoing operations while delivering measurable improvements at each stage."
+    },
+    {
+      "type": "list",
+      "title": "Technology Stack for Scalable Manufacturing Solutions",
+      "items": [
+        "Backend: .NET Core, Java Spring Boot, Node.js for robust enterprise applications",
+        "Frontend: React, Angular for intuitive web dashboards and admin panels",
+        "Mobile: React Native, Flutter for cross-platform mobile applications",
+        "Database: SQL Server, PostgreSQL, MongoDB for structured and unstructured data",
+        "IoT Integration: MQTT, OPC-UA protocols for machine connectivity",
+        "Cloud Infrastructure: AWS, Azure for scalable, secure hosting",
+        "AI/ML: Predictive maintenance, demand forecasting, and quality prediction models",
+        "Reporting: Power BI, Tableau integration for advanced analytics"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Custom vs Off-the-Shelf ERP: Which Is Better for Manufacturing?",
+      "content": "While off-the-shelf ERP systems offer quick deployment, they often require expensive customizations to match your unique manufacturing processes. Custom ERP software development provides tailored solutions that fit your exact workflows, integrate with legacy systems, and scale with your business growth. For Indian MSMEs and mid-sized manufacturers, custom solutions typically deliver ROI within 12-18 months while providing complete ownership and flexibility."
+    },
+    {
+      "type": "features",
+      "title": "Implementation & Support",
+      "items": [
+        {
+          "title": "Dedicated Project Manager",
+          "description": "Single point of contact throughout development, ensuring clear communication and timely delivery aligned with your production schedules.",
+          "icon": "UserCheck"
+        },
+        {
+          "title": "Comprehensive Training",
+          "description": "On-site and remote training sessions for your team, along with detailed documentation and video tutorials in English and regional languages.",
+          "icon": "GraduationCap"
+        },
+        {
+          "title": "24/7 Technical Support",
+          "description": "Round-the-clock support via phone, email, and WhatsApp to resolve issues quickly and minimize production downtime.",
+          "icon": "Headphones"
+        },
+        {
+          "title": "Regular Updates & Maintenance",
+          "description": "Quarterly feature enhancements, security patches, and performance optimizations to keep your system running at peak efficiency.",
+          "icon": "RefreshCw"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "title": "How Much Does Custom Manufacturing Software Cost in India?",
+      "items": [
+        {
+          "value": "₹8-15L",
+          "label": "Basic ERP for Small Units"
+        },
+        {
+          "value": "₹15-35L",
+          "label": "Mid-Sized Manufacturing ERP"
+        },
+        {
+          "value": "₹35L+",
+          "label": "Enterprise-Grade Solutions"
+        },
+        {
+          "value": "8-16 weeks",
+          "label": "Typical MVP Development Time"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Pricing varies based on complexity, number of users, integration requirements, and customization needs. We offer flexible engagement models including fixed-cost projects, time & material, and dedicated team arrangements to suit your budget and timeline."
+    },
+    {
+      "type": "cta",
+      "title": "Ready to Digitize Your Manufacturing Operations?",
+      "description": "Get a free consultation and detailed project proposal tailored to your manufacturing requirements. We deliver custom software solutions to clients in Bangalore, Hyderabad, Pune, Delhi, and across India.",
+      "button": {
+        "label": "Schedule Free Strategy Call",
+        "href": "/contact"
+      }
+    }
+  ],
+  "FAQs": [
+    {
+      "question": "How long does it take to develop a custom ERP for manufacturing?",
+      "answer": "A basic manufacturing ERP MVP typically takes 8-12 weeks to develop. Complete enterprise solutions with advanced features like IoT integration, AI-powered analytics, and multi-location support may require 16-24 weeks. We follow an agile approach with phased rollouts, so you can start using core modules while additional features are being developed."
+    },
+    {
+      "question": "Can your manufacturing software integrate with existing machinery and systems?",
+      "answer": "Yes, our ERP solutions are built with integration flexibility. We can connect with legacy systems, CNC machines, PLCs, barcode scanners, weighing scales, and other shop floor equipment using standard protocols like OPC-UA, MQTT, REST APIs, and custom middleware. We've successfully integrated with SAP, Tally, and various industry-specific applications."
+    },
+    {
+      "question": "Do you provide support for manufacturing units outside major cities?",
+      "answer": "Absolutely. While our primary expertise serves manufacturers in Bangalore, Pune, Mumbai, Hyderabad, and Delhi, we work with manufacturing units across India including tier-2 and tier-3 cities. We provide remote implementation, training, and 24/7 technical support via phone, email, and WhatsApp, with on-site visits available when needed."
+    },
+    {
+      "question": "What makes DigITHack different from other ERP software development companies?",
+      "answer": "As a specialized software development company in India, we focus exclusively on custom solutions rather than forcing you into generic templates. Our team includes manufacturing domain experts who understand Indian compliance requirements (GST, excise, labor laws), work within MSME budgets, and deliver solutions that integrate seamlessly with your existing processes. We've helped 150+ manufacturing units achieve 70% processing time reduction through digital transformation."
+    },
+    {
+      "question": "Is cloud-based manufacturing software secure for sensitive production data?",
+      "answer": "Yes, our cloud solutions use enterprise-grade security with data encryption, role-based access controls, regular backups, and compliance with ISO 27001 standards. We offer both cloud-based and on-premise deployment options. Many of our clients prefer cloud hosting on AWS or Azure for scalability and disaster recovery, while maintaining complete data sovereignty within Indian servers."
+    },
+    {
+      "question": "Can I start with a basic system and add features later?",
+      "answer": "Definitely. We recommend starting with an MVP covering your most critical workflows—typically production planning, inventory management, and basic reporting. This approach reduces initial investment and allows you to see ROI quickly. You can then add modules like quality control, vendor management, or advanced analytics based on actual usage patterns and business growth."
+    },
+    {
+      "question": "Do you offer maintenance and support after project completion?",
+      "answer": "Yes, we provide comprehensive Annual Maintenance Contracts (AMC) including 24/7 technical support, bug fixes, security updates, performance optimization, and quarterly feature enhancements. Our support team is available via dedicated helpdesk, phone, and WhatsApp to ensure minimal downtime for your manufacturing operations."
+    },
+    {
+      "question": "What ROI can I expect from custom manufacturing software?",
+      "answer": "Our clients typically achieve ROI within 12-18 months through reduced manual errors, lower inventory carrying costs (average 45% savings), improved resource utilization, faster production cycles (70% average time reduction), and better decision-making with real-time data. The exact ROI depends on your current processes, scale of operations, and specific pain points being addressed."
+    }
+  ]
+}

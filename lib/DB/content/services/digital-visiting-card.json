@@ -1,0 +1,377 @@
+{
+  "slug": "digital-visiting-card",
+  "title": "Digital Visiting Card Solutions",
+  "meta": {
+    "title": "Digital Visiting Card | NFC Business Cards India | Smart Contact Sharing Solutions",
+    "description": "Premium digital visiting card solutions with NFC technology. Instant contact sharing, eco-friendly networking, customizable profiles. Trusted by 5000+ professionals across India. Order your smart business card today."
+  },
+  "hero": {
+    "headline": "Transform Your Networking with Smart Digital Visiting Cards",
+    "subLine": "Share your complete professional profile instantly with a single tap. No apps required, works with any smartphone, and leaves a lasting digital impression."
+  },
+  "image": "/images/service-1.webp",
+  "products": [
+    {
+      "name": "DigIT-Hack NFC Card - Premium",
+      "slug": "visiting-card"
+    },
+    {
+      "name": "DigIT-Hack NFC Card - Wood Edition",
+      "slug": "visiting-card-wood"
+    },
+    {
+      "name": "DigIT-Hack NFC Card - Metal Edition",
+      "slug": "visiting-card-metal"
+    },
+    {
+      "name": "Digital Business Card App",
+      "slug": "digital-card-app"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Future of Professional Networking is Here",
+      "content": "Paper business cards are outdated, easily lost, and environmentally wasteful. DigIT-Hack digital visiting cards combine NFC technology with beautiful design to create a networking experience that's instant, memorable, and sustainable. Used by entrepreneurs, sales professionals, real estate agents, and corporate teams across Mumbai, Bangalore, Delhi, Hyderabad, and throughout India, our smart business cards help you make connections that count."
+    },
+    {
+      "type": "stats",
+      "title": "Impact That Speaks for Itself",
+      "items": [
+        {
+          "value": "5000+",
+          "label": "Professionals Using DigIT-Hack Cards"
+        },
+        {
+          "value": "100%",
+          "label": "Contact Capture Rate"
+        },
+        {
+          "value": "0",
+          "label": "Paper Cards Wasted"
+        },
+        {
+          "value": "50K+",
+          "label": "Connections Made Digitally"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Why Choose DigIT-Hack Digital Visiting Cards?",
+      "items": [
+        {
+          "title": "One-Tap Contact Sharing",
+          "description": "Simply tap your card on any smartphone to instantly share your complete contact information. Works with both iPhone and Android—no apps or NFC-enabled devices required.",
+          "icon": "Zap"
+        },
+        {
+          "title": "Always Up-to-Date",
+          "description": "Update your contact details, add new social profiles, or change your job title anytime through our web dashboard. All your shared cards reflect changes instantly—no reprinting needed.",
+          "icon": "RefreshCw"
+        },
+        {
+          "title": "Rich Digital Profiles",
+          "description": "Go beyond basic contact info. Include your photo, company logo, portfolio links, social media, WhatsApp Business, payment QR codes, calendly links, and more in one shareable profile.",
+          "icon": "User"
+        },
+        {
+          "title": "Analytics & Insights",
+          "description": "Track how many people view your profile, which links they click, peak engagement times, and geographic distribution. Understand your networking ROI with detailed analytics.",
+          "icon": "BarChart"
+        },
+        {
+          "title": "Eco-Friendly & Sustainable",
+          "description": "One digital card replaces thousands of paper cards. Made from durable PVC, wood, or metal with a lifetime guarantee. Reduce waste while making a premium impression.",
+          "icon": "Leaf"
+        },
+        {
+          "title": "Custom Branding",
+          "description": "Personalize your card with custom designs, company branding, QR codes, and choose from multiple premium materials. Bulk orders available with corporate branding options.",
+          "icon": "Palette"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "How DigIT-Hack NFC Cards Work",
+      "content": "Our digital visiting cards use Near Field Communication (NFC) technology—the same technology used in contactless payments and smart access cards. When someone taps your card with their smartphone, it instantly opens your digital profile in their browser. They can save your contact with one click, view your portfolio, connect on LinkedIn, or schedule a meeting—all without downloading any apps. For phones without NFC (rare these days), a QR code on the back provides the same functionality. It's networking made effortless."
+    },
+    {
+      "type": "features",
+      "title": "Premium Card Options for Every Professional",
+      "items": [
+        {
+          "title": "Classic PVC Card",
+          "description": "Sleek, durable plastic card in matte or glossy finish. Customizable design with your branding, perfect for everyday business networking. Waterproof and scratch-resistant.",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Wooden Card - Eco Edition",
+          "description": "Handcrafted from sustainable bamboo or walnut wood. Premium tactile experience with laser-engraved details. Perfect for eco-conscious professionals and luxury brands.",
+          "icon": "TreeDeciduous"
+        },
+        {
+          "title": "Metal Card - Executive",
+          "description": "Laser-cut stainless steel or brushed aluminum. Ultra-premium feel with lifetime durability. Makes an unforgettable impression at high-level business meetings.",
+          "icon": "Shield"
+        },
+        {
+          "title": "Team Cards - Corporate",
+          "description": "Bulk orders for entire teams with centralized management. Each team member gets their own profile while maintaining consistent corporate branding and analytics.",
+          "icon": "Users"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "What You Can Include in Your Digital Profile",
+      "items": [
+        "Full contact details: Name, phone (with click-to-call), email, website",
+        "Professional photo and company logo for instant recognition",
+        "Social media profiles: LinkedIn, Instagram, Twitter, Facebook links",
+        "WhatsApp Business button for direct messaging",
+        "Portfolio showcase: Upload images, PDFs, or link to your work",
+        "Calendly or meeting scheduler integration for easy appointment booking",
+        "Payment QR codes: Google Pay, PhonePe, Paytm for seamless transactions",
+        "Video introduction or product demo embedded in your profile",
+        "Location map with directions to your office or store",
+        "Custom call-to-action buttons: Download brochure, Request quote, Schedule demo",
+        "Multiple phone numbers and email addresses for different purposes",
+        "Testimonials and client reviews to build instant credibility"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Perfect for Every Industry and Profession",
+      "content": "Digital visiting cards aren't just for tech professionals. We've helped real estate agents showcase property listings, wedding photographers share portfolios instantly, restaurant owners display menus and reservation links, fitness trainers include class schedules, financial advisors add compliance details, and healthcare professionals share clinic information—all in one tap. Whether you're a freelancer, startup founder, corporate executive, or small business owner across India, DigIT-Hack cards elevate your professional presence."
+    },
+    {
+      "type": "features",
+      "title": "Powerful Management Dashboard",
+      "items": [
+        {
+          "title": "Instant Profile Updates",
+          "description": "Change your details anytime from your phone or computer. Updates reflect immediately across all shared cards—no need to recall or reprint.",
+          "icon": "Edit"
+        },
+        {
+          "title": "Multiple Card Management",
+          "description": "Create different profiles for different contexts: one for professional networking, another for personal connections, or separate cards for different business ventures.",
+          "icon": "Layers"
+        },
+        {
+          "title": "Engagement Analytics",
+          "description": "See who viewed your profile, when they viewed it, which links they clicked, and from which cities. Export data for CRM integration and follow-up.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "Lead Capture Forms",
+          "description": "Add custom forms to collect visitor information. When someone views your profile, capture their details for follow-up and build your contact database automatically.",
+          "icon": "ClipboardList"
+        },
+        {
+          "title": "QR Code Download",
+          "description": "Download your profile's QR code for email signatures, presentations, social media bios, or print materials. Multiple ways to share your digital presence.",
+          "icon": "QrCode"
+        },
+        {
+          "title": "Team Admin Panel",
+          "description": "For corporate clients: centralized dashboard to manage all team cards, enforce branding guidelines, view team analytics, and control access permissions.",
+          "icon": "Settings"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "title": "Pricing & Packages",
+      "items": [
+        {
+          "value": "₹999",
+          "label": "Classic PVC Card (Individual)"
+        },
+        {
+          "value": "₹1,999",
+          "label": "Wood Edition (Premium)"
+        },
+        {
+          "value": "₹2,999",
+          "label": "Metal Edition (Executive)"
+        },
+        {
+          "value": "₹799/card",
+          "label": "Corporate Bulk (50+ cards)"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "All packages include: Lifetime NFC card with warranty, 1-year premium dashboard access (first year free), unlimited profile updates, analytics and insights, custom design support, and dedicated customer support. Bulk orders for teams get additional discounts, centralized admin panel, and white-label branding options. Free India-wide shipping on orders above ₹5,000."
+    },
+    {
+      "type": "list",
+      "title": "What's Included with Every DigIT-Hack Card",
+      "items": [
+        "Premium NFC-enabled card in your chosen material and finish",
+        "Custom design with your branding, colors, and logo",
+        "Unique activation link and dashboard access credentials",
+        "Step-by-step setup guide and video tutorials",
+        "QR code backup on card reverse for universal compatibility",
+        "Protective card holder or premium packaging (metal edition)",
+        "1-year premium dashboard features (unlimited updates, analytics, forms)",
+        "Lifetime hardware warranty with free replacement for defects",
+        "Email and WhatsApp support for technical assistance",
+        "Access to template library for quick profile setup"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Make Lasting Impressions Effortlessly",
+      "content": "In a world where first impressions happen in seconds, your business card is your brand ambassador. While traditional paper cards get lost in wallets or thrown away, DigIT-Hack digital cards create memorable interactions. The wow-factor of tap-to-share technology sparks conversations, the rich profile showcases your professional story, and the analytics help you follow up effectively. Professionals using DigIT-Hack cards report 5x higher contact retention and 3x more meaningful follow-ups compared to traditional business cards."
+    },
+    {
+      "type": "features",
+      "title": "Use Cases Across Industries",
+      "items": [
+        {
+          "title": "Sales & Business Development",
+          "description": "Share product catalogs, pricing PDFs, demo videos, and schedule meetings on the spot. Track which prospects engaged and follow up strategically.",
+          "icon": "Briefcase"
+        },
+        {
+          "title": "Real Estate Agents",
+          "description": "Showcase property listings, virtual tours, client testimonials, and direct WhatsApp contact. Update listings in real-time as properties sell.",
+          "icon": "Home"
+        },
+        {
+          "title": "Freelancers & Creatives",
+          "description": "Display portfolio, client reviews, pricing packages, and booking calendar. Let your work speak for itself with embedded images and videos.",
+          "icon": "Palette"
+        },
+        {
+          "title": "Corporate Teams",
+          "description": "Unified branding across all team members, centralized management, compliance-approved content, and aggregated analytics for entire sales teams.",
+          "icon": "Building"
+        },
+        {
+          "title": "Events & Conferences",
+          "description": "Perfect for trade shows, networking events, and conferences. Collect hundreds of contacts effortlessly with analytics showing who's genuinely interested.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Restaurants & Hospitality",
+          "description": "Share menu, location, reservation links, special offers, and customer reviews. Update seasonal menus without reprinting cards.",
+          "icon": "UtensilsCrossed"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Setup Takes Just 5 Minutes",
+      "content": "Getting started with your DigIT-Hack card is incredibly simple. After receiving your card, scan the QR code or tap it with your phone to claim it. Create your account, upload your photo and logo, fill in your contact details, add your social links and portfolio, customize your profile colors, and you're live! The entire process takes less than 5 minutes. Our intuitive dashboard guides you through each step, and our template library helps you create professional-looking profiles instantly, even if you're not tech-savvy."
+    },
+    {
+      "type": "list",
+      "title": "Why Digital Cards Outperform Paper Cards",
+      "items": [
+        "100% contact capture rate vs 10-15% for paper cards (most paper cards are never followed up)",
+        "Real-time updates mean your contacts always have your latest information",
+        "Rich media support (videos, portfolios, documents) vs basic text on paper",
+        "Analytics show you who's interested, when to follow up, and what they're looking for",
+        "Eco-friendly alternative saves thousands of paper cards over a career",
+        "Never run out of cards at critical networking moments",
+        "Professional, tech-forward impression distinguishes you from competitors",
+        "Searchable digital contacts in recipient's phone vs lost paper in wallet",
+        "One-time investment vs continuous reprinting costs for traditional cards",
+        "Shareable via multiple channels: tap, QR code, link, email signature"
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Security & Privacy Features",
+      "items": [
+        {
+          "title": "Control Your Visibility",
+          "description": "Choose what information to display publicly. Hide phone numbers, show only business email, or create separate public and private profiles.",
+          "icon": "Eye"
+        },
+        {
+          "title": "GDPR Compliant",
+          "description": "Full compliance with data protection regulations. Recipients can request data deletion, and all information is stored securely with encryption.",
+          "icon": "Lock"
+        },
+        {
+          "title": "No Data Selling",
+          "description": "Your contact information and analytics are yours alone. We never sell data to third parties or use it for advertising purposes.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "title": "Secure Cloud Hosting",
+          "description": "All profiles hosted on secure servers with SSL encryption, regular backups, and 99.9% uptime guarantee for reliable access anytime.",
+          "icon": "Cloud"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Corporate & Bulk Orders",
+      "content": "Equip your entire team with branded digital visiting cards. We offer customized corporate packages for companies across India with centralized billing, team management dashboards, enforced branding guidelines, usage analytics, and dedicated account management. Perfect for sales teams, event staff, business development teams, and HR departments. Minimum order: 20 cards. Volume discounts available. Setup includes consultation call, design mockups, bulk activation, and team training session. Many enterprises in Bangalore, Mumbai, and Delhi trust us for their digital networking needs."
+    },
+    {
+      "type": "cta",
+      "title": "Ready to Revolutionize Your Networking?",
+      "description": "Order your DigIT-Hack digital visiting card today and join 5000+ professionals making memorable connections. Free shipping across India. 30-day money-back guarantee if you're not completely satisfied.",
+      "button": {
+        "label": "Order Your Card Now",
+        "href": "/contact"
+      }
+    },
+    {
+      "type": "text",
+      "title": "Customer Success Stories",
+      "content": "\"As a real estate consultant in Mumbai, I meet 20-30 clients weekly. DigIT-Hack cards have transformed my follow-up process. I can track who viewed my listings and reach out at the perfect time. My conversion rate has increased by 40%.\" - Rajesh Sharma, Property Consultant\n\n\"Our sales team of 50 people switched to digital cards last year. The analytics alone justify the investment—we know exactly which prospects are engaged. Plus, the eco-friendly angle resonates with our corporate sustainability goals.\" - Priya Mehta, Sales Director, Tech Startup\n\n\"I'm a wedding photographer and my DigIT-Hack wood card makes such an impression. Couples love that they can see my portfolio instantly. I've booked 15 weddings directly from networking events this year.\" - Arun Kumar, Creative Professional"
+    }
+  ],
+  "FAQs": [
+    {
+      "question": "Do I need an app to use DigIT-Hack digital visiting cards?",
+      "answer": "No app required! DigIT-Hack cards work with any smartphone using NFC technology (tap-to-share) or the QR code printed on the back. When someone taps your card with their iPhone or Android phone, it opens your digital profile directly in their web browser. They can then save your contact, view your portfolio, or connect on social media—all without downloading anything."
+    },
+    {
+      "question": "What happens if I change my phone number or email address?",
+      "answer": "Simply log into your dashboard and update your details. Changes take effect immediately and everyone who has your digital card or profile link will see the updated information automatically. This is the biggest advantage over paper cards—you never need to reprint or redistribute when your contact details change. You can update your profile unlimited times at no additional cost."
+    },
+    {
+      "question": "Will this work with all smartphones, including older models?",
+      "answer": "Yes. While modern iPhones (iPhone 7 and newer) and most Android phones have built-in NFC for tap-to-share, we include a QR code on every card as a backup. Older phones or phones without NFC can simply scan the QR code with their camera to access your profile. This ensures 100% compatibility across all devices."
+    },
+    {
+      "question": "How long does the card last? Is there a subscription fee?",
+      "answer": "The physical card has a lifetime warranty and the NFC chip is rated for 100,000+ taps. The first year of premium dashboard access (unlimited updates, analytics, custom forms) is included free. After one year, you can continue with free basic features or renew premium access for ₹499/year. The card itself never expires and you retain access to your profile permanently."
+    },
+    {
+      "question": "Can I have multiple digital cards for different purposes?",
+      "answer": "Absolutely. You can purchase multiple physical cards and create separate profiles for each—for example, one for your primary business, another for a side venture, or different cards for professional vs personal networking. You manage all cards from one dashboard and can easily switch between profiles or share specific ones based on context."
+    },
+    {
+      "question": "Is my information secure? Can anyone access my profile?",
+      "answer": "Your profile is only accessible to people you share your card with or those who have your unique profile link. You control what information is displayed—you can hide phone numbers, show only business emails, or create public/private versions. All data is encrypted and stored on secure servers. We never sell your information to third parties and you can delete your profile anytime."
+    },
+    {
+      "question": "How do I know if someone viewed my digital card?",
+      "answer": "Your dashboard includes detailed analytics showing every profile view with timestamp, geographic location, device type, and which links were clicked. For premium users, you can also add lead capture forms that collect visitor information when they view your profile, building your contact database automatically. This helps you prioritize follow-ups with genuinely interested contacts."
+    },
+    {
+      "question": "Can I customize the design of my card?",
+      "answer": "Yes! For individual orders, you can choose from our template library and customize colors, add your logo, and select layout preferences. For corporate bulk orders (20+ cards), we offer fully custom designs matching your exact branding guidelines, including custom colors, fonts, layouts, and even special finishes. Our design team works with you to create cards that perfectly represent your brand."
+    },
+    {
+      "question": "Do you ship across India? How long does delivery take?",
+      "answer": "We ship to all cities and towns across India via reliable courier services. Standard delivery takes 5-7 business days to major cities (Mumbai, Bangalore, Delhi, Hyderabad, Pune, Chennai, Kolkata) and 7-10 days to other locations. Express delivery (3-4 days) is available for urgent orders. Bulk corporate orders are handled with dedicated logistics and account manager support. Free shipping on orders above ₹5,000."
+    },
+    {
+      "question": "What if I'm not satisfied with my card?",
+      "answer": "We offer a 30-day money-back guarantee. If you're not completely satisfied with your DigIT-Hack card for any reason, return it within 30 days for a full refund, no questions asked. Additionally, all cards come with a lifetime warranty against manufacturing defects—if your card stops working due to a defect (not physical damage), we'll replace it free of charge. Your satisfaction and successful networking are our priorities."
+    }
+  ]
+}

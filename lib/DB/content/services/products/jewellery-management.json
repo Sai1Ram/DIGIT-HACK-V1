@@ -1,0 +1,55 @@
+{
+  "slug": "jewellery-management",
+  "title": "Jewellery Store Management Software",
+  "meta": {
+    "title": "Jewellery Store Management Software | Billing & Inventory System for Jewellers in India",
+    "description": "Comprehensive jewellery shop management software designed for inventory tracking, sales processes, and customer experiences. Streamline your jewellery store operations with DigIT-Hack."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "Jewellery Store Management Software",
+    "subLine": "Optimize Your Jewellery Business with Our Specialized Management Software. Welcome to DigIT-Hack, where we redefine jewellery shop management with our comprehensive software designed specifically for the jewellery industry. Our solution is tailored to streamline inventory management, enhance sales processes, and elevate customer experiences within your jewellery store."
+  },
+  "blocks": [
+    {
+      "type": "features",
+      "title": "Key Features",
+      "items": [
+        {
+          "title": "Inventory Management",
+          "description": "Precise Stock Tracking: Manage intricate jewellery inventory with precision, tracking details like gemstones, metals, and unique designs. Variants and SKUs: Organize items by variants, sizes, and unique SKU codes, making inventory management efficient and accurate.",
+          "icon": "Package"
+        },
+        {
+          "title": "Sales and Customer Relationship Management",
+          "description": "Customer Profiles: Maintain detailed customer profiles, including purchase history and preferences, enabling personalized service. Sales Tracking: Monitor sales performance, analyze trends, and track high-performing products for informed decision-making.",
+          "icon": "Users"
+        },
+        {
+          "title": "Point of Sale (POS)",
+          "description": "Efficient Transactions: Simplify sales processes with a user-friendly POS system designed specifically for jewellery sales. Customizable Invoicing: Generate invoices with ease, including options for custom discounts and payment plans.",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Repair and Customization Tracking",
+          "description": "Repair Management: Track jewellery sent for repair, schedule repair work, and manage communications with customers regarding repair status. Custom Orders: Manage custom jewellery orders, from design to delivery, ensuring customer specifications are met.",
+          "icon": "Tool"
+        },
+        {
+          "title": "Security and Authentication",
+          "description": "Authentication Protocols: Implement security measures to ensure the authenticity of high-value items and protect against fraud. Access Controls: Set user permissions and access levels to safeguard sensitive information.",
+          "icon": "Shield"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Why Choose Us?",
+      "items": [
+        "Industry-Specific Focus: Tailored specifically for jewellery businesses, addressing the unique intricacies and challenges of the industry.",
+        "Ease of Use and Adaptability: Intuitive interface and customizable features ensure easy adaptation for your unique business needs.",
+        "Dedicated Support: Receive ongoing support and training to maximize the software's potential and your operational efficiency."
+      ]
+    }
+  ]
+}

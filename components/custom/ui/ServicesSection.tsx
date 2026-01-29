@@ -7,11 +7,13 @@ import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import ServiceImg from "@/public/images/service-1.webp";
 import { motion, useScroll, useTransform } from "motion/react";
-import { FEATURED_SERVICES_LIMIT, SERVICES } from "@/lib/data";
+import { FEATURED_SERVICES_LIMIT } from "@/lib/DB/CONST";
+import { loadServices } from "@/lib/loadServices";
 
 export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
   const sectionRef = useRef<HTMLDivElement>(null);
+  const SERVICES = loadServices();
   // Track scroll within the section
   const { scrollYProgress } = useScroll({
     target: sectionRef,

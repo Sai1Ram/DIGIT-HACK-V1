@@ -1,0 +1,79 @@
+{
+  "slug": "school-management",
+  "title": "School Management Software",
+  "meta": {
+    "title": "School Management Software | Student Information System & Fee Management in India",
+    "description": "Complete school management system for student admissions, attendance, fee collection, timetable, library, and parent-teacher communication. Cloud-based ERP for schools and educational institutions."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DigIT-Hack School Management Software",
+    "subLine": "Revolutionize the way your Institution Operates! DigIT-Hack is designed and crafted by experienced educators and is known for its non-compromised support and transparent pricing. We meet all the needs to manage an Institution!"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Revolutionize the way your Institution Operates!",
+      "content": "DigIT-Hack is designed and crafted by experienced educators and is known for its non-compromised support and transparent pricing. We meet all the needs to manage an Institution!"
+    },
+    {
+      "type": "features",
+      "items": [
+        {
+          "title": "Student Information Management",
+          "description": "Student Profiles: Store student details like name, contact information, emergency contacts, etc. Admissions: Manage admission processes, including registration, documentation, and fee payments. Attendance: Track student attendance, generate reports, and notify parents about absences.",
+          "icon": "User"
+        },
+        {
+          "title": "Academic Management",
+          "description": "Curriculum Planning: Plan and manage the school curriculum, syllabus, and lesson schedules. Grading and Assessments: Record grades, conduct assessments, and generate report cards. Timetable Management: Create and manage class schedules and teacher timetables.",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "Teacher and Staff Management",
+          "description": "Teacher Profiles: Store teacher details, qualifications, and contact information. Attendance and Leave Management: Track teacher attendance, manage leave requests, and schedules. Performance Evaluation: Conduct performance reviews and appraisals for staff.",
+          "icon": "Users"
+        },
+        {
+          "title": "Fee and Financial Management",
+          "description": "Fee Collection And Management: Can easily track and manage student fees, generate detailed fee structures, and receive automated notifications for upcoming payments. Real-time updates on fee statuses, enabling timely communication between parents, students, and school administrators. Financial Reports: Generate financial reports, including income, expenses, and balance sheets.",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "Library Management",
+          "description": "Catalog and Inventory: Maintain a catalog of books, manage inventory, and track lending. Book Issuing and Returning: Handle book borrowing, returning, and reservation processes.",
+          "icon": "Library"
+        },
+        {
+          "title": "Communication and Collaboration",
+          "description": "Parent-Teacher Communication: Facilitate communication between teachers and parents through messaging or notifications. Announcements and Notices: Send out school-wide announcements, event notifications, and important notices. Collaboration Tools: Provide platforms for collaboration among teachers, students, and parents.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Extracurricular Activities and Events",
+          "description": "Event Management: Plan, schedule, and manage school events, competitions, and extracurricular activities. Sports Management: Manage sports teams, schedules, and track achievements.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Transportation Management",
+          "description": "Route Planning: Manage bus routes, stops, and schedules. Vehicle and Driver Information: Maintain information about vehicles, drivers, and their schedules.",
+          "icon": "Bus"
+        },
+        {
+          "title": "Late Fee Alerts",
+          "description": "Automatically notify parents/students about impending or overdue fee payments, ensuring timely payments and adherence to school fee policies.",
+          "icon": "Bell"
+        },
+        {
+          "title": "Analytics",
+          "description": "Generate all types of reports, starting from administration to the entire parent-student management setup, which includes inquiry reports, admission stats, financial reports, etc.",
+          "icon": "BarChart"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "We can customize as per the requirements and surely can meet all the needs to make the schooling easier from both business and parents/students perspective."
+    }
+  ]
+}

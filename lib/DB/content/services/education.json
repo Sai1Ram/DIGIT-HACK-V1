@@ -1,0 +1,387 @@
+{
+    "slug": "education",
+    "title": "School Management Software",
+    "meta": {
+        "title": "School Management Software | Education ERP & Student Information Systems in India",
+        "description": "Custom school management system for K-12, colleges & coaching institutes. Attendance, fee management, online classes & parent app. Trusted by 150+ schools across India."
+    },
+    "hero": {
+        "headline": "Complete School Management Solutions for Digital-Age Education",
+        "subLine": "Transform your educational institution with comprehensive software that simplifies administration, enhances learning, and strengthens parent-teacher collaboration."
+    },
+    "image": "/images/service-1.webp",
+    "products": [
+        { "name": "School Management System", "slug": "school-management" }
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "title": "Custom School Management Software Development Company in India",
+            "content": "DigITHack delivers comprehensive school management systems designed specifically for Indian educational institutions. From CBSE schools in Delhi to state board schools in rural Maharashtra, coaching institutes in Kota to international schools in Bangalore, our education ERP helps you eliminate paperwork, automate administrative tasks, and focus on what matters most—quality education. We build scalable solutions that handle everything from student admissions to alumni management, bringing complete digital transformation to schools, colleges, and training centers across India."
+        },
+        {
+            "type": "stats",
+            "title": "Empowering Educational Institutions Nationwide",
+            "items": [
+                {
+                    "value": "150+",
+                    "label": "Schools & Institutes Digitized"
+                },
+                {
+                    "value": "75,000+",
+                    "label": "Students Managed Daily"
+                },
+                {
+                    "value": "80%",
+                    "label": "Reduction in Admin Workload"
+                },
+                {
+                    "value": "95%",
+                    "label": "Parent Satisfaction Rate"
+                }
+            ]
+        },
+        {
+            "type": "features",
+            "title": "Comprehensive School Management Modules",
+            "items": [
+                {
+                    "title": "Student Information System (SIS)",
+                    "description": "Complete student lifecycle management from inquiry and admission to graduation. Maintain detailed student profiles with academic records, attendance history, medical information, documents, disciplinary records, and achievements. Generate admission forms, transfer certificates, and character certificates instantly.",
+                    "icon": "user-graduate"
+                },
+                {
+                    "title": "Fee Management & Accounting",
+                    "description": "Streamline fee collection with multiple payment modes, installment plans, sibling discounts, scholarship management, fine calculations for late payments, automatic receipt generation, SMS/email reminders, online payment gateway integration, and comprehensive accounting with ledger, day book, and balance sheet reports.",
+                    "icon": "rupee"
+                },
+                {
+                    "title": "Attendance & Biometric Integration",
+                    "description": "Digital attendance management for students and staff with biometric device integration, RFID card scanning, mobile app marking, period-wise attendance, daily SMS to parents, late arrival tracking, leave applications with approval workflow, and automated attendance reports for academic analysis.",
+                    "icon": "calendar-check"
+                },
+                {
+                    "title": "Examination & Report Card Management",
+                    "description": "Complete exam management with schedule creation, hall ticket generation, marks entry with validation, grade calculation, rank generation, progress reports, comparison analytics, online result publishing, and customizable report card templates supporting CBSE, ICSE, state boards, and internal assessment patterns.",
+                    "icon": "clipboard-list"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "title": "Core School Management Features",
+            "items": [
+                "Online admission portal with application tracking and document upload",
+                "Timetable management with teacher availability, room allocation, and period substitution",
+                "Library management with book cataloging, issue/return, fine calculation, and barcode scanning",
+                "Transport management with route planning, vehicle tracking, GPS integration, and driver details",
+                "Hostel management with room allocation, mess menu, attendance, and visitor logs",
+                "Staff management with payroll, leave, performance appraisal, and document repository",
+                "Inventory management for school assets, stationery, uniforms, and lab equipment",
+                "Communication hub with SMS, email, WhatsApp, push notifications to parents and staff",
+                "Online assignment submission, homework tracking, and student performance analytics",
+                "Parent portal and mobile app for fee payment, attendance view, results, and communication"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Why Educational Institutions Choose DigITHack",
+            "content": "As a leading custom software development company in India, we understand the diverse needs of Indian education system—CBSE, ICSE, state boards, NIOS, international curricula, vocational training, and competitive exam coaching. Our school management software is built for Indian context with features like RTE quota management, EWS category handling, caste certificate verification, Aadhaar integration, scholarship schemes (PM-YASASVI, NSP), and compliance with NCPCR guidelines. We've helped schools in Mumbai, Delhi, Bangalore, Hyderabad, Pune, Jaipur, and across India transition from register-based systems to complete digital operations, saving 20+ administrative hours per week."
+        },
+        {
+            "type": "features",
+            "title": "Solutions for Different Educational Institutions",
+            "items": [
+                {
+                    "title": "K-12 Schools (CBSE, ICSE, State Boards)",
+                    "description": "Comprehensive ERP for primary, middle, and high schools with age-appropriate features, parent-teacher communication, co-curricular activity tracking, sports management, CCE (Continuous and Comprehensive Evaluation), report cards, and DISE (District Information System for Education) report generation.",
+                    "icon": "school"
+                },
+                {
+                    "title": "Colleges & Universities",
+                    "description": "Higher education ERP with semester system, choice-based credit system (CBCS), elective management, internal assessment, placement cell, alumni management, research publication tracking, NAAC/NBA accreditation documentation, and student grievance portal.",
+                    "icon": "university"
+                },
+                {
+                    "title": "Coaching Institutes & Tuition Centers",
+                    "description": "Batch management, course enrollment, test series with online exams, doubt clearing portal, video lecture library, student performance comparison, rank predictor, fee installments, and study material distribution. Perfect for JEE, NEET, CA, UPSC, and competitive exam coaching.",
+                    "icon": "book-open"
+                },
+                {
+                    "title": "Preschools & Play Schools",
+                    "description": "Simplified interface for early childhood education with photo sharing, activity updates, meal tracking, nap time logging, milestone recording, parent feedback, immunization reminders, and colorful report cards. Child-safe check-in/check-out with parent verification.",
+                    "icon": "baby"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Parent Engagement Platform",
+            "content": "Bridge the communication gap between school and parents with dedicated parent portal and mobile app. Parents receive real-time attendance notifications, view academic performance, access exam results, pay fees online, track transport with GPS, communicate with teachers, receive homework and assignment updates, view school circulars and events, book parent-teacher meetings, and download fee receipts. Push notifications keep parents informed about everything from fee due dates to sports day schedules. This transparency increases parent satisfaction by 95% and reduces phone calls to school office by 70%."
+        },
+        {
+            "type": "features",
+            "title": "Academic Management Tools",
+            "items": [
+                {
+                    "title": "Lesson Planning & Curriculum Mapping",
+                    "description": "Teachers create detailed lesson plans aligned with curriculum objectives, map topics to learning outcomes, track syllabus completion percentage, share teaching resources, and maintain subject diaries. Principals monitor teaching progress across all classes and subjects.",
+                    "icon": "book"
+                },
+                {
+                    "title": "Assignment & Homework Management",
+                    "description": "Teachers assign homework with submission deadlines, students upload assignments via app or web portal, automatic plagiarism check, online grading and feedback, parent notification of pending homework, and analytics on submission rates and student performance.",
+                    "icon": "pencil"
+                },
+                {
+                    "title": "Online Classes & E-Learning",
+                    "description": "Integrated video conferencing (Zoom, Google Meet), recorded lecture library, quiz and assessment tools, interactive whiteboard, screen sharing, attendance in online classes, breakout rooms for group activities, and learning management system (LMS) for course materials.",
+                    "icon": "video"
+                },
+                {
+                    "title": "Student Behavior & Discipline Tracking",
+                    "description": "Record positive behavior, achievements, and awards alongside disciplinary incidents, warning letters, and corrective actions. Track behavioral patterns, generate conduct certificates, and maintain counselor notes for holistic student development monitoring.",
+                    "icon": "award"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "title": "Transport & School Bus Management",
+            "items": [
+                "Route planning with stop-wise student allocation and pickup/drop times",
+                "Real-time GPS tracking of all school buses on map",
+                "Driver and conductor details with license verification and background checks",
+                "Vehicle maintenance schedule with service reminders and expense tracking",
+                "Student RFID card-based bus boarding/deboarding tracking",
+                "Parents receive notifications when child boards and alights the bus",
+                "Route-wise fee calculation with different zones and distances",
+                "Emergency contact system for breakdown or delay situations",
+                "Fuel consumption monitoring and route optimization for cost savings",
+                "Compliance with school transport safety regulations"
+            ]
+        },
+        {
+            "type": "stats",
+            "title": "Measurable Impact on School Operations",
+            "items": [
+                {
+                    "value": "90%",
+                    "label": "Paperwork Reduction"
+                },
+                {
+                    "value": "50%",
+                    "label": "Faster Fee Collection"
+                },
+                {
+                    "value": "100%",
+                    "label": "Attendance Accuracy"
+                },
+                {
+                    "value": "70%",
+                    "label": "Reduction in Admin Queries"
+                }
+            ]
+        },
+        {
+            "type": "features",
+            "title": "Library Management System",
+            "items": [
+                {
+                    "title": "Digital Book Catalog",
+                    "description": "Maintain complete library inventory with book details, ISBN, author, publisher, edition, categories, shelf location, and availability status. Support for multiple book copies, reference books, magazines, and digital resources with search functionality.",
+                    "icon": "library"
+                },
+                {
+                    "title": "Issue & Return Management",
+                    "description": "Quick book issue with barcode scanning, student card verification, due date calculation, renewal requests, reservation for borrowed books, automatic fine calculation for late returns, and issue history tracking for students and books.",
+                    "icon": "book-bookmark"
+                },
+                {
+                    "title": "Library Analytics",
+                    "description": "Popular book reports, student reading patterns, most active readers, overdue book alerts, stock audit reports, book loss and damage tracking, budget utilization, and recommendations for new book purchases based on reading trends.",
+                    "icon": "chart-bar"
+                },
+                {
+                    "title": "Digital Library Integration",
+                    "description": "Links to e-books, online journals, educational videos, research databases, and digital resources. Students access curated online content through school portal with usage tracking for subscription management.",
+                    "icon": "tablet"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Staff & HR Management Module",
+            "content": "Manage your entire teaching and non-teaching staff efficiently. Maintain detailed employee profiles with qualifications, experience, documents (Aadhaar, PAN, certificates), and emergency contacts. Handle recruitment, onboarding, probation tracking, confirmation letters, and exit formalities. Automated payroll processing with salary components, PF/ESI deductions, TDS calculations, salary slips, and bank payment files. Leave management with different leave types (casual, medical, maternity), balance tracking, and approval workflows. Staff attendance with biometric integration, shift management for bus drivers and security, and performance appraisal system for teacher evaluation."
+        },
+        {
+            "type": "features",
+            "title": "Examination & Assessment Features",
+            "items": [
+                {
+                    "title": "Exam Schedule & Hall Ticket",
+                    "description": "Create exam timetables with date, time, subject, and duration. Assign invigilators, allocate exam halls, generate seating arrangements preventing cheating patterns, print hall tickets with student photo and instructions, and send exam schedules to students and parents.",
+                    "icon": "calendar-days"
+                },
+                {
+                    "title": "Marks Entry & Grade Calculation",
+                    "description": "Subject teachers enter marks with validation rules, principals verify and lock marks, system calculates grades based on defined slabs, computes percentages and cumulative GPA, generates rank lists, and identifies toppers for each subject and overall performance.",
+                    "icon": "calculator"
+                },
+                {
+                    "title": "Report Card Generation",
+                    "description": "Customizable report card templates supporting various formats—CBSE 9-point grading, ICSE percentage system, state board marks, CCE, and skill-based assessment. Include attendance, co-curricular activities, remarks, and graphs. Bulk print or email to parents.",
+                    "icon": "file-certificate"
+                },
+                {
+                    "title": "Online Examination Portal",
+                    "description": "Conduct online tests and quizzes with multiple question types (MCQ, true/false, fill-in-blanks, descriptive), random question paper generation, auto-grading for objective questions, timer and proctoring features, instant result publishing, and question bank management for reuse.",
+                    "icon": "laptop"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "title": "Communication & Notification System",
+            "items": [
+                "Automated daily attendance SMS to parents with present/absent status",
+                "Fee due reminders via SMS, email, and WhatsApp with payment links",
+                "Exam schedule, result announcements, and rank notifications",
+                "School circular and event announcements with read receipts",
+                "Birthday wishes for students with parent notification",
+                "Transport delay or route change emergency alerts",
+                "Holiday announcements and academic calendar updates",
+                "Individual messaging between teachers and parents for discussions",
+                "Bulk SMS for PTM invitations, admission notifications, and campaigns",
+                "Push notifications through mobile app for instant delivery"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Compliance & Reporting for Regulatory Bodies",
+            "content": "Generate all mandatory reports required by education departments and regulatory authorities. DISE (District Information System for Education) reports for government schools, UDISE+ data upload, RTE (Right to Education) compliance documentation, student enrollment statistics, teacher qualification reports, infrastructure details, mid-day meal beneficiary data, scholarship beneficiary lists, TC (Transfer Certificate) and migration certificate registers, and annual audit reports. Support for state education department formats and online portal data submission. Automated report generation saves days of manual work during inspection and accreditation periods."
+        },
+        {
+            "type": "features",
+            "title": "Advanced Analytics & Decision Support",
+            "items": [
+                {
+                    "title": "Academic Performance Analytics",
+                    "description": "Subject-wise performance trends, class-wise average comparisons, student improvement tracking over terms, weak area identification, teacher effectiveness analysis, pass percentage and grade distribution, and board exam result predictions based on internal assessments.",
+                    "icon": "trending-up"
+                },
+                {
+                    "title": "Financial Analytics & Budgeting",
+                    "description": "Fee collection trends, outstanding fee reports with aging analysis, income vs expense tracking, department-wise budget allocation and utilization, profitability analysis for different programs, and financial forecasting for planning next academic year.",
+                    "icon": "wallet"
+                },
+                {
+                    "title": "Student Retention & Enrollment Insights",
+                    "description": "Admission inquiry conversion rates, dropout pattern analysis with reasons, student retention by cohort, demographic analysis of student population, sibling and referral tracking, and enrollment forecasting for capacity planning and resource allocation.",
+                    "icon": "users"
+                },
+                {
+                    "title": "Custom Dashboards for Management",
+                    "description": "Real-time KPIs for principal/management: daily fee collection, attendance percentage, pending fee amount, upcoming events, staff on leave, transport status, and key alerts. Configurable widgets showing metrics that matter to your decision-making process.",
+                    "icon": "dashboard"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Mobile Apps for Complete Accessibility",
+            "content": "Comprehensive mobile experience with separate apps for different user roles. Parent app shows child's attendance, performance, fee dues, transport location, homework, and enables communication with teachers. Teacher app allows attendance marking, assignment creation, marks entry, and parent messaging. Student app (for higher classes) provides timetable, homework, assignments, results, and e-library access. Principal/admin app offers dashboard, approvals, reports, and announcements. All apps work on Android and iOS with offline capabilities for areas with poor connectivity. Data syncs automatically when internet is available."
+        },
+        {
+            "type": "list",
+            "title": "Integration Capabilities",
+            "items": [
+                "Biometric attendance devices (fingerprint, face recognition, RFID cards)",
+                "Payment gateways (Razorpay, PayU, Paytm, Instamojo) for online fee collection",
+                "SMS gateways for automated notifications and communication",
+                "WhatsApp Business API for rich message delivery and updates",
+                "Google Workspace / Microsoft 365 for email and online class integration",
+                "Accounting software (Tally) for financial data synchronization",
+                "GPS tracking systems for school bus monitoring",
+                "Government portals for DISE, scholarship, and compliance reporting",
+                "Barcode scanners for library book issue/return",
+                "CCTV systems for security and attendance verification"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Security, Privacy & Data Protection",
+            "content": "Student data security is paramount. Our school management system implements role-based access control ensuring teachers see only their subjects/classes, parents see only their children's data, and unauthorized access is prevented. All data is encrypted during transmission and storage using bank-grade security protocols. Regular automated backups protect against data loss, stored in multiple locations for disaster recovery. Audit logs track all user actions for accountability. Compliance with child data protection guidelines, parental consent management for photo/video sharing, and secure document storage with controlled access. Hosted on Indian servers with 99.9% uptime guarantee and 24/7 monitoring."
+        },
+        {
+            "type": "list",
+            "title": "Implementation & Training Process",
+            "items": [
+                "School visit and requirement analysis: understand processes and customization needs (Week 1-2)",
+                "Data migration: import existing student, staff, and fee data from old system (Week 3-4)",
+                "System configuration: setup academic year, classes, sections, fee structure, timetable (Week 5)",
+                "Role-wise training: separate sessions for admin, teachers, accountants, librarians (Week 6-7)",
+                "Parent orientation: workshop on using mobile app and portal (Week 7)",
+                "Pilot testing: run parallel with existing system for one month (Week 8-12)",
+                "Go-live: complete transition with on-site support team (Week 13)",
+                "Ongoing support: phone, remote access, and periodic training refreshers"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Cloud-Based with Anytime, Anywhere Access",
+            "content": "Our school management software is completely cloud-based, accessible from any device with internet—computers, tablets, smartphones. Principals can monitor school operations from home, teachers can enter marks while traveling, accountants can generate reports remotely, and parents can pay fees from anywhere. No expensive servers or dedicated IT staff needed. We handle all infrastructure, security updates, feature additions, and maintenance. Automatic software updates ensure you always have the latest features without reinstallation. Multi-location school groups manage all branches from single dashboard with consolidated reporting. Scale effortlessly—add more students, classes, or branches without infrastructure worries."
+        },
+        {
+            "type": "cta",
+            "title": "Ready to Digitize Your Educational Institution?",
+            "description": "Join 150+ schools and colleges transforming education with DigITHack. Get a free demo customized for your institution type and size.",
+            "button": {
+                "label": "Schedule Free Demo",
+                "href": "/contact"
+            }
+        }
+    ],
+    "FAQs": [
+        {
+            "question": "How much does school management software cost for our institution?",
+            "answer": "School management software pricing depends on student strength and features. For small schools (up to 500 students), basic system costs ₹1.5-3 lakhs one-time setup plus ₹15,000-25,000/year subscription. Mid-sized schools (500-1500 students) need ₹3-6 lakhs setup plus ₹30,000-60,000/year. Large schools and colleges (1500+ students) require ₹6-12 lakhs setup plus ₹60,000-1.5 lakhs/year. Prices include all modules (admission, fee, attendance, exams, parent app), implementation, data migration, and training. Additional modules like transport GPS tracking, biometric integration, and online examination portal cost extra. We offer customized quotes after understanding your specific requirements and student count."
+        },
+        {
+            "question": "Can parents track their child's attendance, performance, and fee status?",
+            "answer": "Yes, absolutely. Parents get dedicated mobile app (Android & iOS) and web portal with real-time access to their child's information. They receive daily attendance notifications via SMS, view complete attendance history with percentage, check exam marks and report cards instantly when results are published, track pending fee dues with payment history, pay fees online via UPI/cards/wallets, view and download fee receipts, see homework and assignments, track school bus location in real-time, communicate with teachers, view school circulars and event notifications. This transparency increases parent engagement and reduces 70% of phone calls to school office asking for basic information."
+        },
+        {
+            "question": "Does the system support CBSE, ICSE, state board, and other curricula?",
+            "answer": "Yes, our school management software is highly flexible and supports all educational boards and curricula in India—CBSE with 9-point grading and CCE assessment, ICSE with percentage system, all state boards (Maharashtra, Karnataka, Tamil Nadu, etc.), NIOS, IB (International Baccalaureate), IGCSE, and internal assessment patterns for colleges and universities. Report card formats are completely customizable to match your board requirements. We also support semester systems, trimester divisions, choice-based credit systems (CBCS) for colleges, and continuous evaluation methods. The system adapts to your academic structure, not the other way around."
+        },
+        {
+            "question": "How long does it take to implement the school management system?",
+            "answer": "Implementation timeline varies by school size and data volume. Small schools (under 500 students) can be live in 6-8 weeks including setup, data migration, and training. Medium schools (500-1500 students) need 8-12 weeks for complete rollout. Large institutions (1500+ students or colleges) require 12-16 weeks with phased module deployment. The process includes: requirement analysis, system configuration, existing data import (students, staff, fee history), customization, role-wise staff training, parent orientation, and pilot testing. We recommend starting implementation during vacation periods for smooth transition. On-site support is provided during initial weeks to ensure confident adoption."
+        },
+        {
+            "question": "Can we integrate biometric attendance devices and GPS bus tracking systems?",
+            "answer": "Yes, we integrate with all major hardware systems. For attendance: biometric fingerprint devices (eSSL, ZKTeco, Realtime, Mantra, Suprema), face recognition systems, RFID card readers, and mobile app-based attendance with GPS verification. Student and staff attendance automatically syncs with the software, generates reports, and triggers parent notifications. For transport: GPS tracking devices from any manufacturer integrate with our system showing real-time bus locations on map, route history, speed monitoring, geofence alerts, and automated parent notifications when child boards/alights. We handle complete integration setup—you don't need technical expertise."
+        },
+        {
+            "question": "Is student and financial data secure and backed up regularly?",
+            "answer": "Security and data protection are our highest priorities. We implement: role-based access control (teachers see only their classes, parents see only their children), 256-bit SSL encryption for all data transmission, secure cloud hosting on AWS/Azure India servers, daily automated backups stored in multiple geographic locations, audit logs tracking all user actions for accountability, two-factor authentication option for admin access, and compliance with child data protection guidelines. You can export complete database anytime—no vendor lock-in. In case of any disaster, we can restore your data within hours. 99.9% uptime guarantee ensures your school operations never stop."
+        },
+        {
+            "question": "Do you provide training for school staff and ongoing technical support?",
+            "answer": "Yes, comprehensive training and support are included. We provide role-specific training: administrators learn complete system management, teachers learn attendance marking and marks entry, accountants learn fee collection and reporting, librarians learn book issue system, and transport coordinators learn vehicle tracking. Training is hands-on with practice sessions, user manuals, and video tutorials. For parents, we conduct orientation workshops or send tutorial videos. Post-implementation, we offer unlimited technical support via phone (9 AM - 6 PM), WhatsApp, email, and remote desktop access. Free support for first year including bug fixes and doubt resolution. AMC available at ₹15,000-1 lakh/year based on school size."
+        },
+        {
+            "question": "Can we generate TC, bonafide, character certificates, and other school documents?",
+            "answer": "Yes, automated document generation is a core feature. The system generates: Transfer Certificates (TC) with complete student history, bonafide certificates for various purposes, character certificates with principal's digital signature, leaving certificates, migration certificates, mark sheets and grade sheets, fee payment receipts, no-dues certificates for TC cases, admission forms pre-filled with student data, ID cards with photos and barcodes, hall tickets for exams, and custom certificates for achievements/participation. All documents use your school letterhead, support multiple templates, can be previewed before printing, and maintain numbering sequences. Saves hours of manual typing and ensures error-free documentation."
+        },
+        {
+            "question": "Can the software handle multiple branches or school groups?",
+            "answer": "Yes, our school ERP supports multi-branch management from single centralized dashboard. Perfect for: school chains with branches in different cities, trust-run institutions with multiple schools, school groups managing primary, secondary, and college separately, and franchisees operating in various locations. Features include: branch-wise data segregation with controlled access (branch principals see only their branch, group management sees all), consolidated reporting across all branches, unified student/staff database with inter-branch transfers, centralized fee collection tracking, group-wide circular broadcasts, and standardized academic calendars. Each branch can have customizations (different fee structures, local holidays) while maintaining group-level consistency."
+        },
+        {
+            "question": "What reports does the school management system provide?",
+            "answer": "Comprehensive reporting across all modules: student reports (admission register, attendance summary, performance trends, pending fee defaulters, TC register), academic reports (class-wise results, subject analysis, topper lists, exam schedules), financial reports (daily fee collection, outstanding dues with aging, income-expense statement, head-wise collection, cashbook, ledger), staff reports (attendance, leave balance, salary register, qualification summary), transport reports (route-wise students, vehicle maintenance, fuel consumption), library reports (popular books, overdue books, student reading patterns), compliance reports (DISE, UDISE+, scholarship beneficiaries, RTE quota), and custom reports as per your needs. All exportable to Excel/PDF, schedulable for automatic email delivery."
+        }
+    ]
+}

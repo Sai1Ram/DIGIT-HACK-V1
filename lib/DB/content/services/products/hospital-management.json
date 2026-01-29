@@ -1,0 +1,132 @@
+{
+  "slug": "integrated-hospital-management",
+  "title": "Integrated Hospital Management Software",
+  "meta": {
+    "title": "Hospital Management Software (HMS) | OPD, IPD, Billing, Pharmacy, Lab & 450+ Reports | DigIT-Hack",
+    "description": "DigIT-Hack Integrated Hospital Management Software (HMS) streamlines hospital operations with OPD/IPD, appointments, billing, lab, radiology, pharmacy, nursing, OT, discharge, HR, ambulance, SMS, inventory, cashless TPA and 450+ integrated reports."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DigIT-Hack Integrated Hospital Management Software",
+    "subLine": "To provide an integrated solution for hospitals that helps in efficient management, enhances patient care, improves work efficiency and fiscal control, eliminates pilferage chances, and enables hospital growth."
+  },
+  "blocks": [
+    {
+      "type": "list",
+      "title": "Objective",
+      "items": [
+        "Helps in Efficient Management of the Hospital.",
+        "Enhance Patient Care",
+        "Improve work efficiency",
+        "Improve Fiscal Control",
+        "Eliminate the chances of any Pilferage",
+        "Enable the Growth of the Hospital."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "What you need",
+      "items": [
+        "Be fully informed about the Vital Stats of the Hospital.",
+        "Lesser dependency on middle & Lower Management. Full control on the staff.",
+        "Take corrective actions based on the data instantly.",
+        "Helps you to Plan any future activity.",
+        "Ultimate Aim – Better Patient Care with Efficiency."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "DigIT-Hack Integrated Hospital Management Features",
+      "content": "DigIT-Hack streamlines and integrate the operation processes and information flow in the hospital to synergize the resources namely men, material, money and equipment’s through information. This ERP facilitates hospital-wide Integrated Information System covering all functional areas like out & in Patients Billing & Management, Patient Beds, Visiting Consultants, Medical Stores, Pathology Laboratories, Radiology Laboratories, Imaging, Pharmacy, Manpower Management, Kitchen and Laundry Services etc. It performs core hospital activities and increases customer service thereby augmenting the overall Hospital Image. ERP bridges the information gap across the hospital. DigIT-Hack eliminates the most of the business problems like Material shortages, Productivity enhancements, Customer service, Cash Management, Inventory problems, Quality problems, Prompt delivery, Pilferage, TPA Billing etc."
+    },
+    {
+      "type": "features",
+      "title": "Key Feature",
+      "items": [
+        {
+          "title": "Fully Integrated HIS",
+          "description": "DigIT-Hack is a fully-integrated, Hospital Information System Solution."
+        },
+        {
+          "title": "Total Integration Across Departments",
+          "description": "DigIT-Hack Software gives a total integration of order entry systems, administrative system, and departmental subsystems within a hospital."
+        },
+        {
+          "title": "Scalable & Reliable",
+          "description": "DigIT-Hack Software allows for scalability, reliability, efficient data processing, quick decision making, reduced maintenance and overheads."
+        },
+        {
+          "title": "Single Central Database",
+          "description": "DigIT-Hack Software data is stored in a single database providing real time data across applications throughout the hospital."
+        },
+        {
+          "title": "Multi-Terminal Access",
+          "description": "Data can be viewed simultaneously from multiple terminals giving all departments’ access to timely, up-to-date patient information."
+        },
+        {
+          "title": "Fool Proof Data Security",
+          "description": "DigIT-Hack Software offers a fool proof data security without user intervention to archive data."
+        },
+        {
+          "title": "Comprehensive Hospital Information Processing",
+          "description": "DigIT-Hack Software is a comprehensive information system dealing with all aspects of information processing in a hospital."
+        },
+        {
+          "title": "Medical Informatics Support",
+          "description": "The aim of DigIT-Hack Software Plus is to achieve the best possible support of patient care and administration by electronic data processing."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Modules",
+      "items": [
+        "Home & Update (Total OPD, IPD, Appointment, Bed Occupancy, Head Wise Collection Summary, Admin Dash board)",
+        "Appointments (Direct, Website, Telephone, Online)",
+        "Pt. Registration (OPD/IPD/ Follow-Ups/ Revisit)",
+        "Token Screen (Doctor Wise, Vitals Entry,)",
+        "Doctor Prescription (Multi-Specialty i.e. - General Medicine, Gyneac & Obst, Ophthalmology, Dentist, ENT, Diabetes, Paediatrician, Psychiatric)",
+        "Tele Medicine & Video Conferencing System with payment Gateway Connected.",
+        "Day Care & OPD Billing (All Services like- Lab, Doctor Fee, Hospital Service, Radiology etc.)",
+        "Laboratory (Sampling, Report, Billing, Inventory)",
+        "Radiology (All Service Head, X-Ray, USG, MRI, CT scan, ECG etc.)",
+        "Medical Sales (New Patient, OPD & IPD Patient, Corporate Patient Billing, returns, day collection, closing stock, counter wise stock)",
+        "IPD Files (Admission, Consent, Vitals Charts, Medication, Progress Charts etc.)",
+        "IPD Dr. Note (RMO/Dr. Advises Treatment, Nursing Follow-Ups)",
+        "Nursing Station (Equipment, Lab-Investigation, Radiology, Medicine, Dr. Visit, Ward Transferring Blood Transfusion, Tubectomy, Copper-T, Birth & Delivery Entry, Death Entry, Inventory, Diet Planning, Canteen Order, CSSD, Bio Medical Waste )",
+        "Operation Theatre (OT Planning & Schedule Manager, Pre-Operative Note, Post-Operative Notes, Images & Video of OT for research purpose)",
+        "Discharge Summary (ICD -10 with 67 Thousand Diagnoses with Who Compliance)",
+        "IPD Billing (Corporate Bills, Package, Discount, Advance, Gate Pass, Provisional & Final Bills, Details Bills with Head wise etc.)",
+        "Diabetes (Tele Medicine System Investigation, & Medicine records, Patient Education, Diet Plan)",
+        "Vaccination (Vaccine Reminder for Baby Patient)",
+        "Financial Report (OPD & IPD Collection, Account Summary, Day Collection Hand Over, Corporate Payment Reminder Sheet)",
+        "Integrated Reports (Head wise, Patient wise, monthly collection, balance sheet, Hospital Data Sheet more then 450+ reports)",
+        "Records (Non-Financial Records required for Govt. & Other purpose like- birth register, death register, PCPNDT data, Admission & Discharge Register etc. 50+)",
+        "Expenditure (General Expense, Party Purchase, Accounting system for Hospitals)",
+        "Referral Management (Share & Incentives of Referral, In-house & On Call Doctors)",
+        "Master (for create, edit, delete all required master data for Hospitals, Doctor, Lab, radiology, TPA Panel, Package, Royalty Card etc.)",
+        "Settings (Ward, Bed, Room Tariff, Discharge Summary templates)",
+        "Human Recourse (Hospital Employee Profile, Attendance, Payroll, Salary, Progress chart, Leave Management, Duty Roster)",
+        "Ambulance (Driver, Ambulance, Patient Booking System, Log-book Manager)",
+        "SMS (Bulk SMS, Auto SMS Reminder to Patient, Doctor, Staff)",
+        "Policy/ Complaints (Patient/ Staff internal Complaints related to Hospital service, staff behaviour or any kind of legal issue management)",
+        "Pharmacy (Purchase, Returns, Inventory, Dept. Supply, GSTIN Statement (Sales & Purchase both) Short Stock, Expiry, Item Master etc.)",
+        "Inventory (Hospital Laundry, Assets, & Consumable & Non-Consumable Item, Inter Dept. Supply Management, Stock, Request Management, AMC Balance sheet, etc.)",
+        "Patient Document / Patient EMR (Patient Profiles ,All Bills, Visit Entry, Lab & radiology reports, OT Notes, Discharge Summary, Vitals etc. )",
+        "Certificate (Birth, Medical, death Certificate Systems)",
+        "ICU/Emergency Management (Billing, Patient Records, Quick Treatment Plans)",
+        "Patient Portal (Online Module for Patient Coronation with Hospitals)",
+        "Cashless (TPA/HMO/Medical Aid Management of Billing & Payment Reconciliation)",
+        "Blood Bank (Donor Profile, Consent, Testing of Blood, Component creation, discard, NGO profiles, Patient Profile & Blood Issue, Blood requisition, stock report of blood group & availability tracking )",
+        "Internal SMS (of Hospital staff use only to send files, massages, information related to administration, patient etc.)",
+        "Canteen Management (Diet Issue to patient, sales of outside, billing, stock, Daily Collection of Canteen etc.)",
+        "Bio Medical Waste (Dustbin management, Disposal Process, & Reports Hospital Medical Waste)",
+        "CSSD (Central Sterilize Supply Department)"
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Ready to Streamline Your Hospital Operations? Transform your hospital's efficiency and patient/visitor satisfaction with our management software. Contact us to schedule a demo or discuss how our software can optimize your hospital management!"
+    }
+  ]
+}

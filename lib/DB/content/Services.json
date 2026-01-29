@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "title": "Retail Solutions",
+    "description":
+      "Revolutionize your retail experience with our cutting-edge software solutions, enhancing customer engagement and optimizing operations.",
+    "products": [
+      {
+        "name": "Jewellery Store Management System",
+        "slug": "jewellery-management"
+      },
+      { "name": "Billing Software", "slug": "billing-software" },
+      { "name": "Salon Management System", "slug": "salon-management" },
+      { "name": "Tailoring ERP", "slug": "tailoring-erp" }
+    ],
+    "image": "/api/placeholder/800/600",
+    "icon": "Store",
+    "slug": "retail"
+  },
+  {
+    "id": 2,
+    "title": "Healthcare",
+    "description":
+      "Empower your healthcare practice with our intuitive software, streamlining patient care and administrative tasks effortlessly.",
+    "products": [
+      { "name": "Hospital Management System", "slug": "hospital-management" },
+      { "name": "Mobile Applications for Doctors", "slug": "hospital-management" },
+      { "name": "Billing Solution for Pharmacy", "slug": "hospital-management" }
+    ],
+    "image": "/api/placeholder/800/600",
+    "icon": "Hospital",
+    "slug": "healthcare"
+  },
+  {
+    "id": 3,
+    "title": "Transport",
+    "description":
+      "Optimize your transport operations with our innovative software suite, ensuring efficient logistics and streamlined routes.",
+    "products": [
+      { "name": "Vehicle Tracking System", "slug": "transport-management" },
+      { "name": "Transport Management System", "slug": "transport-management" }
+    ],
+    "image": "/api/placeholder/800/600",
+    "icon": "Truck",
+    "slug": "transport"
+  },
+  {
+    "id": 4,
+    "title": "Workplace Management",
+    "description":
+      "Transform your workplace efficiency with our comprehensive management software, simplifying tasks and boosting productivity.",
+    "products": [
+    {
+            "name": "CA Office",
+            "slug": "ca-office"
+        },
+        {
+            "name": "Advocate Office",
+            "slug": "advocate-office"
+        },
+        {
+            "name": "Hotel Management System",
+            "slug": "hotel-management"
+        },
+        {
+            "name": "Visitor Management System",
+            "slug": "visitor-management"
+        },
+        {
+            "name": "HR/Attendance/Payroll",
+            "slug": "hr-attendance"
+        },
+        {
+            "name": "Gym Management System",
+            "slug": "gym-management"
+        }
+    ],
+    "image": "/api/placeholder/800/600",
+    "icon": "BriefcaseBusiness",
+    "slug": "workplace-management"
+  },
+  {
+    "id": 5,
+    "slug": "food-marketplace",
+    "title": "Food Marketplace",
+    "icon": "Utensils",
+    "description":
+      "Elevate your food business with our marketplace software, connecting you with hungry customers and streamlining transactions.",
+    "products": [
+      {
+        "name": "Restaurant Management System(Including POS)",
+        "slug": "restaurant-management"
+      },
+      { "name": "Application", "slug": "restaurant-management" }
+    ],
+    "image": "/api/placeholder/800/600"
+  },
+
+  {
+    "id": 6,
+    "slug": "education",
+    "title": "Education",
+    "icon": "GraduationCap",
+    "description": "Education industry needs a digital influence to deal with the manual operations. Optimize the user experience and boost the efficiency by implementing all of our features.",
+    "products": [{ "name": "School Management System", "slug": "school-management" }],
+    "image": "/api/placeholder/800/600"
+  },
+
+  {
+    "id": 7,
+    "slug": "digital-marketing",
+    "title": "Digital Marketing",
+    "icon": "Tv",
+    "description":
+      "Maximize your digital presence with our tailored marketing software, driving engagement and boosting brand visibility.",
+    "products": [
+      { "name": "SEO", "slug": "digital-marketing" },
+      { "name": "Social Media Marketing", "slug": "digital-marketing" },
+      { "name": "Content Marketing", "slug": "digital-marketing" },
+      { "name": "Pay/Click", "slug": "digital-marketing" }
+    ],
+    "image": "/api/placeholder/800/600"
+  },
+
+  {
+    "id": 8,
+    "slug": "manufacturing",
+    "title": "Manufacturing",
+    "icon": "Factory",
+    "description":
+      "Redefine manufacturing excellence with our specialized software suite, optimizing processes and ensuring operational efficiency.",
+    "products": [{ "name": "ERP Software", "slug": "ERPSoftware" }],
+    "image": "/api/placeholder/800/600"
+  },
+  {
+    "id": 9,
+    "slug": "web-app",
+    "title": "Website & Application",
+    "icon": "Globe",
+    "description":
+      "Optimize the user experience and expand your reach to a larger audience by having your own dynamic website/application.",
+    "products": [
+      { "name": "Website", "slug": "web-app" },
+      { "name": "Application", "slug": "web-app" }
+    ],
+    "image": "/api/placeholder/800/600"
+  },
+  {
+    "id": 10,
+    "slug": "digital-visiting-card",
+    "title": "Digital Visiting Card",
+    "icon": "BookUser",
+    "description":
+      "Make lasting impressions effortlessly with our digital visiting card solutions, redefining networking in a digital era.",
+    "products": [{ "name": "DigIT-Hack NFC Card", "slug": "visiting-card" }],
+    "image": "/api/placeholder/800/600"
+  }
+]

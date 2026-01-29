@@ -1,0 +1,23 @@
+ [
+  {
+    "quote":
+      "Working with Bexon has been a game-changer for our business. Their professionalism and attention to detail helped us achieve results faster than expected.",
+    "name": "Guy Hawkins",
+    "role": "Sr. Executive",
+    "avatar": "./images/person.webp"
+  },
+  {
+    "quote":
+      "Their innovative solutions streamlined our workflow and made collaboration effortless. We truly felt like a valued partner.",
+    "name": "Wade Warren",
+    "role": "Product Manager",
+    "avatar": "./images/person.webp"
+  },
+  {
+    "quote":
+      "The results we’ve seen after partnering with them exceeded expectations. Highly recommended for growing teams.",
+    "name": "Esther Howard",
+    "role": "Founder",
+    "avatar": "./images/person.webp"
+  }
+]

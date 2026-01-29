@@ -1,0 +1,59 @@
+{
+  "slug": "digital-marketing",
+  "title": "Digital Marketing",
+  "meta": {
+    "title": "Digital Marketing Services | SEO, Social Media & PPC Agency in India",
+    "description": "Complete digital marketing solutions including SEO, social media marketing, content marketing & PPC advertising. Drive organic traffic and ROI with tailored strategies across India."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "Digital Marketing",
+    "subLine": "Welcome to DigIT-Hack, where we empower businesses to thrive in the digital landscape through cutting-edge strategies and tailored solutions. Our comprehensive suite of services is designed to elevate your online presence, engage your audience, and drive tangible results."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "We can make your presence felt by a mass by implementing different techniques!"
+    },
+    {
+      "type": "features",
+      "title":"Our Key Techniques",
+      "items": [
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "description": "Achieve higher visibility and organic traffic with our SEO expertise. We employ industry-leading tactics to optimize your website, enhance its ranking on search engine results pages, and ensure long-term success.",
+          "icon": "Search"
+        },
+        {
+          "title": "Social Media Marketing",
+          "description": "Harness the power of social media platforms to foster meaningful connections with your audience. Our strategic approach to social media marketing helps you create engaging content, build brand loyalty, and drive conversions.",
+          "icon": "Share2"
+        },
+        {
+          "title": "Content Marketing",
+          "description": "Compelling content is at the heart of successful digital campaigns. Our content marketing strategies focus on crafting valuable, relevant, and shareable content that resonates with your target audience, boosting engagement and establishing your brand as an authority in your industry.",
+          "icon": "FileText"
+        },
+        {
+          "title": "Pay-Per-Click (PPC) Advertising",
+          "description": "Maximize your ROI with targeted PPC campaigns. Our data-driven approach ensures that your ads reach the right audience at the right time, driving quality traffic and delivering measurable results.",
+          "icon": "Target"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Why Choose Us?",
+      "items": [
+        "Tailored Strategies: We understand that every business is unique. Our team crafts personalized strategies aligned with your specific goals and needs.",
+        "Expertise and Innovation: Stay ahead in the ever-evolving digital landscape with our team of seasoned experts who are abreast of the latest trends and technologies.",
+        "Transparency and Reporting: We believe in transparent communication. Detailed reports and analytics provide insights into campaign performance, empowering you to make informed decisions."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Ready to Optimize Your Digital Presence?",
+      "content": "Transform your business with streamlined digital marketing strategies and enhanced online presence. Contact us to schedule a demo or discuss how our services can revolutionize your digital marketing!"
+    }
+  ]
+}

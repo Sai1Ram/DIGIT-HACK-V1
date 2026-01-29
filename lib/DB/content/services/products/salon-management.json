@@ -1,0 +1,107 @@
+{
+  "slug": "salon-management",
+  "title": "Salon Management Software",
+  "meta": {
+    "title": "Salon Management Software | Billing, Inventory, CRM & WhatsApp Integration",
+    "description": "DigIT-Hack Salon Management Software helps salons manage billing, inventory, staff access, customer wallet, credit management, loyalty rewards, service reminders and WhatsApp API integration to streamline operations."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DIGITHACK’S SALON MANAGEMENT SOFTWARE",
+    "subLine": "At Digithack, we are dedicated to revolutionizing the way businesses manage their processes. With a commitment to innovation and user-centric solutions, we offer a comprehensive Salon Management software designed to simplify invoicing and streamline operations."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "At Digithack, we are dedicated to revolutionizing the way businesses manage their processes. With a commitment to innovation and user-centric solutions, we offer a comprehensive Salon Management software designed to simplify invoicing and streamline operations."
+    },
+    {
+      "type": "list",
+      "title": "Web Based",
+      "items": [
+        "Our software supports mobile devices such as smartphones and tablets or Laptops.",
+        "This functionality empowers businesses to effortlessly process payments and efficiently manage sales transactions on the move, eliminating the need for dedicated billing counters."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Credit Management",
+      "items": [
+        "Salon software keeping track of how much money your customers owe you and making sure they pay it back on time.",
+        "It also involves deciding how much credit to give to each customer and checking if they can be trusted to pay you back."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Create Staff/ Define User Control",
+      "items": [
+        "The management and regulation of user access and permissions within the application.",
+        "It involves defining and assigning specific roles and privileges to staff members or users based on their responsibilities and requirements"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Service Reminder",
+      "items": [
+        "This feature allows salon owners to automatically send personalized reminders to clients about their upcoming appointments via email, SMS, or WhatsApp. By providing timely notifications, it helps reduce no-shows and ensures clients never miss their scheduled services."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "GST Reports of Sale & Purchase",
+      "items": [
+        "A GST report of sale and purchase is a record that shows all the things a business sold and bought in a certain time, along with the taxes involved. It helps the business follow the rules and calculate the right amount of taxes they owe."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "WhatsApp API Integration with Domain Name",
+      "items": [
+        "Our software’s WhatsApp API Integration with your salon's domain name facilitates seamless communication between your salon and its clients. By integrating WhatsApp into your salon management system, you can send appointment confirmations, reminders, promotional messages, and respond to client inquiries directly through WhatsApp."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Cloud Data Storage",
+      "items": [
+        "Cloud data storage for a billing app means keeping all the important billing information, like invoices and customer details, on the internet instead of on your computer.",
+        "It's like having a virtual safe place for your data that you can access from anywhere with an internet connection."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Generate Bill In One Click",
+      "items": [
+        "Clicking once to create a bill simplifies and accelerates the billing process. It's like a shortcut for billing. It saves time and enhances efficiency, making it a valuable feature for businesses and individuals who need to create invoices quickly and effortlessly."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Track Your Inventory",
+      "items": [
+        "Built-in functionality allows you to track inventory/stock. Auto-update inventory whenever you create an Invoice.",
+        "Notify you about low stock, stock availability and more."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Loyalty and Reward Module with Notifications",
+      "items": [
+        "The Loyalty and Reward Module is an integral part of our Salon Management Software, designed to boost client retention and encourage repeat business. This feature enables salons to create a points-based reward system where clients earn points for each visit or service availed. Points can be redeemed for discounts, free services, or exclusive offers."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Customer Wallet",
+      "items": [
+        "This wallet is associated with a specific customer and holds any credit balances or extra payments they may have made.",
+        "It simplifies financial transactions for both customers and businesses."
+      ]
+    },
+
+    {
+      "type": "text",
+      "content": "Contact us to schedule a demo or discuss how our software can optimize your billing process!"
+    }
+  ]
+}

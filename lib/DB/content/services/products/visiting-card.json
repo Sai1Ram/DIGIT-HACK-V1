@@ -1,0 +1,53 @@
+{
+  "slug": "visiting-card",
+  "title": "NFC Digital Visiting/Business Cards",
+  "meta": {
+    "title": "NFC Digital Visiting Card | Smart Business Card with QR & NFC | DigIT-Hack",
+    "description": "DigIT-Hack NFC Digital Visiting/Business Card lets you share contact details, social links, portfolio and business information instantly with a tap. Works on Android/iOS and supports QR for non-NFC phones."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "NFC Digital Visiting/Business Cards",
+    "subLine": "Introducing DigIT-Hack Card, a revolutionary smart digital visiting cum business card that allows you to exchange contact, collect data, and direct your potential customer, guest, or attendee to the info they need to know!"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "What is NFC technology ?",
+      "content": "Near-field communication refers to a set of wireless communication protocols that allows two smart phones to communicate within a few centimetres of each other."
+    },
+    {
+      "type": "text",
+      "title": "What is the DigIT-Hack Digital Visiting/Business Card and how does it work?",
+      "content": "DigIT-Hack card is a smart card with NFC (Near Field Communication) technology that allows you to share your contact information as well as product and service information with the tap of any NFC enabled smart phone. It is compatible with both IOS/Android smartphones. And, for Non-NFC smartphones, there will be a QR code to quickly share information."
+    },
+    {
+      "type": "list",
+      "title": "Our Main Benefits:",
+      "items": [
+        "Share basic information like contact details, social media links etc.",
+        "You can use it throughout as it’s a pretty strong card with easily editable format with unlimited scans.",
+        "Share professional details like portfolio, business details, or any kind of website attachments.",
+        "You can customize the card designs according to your company/individual requirement like logo, name of company, etc."
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Key Highlights",
+      "items": [
+        {
+          "title": "NFC Tap Sharing",
+          "description": "Share your contact and business info instantly with the tap of any NFC enabled smart phone."
+        },
+        {
+          "title": "Android & iOS Compatible",
+          "description": "It is compatible with both IOS/Android smartphones."
+        },
+        {
+          "title": "QR for Non-NFC Phones",
+          "description": "For Non-NFC smartphones, there will be a QR code to quickly share information."
+        }
+      ]
+    }
+  ]
+}

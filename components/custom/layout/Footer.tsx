@@ -1,10 +1,13 @@
-import { NAV_LINKS, SERVICES } from "@/lib/data";
+import {loadServices} from "@/lib/loadServices";
+import { NAV_LINKS } from "@/lib/DB/ui/NavMapper";
 import AnimatedButton from "../ui/AnimatedBtn";
 import Container from "../ui/Container";
 import Section from "../ui/Section";
 import Link from "next/link";
 
+
 export default function Footer() {
+  const SERVICES = loadServices();
   return (
     <Container>
       <footer className="relative rounded-2xl mb-4 mt-24 sm:mt-32">
@@ -34,7 +37,7 @@ export default function Footer() {
             -top-16 sm:-top-20
             w-[92%] sm:w-4/5
             bg-primary-dark rounded-2xl
-            z-10
+            z-8
           "
         >
           <div
@@ -93,7 +96,7 @@ export default function Footer() {
                 {SERVICES.map((service, idx) => (
                   <Link
                     key={idx}
-                    href={`/services/${service.link}`}
+                    href={service.link}
                     className="hover:underline block"
                   >
                     {service.title}

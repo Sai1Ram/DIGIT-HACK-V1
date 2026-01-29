@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import useScrollDirection from "@/hooks/useScrollDirection";
 import useInView from "@/hooks/useInView";
 import useScrollY from "@/hooks/useScrollY";
-import { NAV_LINKS } from "@/lib/data";
+import { NAV_LINKS} from "@/lib/DB/ui/NavMapper";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { AnimatePresence, easeInOut, motion } from "motion/react";

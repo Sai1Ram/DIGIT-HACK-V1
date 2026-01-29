@@ -1,5 +1,5 @@
 "use client";
-import Container from "../ui/Container";
+
 import { usePathname } from "next/navigation";
 import useScrollDirection from "@/hooks/useScrollDirection";
 import useHeroInView from "@/hooks/useHeroInView";

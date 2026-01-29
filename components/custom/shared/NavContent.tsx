@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, easeInOut } from "motion/react";
 import AnimatedButton from "../ui/AnimatedBtn";
-import { NAV_LINKS } from "@/lib/data";
+import { NAV_LINKS} from "@/lib/DB/ui/NavMapper";
 
 /* ------------------ VARIANTS ------------------ */
 

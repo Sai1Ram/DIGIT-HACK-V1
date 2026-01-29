@@ -1,0 +1,39 @@
+{
+  "slug": "ca-office",
+  "title": "CA Office Management Software",
+  "meta": {
+    "title": "CA Office Management Software | Dashboard, Daybook, GST Invoice, HR & Reports | DigIT-Hack",
+    "description": "DigIT-Hack CA Office Management Software helps CA firms manage dashboard insights, daybook entries, GST invoices, client master, HR module, settings and reports to streamline operations and improve client service."
+  },
+  "image": "/images/service-1.webp",
+  "hero": {
+    "headline": "DigIT-Hack CA Office Management Software",
+    "subLine": "We are pleased to submit this proposal for the development of a comprehensive CA Office Management Software tailored to your specific needs. This software will streamline your office operations, improve efficiency, and enhance client service."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "II. Software Features:",
+      "content": "DigIT-Hack CA Office Management Software will include the following key features:"
+    },
+    {
+      "type": "list",
+      "title": "Key Features",
+      "items": [
+        "Dashboard: A user-friendly dashboard to provide an overview of your office's performance and key metrics.",
+        "Firm Info, Bank Info, Partner Info, Attachments: Centralized storage for all essential information related to your firm, partners, and financial institutions.",
+        "Daybook: A powerful daybook module that supports Single Daybook entry, Multi Daybook entry, and Bulk Daybook entry for efficient financial record-keeping.",
+        "GST Invoice: Generate and manage GST-compliant invoices for your clients.",
+        "Client Master: Maintain a comprehensive database of client information, ensuring easy access to client details and histories. [Multiple clients you can add]",
+        "HR Module: Streamline human resources management, including adding employees, tracking attendance, managing salary, recording expenses, and maintaining office notes. [Multiple users you can create]",
+        "Important Links: Store and organize links to important online resources and tools.",
+        "Settings: Configure and customize workflow heads, expense heads, and client groups to align the software with your unique requirements.",
+        "Reports: Generate various reports, including Group Balance Reports, Balance Reports with options for monthly or yearly filtering, and Salary Profit & Loss Statements."
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Ready to Streamline Your CA Office Operations? Transform your office's efficiency and client satisfaction with our management software. Contact us to schedule a demo or discuss how our software can optimize your office management!"
+    }
+  ]
+}

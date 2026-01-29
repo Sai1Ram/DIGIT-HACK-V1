@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Email Us",
+    "description": "info@digithack.in",
+    "icon": "Mail",
+    "link": "mailto:info@digithack.in"
+  },
+  {
+    "title": "Call Us",
+    "description": "+91 7657024042\n+91 7653011501",
+    "icon": "Phone",
+    "link": "tel:+917657024042"
+  },
+  {
+    "title": "Our Location",
+    "description": "Hbr layout, hennur cross, bangalore, Karnataka, 560043",
+    "icon": "MapPin",
+    "link": "/"
+  }
+]

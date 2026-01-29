@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Quote } from "lucide-react";
-import { TESTIMONIALS } from "@/lib/data";
+import TESTIMONIALS from "@/lib/DB/content/Testimonials.json";
 
 const AUTO_DELAY = 2000; // ms
 
