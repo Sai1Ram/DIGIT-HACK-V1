@@ -6,26 +6,31 @@ import Section from "@/components/custom/ui/Section";
 import BlockRenderer from "@/components/ui/BlockRenderer";
 import { loadProduct } from "@/lib/loadProduct";
 import Image from "next/image";
-import { loadProducts } from "@/lib/loadProducts"; // ✅ create this
+import { loadProducts } from "@/lib/loadProducts";
 
 interface ProductPageProps {
   params: Promise<{
-    serviceSlug: string;
+    slug: string;
     productSlug: string;
   }>;
 }
 
-/* ✅ Static route generation (recommended for SEO + performance) */
-export async function generateStaticParams() {
-  const products = await loadProducts();
-  return products;
+/* ✅ Required for output: export */
+export function generateStaticParams() {
+  const products = loadProducts();
+
+  // must return keys that match folder name: [slug] and [productSlug]
+  return products.map((p) => ({
+    slug: p.serviceSlug,
+    productSlug: p.productSlug,
+  }));
 }
 
-/* ✅ Dynamic SEO Metadata */
+/* ✅ SEO per product */
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ serviceSlug: string; productSlug: string }>;
+  params: Promise<{ slug: string; productSlug: string }>;
 }): Promise<Metadata> {
   const { productSlug } = await params;
   const product = await loadProduct(productSlug);
