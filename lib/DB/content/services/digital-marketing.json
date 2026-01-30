@@ -9,12 +9,12 @@
         "headline": "Data-Driven Digital Marketing Solutions That Deliver Real Results",
         "subLine": "Boost your online visibility, attract qualified leads, and grow your business with strategic SEO, social media, and performance marketing campaigns."
     },
-    "image": "/images/service-1.webp",
+    "image": "/images/digitalMarketing.png",
     "products": [
-        { "name": "SEO", "slug": "digital-marketing" },
-        { "name": "Social Media Marketing", "slug": "digital-marketing" },
-        { "name": "Content Marketing", "slug": "digital-marketing" },
-        { "name": "Pay Per Click (PPC)", "slug": "digital-marketing" }
+        { "name": "SEO", "slug": "" },
+        { "name": "Social Media Marketing", "slug": "" },
+        { "name": "Content Marketing", "slug": "" },
+        { "name": "Pay Per Click (PPC)", "slug": "" }
     ],
     "blocks": [
         {

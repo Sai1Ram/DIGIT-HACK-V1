@@ -7,6 +7,7 @@ import BlockRenderer from "@/components/ui/BlockRenderer";
 import { loadProduct } from "@/lib/loadProduct";
 import Image from "next/image";
 import { loadProducts } from "@/lib/loadProducts";
+import ComingSoonPage from "@/app/coming-soon/page";
 
 interface ProductPageProps {
   params: Promise<{
@@ -34,7 +35,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { productSlug } = await params;
   const product = await loadProduct(productSlug);
-
   return {
     title: product.meta?.title ?? product.title,
     description:
@@ -51,7 +51,7 @@ export async function generateMetadata({
 export default async function ProductPage({ params }: ProductPageProps) {
   const { productSlug } = await params;
   const product = await loadProduct(productSlug);
-
+if (!product) return <ComingSoonPage />
   return (
     <>
       <Container>

@@ -65,7 +65,7 @@ export default function About() {
           <div className="relative z-5 flex flex-col md:flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 xl:gap-20 w-full">
             {/* Left */}
             <div className="w-full">
-              <ParallaxCard img="/images/person.webp" direction="down" />
+              <ParallaxCard img="./images/person.webp" direction="down" />
             </div>
 
             {/* Right */}

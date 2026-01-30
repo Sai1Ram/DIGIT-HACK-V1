@@ -3,7 +3,7 @@ import Testimonial from "@/components/custom/layout/Testimonial";
 import AboutUs from "@/components/custom/shared/AboutUs";
 import Hero from "@/components/custom/shared/Hero";
 import Container from "@/components/custom/ui/Container";
-import ServicesSection from "@/components/custom/ui/ServicesSection";
+import ServicesSection from "@/components/custom/shared/ServicesSection";
 
 export default function Home() {
   return (

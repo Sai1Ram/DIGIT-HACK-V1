@@ -1,0 +1,20 @@
+{
+    "slug": "tailoring-erp",
+    "title": "Tailoring ERP",
+    "meta": {
+        "title": "Tailoring ERP Software Development | Custom Tailoring ERP for Fashion Industry",
+        "description": "Custom Tailoring ERP software development for fashion industry. Streamline operations, improve efficiency, and deliver exceptional customer experiences."
+    },
+    "hero": {
+        "headline": "Tailoring ERP Software Development for Fashion Industry",
+        "subLine": "Streamline operations, improve efficiency, and deliver exceptional customer experiences with our custom Tailoring ERP software."
+    },
+    "image": "/images/tailoringERP.jpeg",
+    "blocks": [
+        {
+            "type": "coming-soon",
+            "title": "Coming Soon",
+            "content": "We’re working on this product page. It will be live soon."
+        }
+    ]
+}

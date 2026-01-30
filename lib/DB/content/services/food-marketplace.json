@@ -9,13 +9,12 @@
         "headline": "Complete Food Marketplace Solutions for Modern Restaurants",
         "subLine": "Launch your food delivery platform, streamline restaurant operations, and delight customers with integrated POS and ordering systems."
     },
-    "image": "/images/service-1.webp",
+    "image": "/images/restaurantManagement.png",
     "products": [
-      {
-        "name": "Restaurant Management System(Including POS)",
-        "slug": "restaurant-management"
-      },
-      { "name": "Application", "slug": "restaurant-management" }
+        {
+            "name": "Restaurant Management System(Including POS)",
+            "slug": "restaurant-management"
+        }
     ],
     "blocks": [
         {

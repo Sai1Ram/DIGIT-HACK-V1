@@ -9,7 +9,7 @@
     "headline": "Transform Your Networking with Smart Digital Visiting Cards",
     "subLine": "Share your complete professional profile instantly with a single tap. No apps required, works with any smartphone, and leaves a lasting digital impression."
   },
-  "image": "/images/service-1.webp",
+  "image": "/images/VisitingCard.jpg",
   "products": [
     {
       "name": "DigIT-Hack NFC Card - Premium",
@@ -17,15 +17,15 @@
     },
     {
       "name": "DigIT-Hack NFC Card - Wood Edition",
-      "slug": "visiting-card-wood"
+      "slug": "visiting-card"
     },
     {
       "name": "DigIT-Hack NFC Card - Metal Edition",
-      "slug": "visiting-card-metal"
+      "slug": "visiting-card"
     },
     {
       "name": "Digital Business Card App",
-      "slug": "digital-card-app"
+      "slug": "digital-card"
     }
   ],
   "blocks": [

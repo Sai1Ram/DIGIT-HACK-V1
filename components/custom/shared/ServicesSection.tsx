@@ -1,14 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import AnimatedButton from "./AnimatedBtn";
-import Section from "./Section";
+import AnimatedButton from "../ui/AnimatedBtn";
+import Section from "../ui/Section";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
-import ServiceImg from "@/public/images/service-1.webp";
 import { motion, useScroll, useTransform } from "motion/react";
 import { FEATURED_SERVICES_LIMIT } from "@/lib/DB/CONST";
 import { loadServices } from "@/lib/loadServices";
+import Link from "next/link";
 
 export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -56,10 +56,12 @@ export default function ServicesSection() {
       ref={sectionRef}
     >
       <Section>
-        <div className="flex justify-center gap-12 items-start">
+        <div className="flex justify-center lg:gap-12 gap-4 items-start lg:flex-row flex-col">
           {/* 2. Left side - Now the STICKY element */}
-          <div className={`left space-y-6 w-1/3 sticky top-20 h-[60vh]
-              `}>
+          <div
+            className={`left space-y-6 lg:w-1/3 w-full lg:sticky top-20 lg:h-[60vh] h-fit 
+              `}
+          >
             <p className="text-primary uppercase font-semibold">
               .Choose the best
             </p>
@@ -69,14 +71,14 @@ export default function ServicesSection() {
             <AnimatedButton label="More Services" href="/services" />
           </div>
           {/* 3. Right side - Regular scrolling content */}
-          <div className="right w-2/3 relative">
+          <div className="right lg:w-2/3 w-full relative">
             <div
-              className={`z-5 sticky top-0 bg-transparent ${activeIndex === 0 ? "h-auto" : "h-[70vh]"}`}
+              className={`z-5 sticky top-0 bg-transparent ${activeIndex === 0 ? "h-auto" : "lg:h-[70vh]"}`}
             >
               <motion.div
-              style={{ height: shieldHeight, opacity: shieldOpacity }}
-              className="w-full bg-primary-dark pointer-events-none"
-            />
+                style={{ height: shieldHeight, opacity: shieldOpacity }}
+                className="w-full bg-primary-dark pointer-events-none"
+              />
               <div className="flex gap-2 bg-linear-to-b from-[#402C68] to-transparent from-30% h-16 items-start">
                 {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((_, idx) => {
                   const isActive = idx === activeIndex;
@@ -112,28 +114,35 @@ export default function ServicesSection() {
 
             {/* Content cards - these scroll naturally up the page */}
             <div className="space-y-12">
-              {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((service, idx) => (
-                <motion.div
-                  key={idx}
-                  data-index={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  className="w-full p-4 rounded-xl bg-black/20 space-y-4 mb-10 service-card"
-                >
-                  <div className="flex justify-between">
-                    <h2 className="text-2xl text-white capitalize">
-                      {service.title}
-                    </h2>
-                    <ArrowUpRight className="size-10 text-white" />
-                  </div>
-                  <p className="text-gray-300">{service.description}</p>
-                  <Image
-                    src={ServiceImg}
-                    alt="service"
-                    className="w-full rounded-lg"
-                  />
-                </motion.div>
-              ))}
+              {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map(
+                (service, idx) => (
+                  <motion.div
+                    key={idx}
+                    data-index={idx}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    className="w-full p-4 rounded-xl bg-black/20 space-y-4 mb-10 service-card"
+                  >
+                    <div className="flex justify-between">
+                      <h2 className="text-2xl text-white capitalize">
+                        {service.title}
+                      </h2>
+                      <Link href={service.link} className={` ${activeIndex === idx ? "z-6" : ""}`}>
+                        <ArrowUpRight className="size-10 text-white" />
+                      </Link>
+                    </div>
+                    <p className="text-gray-300">{service.description}</p>
+                    <div className="relative rounded-lg  h-64 sm:h-80 lg:h-105">
+                      <Image
+                        src={service.image}
+                        alt="service"
+                        fill
+                        className="rounded-lg"
+                      />
+                    </div>
+                  </motion.div>
+                ),
+              )}
             </div>
           </div>
         </div>

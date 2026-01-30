@@ -19,7 +19,7 @@ export default function Testimonial() {
         {/* LEFT */}
         <div className="w-full lg:w-1/2">
           <ParallaxCard
-            img={"./images/person.webp"}
+            img={"./images/testimonial-img.png"}
             strength={20}
             direction="down"
           >

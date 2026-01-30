@@ -4,7 +4,8 @@ export type ContentBlock =
   | FeatureBlock
   | StatsBlock
   | ImageBlock
-  | CTABlock;
+  | CTABlock
+  | ComingSoonBlock;
 
 export interface TextBlock {
   type: "text";
@@ -48,4 +49,10 @@ export interface ImageBlock {
   src: string; // /public path
   alt?: string;
   rounded?: boolean;
+}
+
+export interface ComingSoonBlock {
+  type: "coming-soon";
+  title?: string;
+  description?: string;
 }

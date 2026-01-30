@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { ContentBlock } from "@/types/Content";
 import AnimatedButton from "../custom/ui/AnimatedBtn";
-
+import { RevealCard } from "../custom/ui/RevealCard";
+import { redirect } from "next/navigation";
 export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
   return (
     <div className="w-full space-y-10 sm:space-y-14">
@@ -52,20 +53,18 @@ export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
                     {block.title}
                   </h2>
                 )}
-
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {block.items.map((feature, i) => (
-                    <div
-                      key={i}
-                      className="rounded-xl border border-gray-200 bg-white p-4 space-y-2"
-                    >
-                      <h3 className="font-semibold text-base sm:text-lg">
-                        {feature.title}
-                      </h3>
-                      <p className="text-gray-600 text-sm sm:text-base">
-                        {feature.description}
-                      </p>
-                    </div>
+                    <RevealCard key={i} distance={30} angle={-30}>
+                      <div className="rounded-xl border border-gray-200 bg-white p-4 space-y-2">
+                        <h3 className="font-semibold text-base sm:text-lg">
+                          {feature.title}
+                        </h3>
+                        <p className="text-gray-600 text-sm sm:text-base">
+                          {feature.description}
+                        </p>
+                      </div>
+                    </RevealCard>
                   ))}
                 </div>
               </section>
@@ -145,7 +144,8 @@ export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
                 </div>
               </section>
             );
-
+          case "coming-soon":
+            redirect("/coming-soon");
           default:
             return null;
         }

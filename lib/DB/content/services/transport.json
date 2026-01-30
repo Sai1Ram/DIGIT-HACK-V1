@@ -9,7 +9,7 @@
         "headline": "Smart Transport Management Solutions for Indian Logistics",
         "subLine": "Track vehicles in real-time, optimize routes, and maximize fleet efficiency with intelligent transport software."
     },
-    "image": "/images/service-1.webp",
+    "image": "/images/transportManagement.jpeg",
     "products": [
       { "name": "Vehicle Tracking System", "slug": "transport-management" },
       { "name": "Transport Management System", "slug": "transport-management" }

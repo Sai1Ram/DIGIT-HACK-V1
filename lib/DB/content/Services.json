@@ -13,7 +13,7 @@
       { "name": "Salon Management System", "slug": "salon-management" },
       { "name": "Tailoring ERP", "slug": "tailoring-erp" }
     ],
-    "image": "/api/placeholder/800/600",
+    "image": "/images/retailSoftware.jpeg",
     "icon": "Store",
     "slug": "retail"
   },
@@ -27,7 +27,7 @@
       { "name": "Mobile Applications for Doctors", "slug": "hospital-management" },
       { "name": "Billing Solution for Pharmacy", "slug": "hospital-management" }
     ],
-    "image": "/api/placeholder/800/600",
+    "image": "/images/healthcareSoftware.jpg",
     "icon": "Hospital",
     "slug": "healthcare"
   },
@@ -40,7 +40,7 @@
       { "name": "Vehicle Tracking System", "slug": "transport-management" },
       { "name": "Transport Management System", "slug": "transport-management" }
     ],
-    "image": "/api/placeholder/800/600",
+    "image": "/images/transportManagement.jpeg",
     "icon": "Truck",
     "slug": "transport"
   },
@@ -75,7 +75,7 @@
             "slug": "gym-management"
         }
     ],
-    "image": "/api/placeholder/800/600",
+    "image": "/images/workplaceManagement.jpeg",
     "icon": "BriefcaseBusiness",
     "slug": "workplace-management"
   },
@@ -90,10 +90,9 @@
       {
         "name": "Restaurant Management System(Including POS)",
         "slug": "restaurant-management"
-      },
-      { "name": "Application", "slug": "restaurant-management" }
+      }
     ],
-    "image": "/api/placeholder/800/600"
+    "image": "/images/restaurantManagement.png"
   },
 
   {
@@ -103,7 +102,7 @@
     "icon": "GraduationCap",
     "description": "Education industry needs a digital influence to deal with the manual operations. Optimize the user experience and boost the efficiency by implementing all of our features.",
     "products": [{ "name": "School Management System", "slug": "school-management" }],
-    "image": "/api/placeholder/800/600"
+    "image": "/images/schoolManagement.png"
   },
 
   {
@@ -114,12 +113,12 @@
     "description":
       "Maximize your digital presence with our tailored marketing software, driving engagement and boosting brand visibility.",
     "products": [
-      { "name": "SEO", "slug": "digital-marketing" },
-      { "name": "Social Media Marketing", "slug": "digital-marketing" },
-      { "name": "Content Marketing", "slug": "digital-marketing" },
-      { "name": "Pay/Click", "slug": "digital-marketing" }
+      { "name": "SEO", "slug": "" },
+      { "name": "Social Media Marketing", "slug": "" },
+      { "name": "Content Marketing", "slug": "" },
+      { "name": "Pay/Click", "slug": "" }
     ],
-    "image": "/api/placeholder/800/600"
+    "image": "/images/digitalMarketing.png"
   },
 
   {
@@ -130,7 +129,7 @@
     "description":
       "Redefine manufacturing excellence with our specialized software suite, optimizing processes and ensuring operational efficiency.",
     "products": [{ "name": "ERP Software", "slug": "ERPSoftware" }],
-    "image": "/api/placeholder/800/600"
+    "image": "/images/inventoryManagement.jpg"
   },
   {
     "id": 9,
@@ -143,7 +142,7 @@
       { "name": "Website", "slug": "web-app" },
       { "name": "Application", "slug": "web-app" }
     ],
-    "image": "/api/placeholder/800/600"
+    "image": "/images/retailSoftware.jpeg"
   },
   {
     "id": 10,
@@ -153,6 +152,6 @@
     "description":
       "Make lasting impressions effortlessly with our digital visiting card solutions, redefining networking in a digital era.",
     "products": [{ "name": "DigIT-Hack NFC Card", "slug": "visiting-card" }],
-    "image": "/api/placeholder/800/600"
+    "image": "/images/VisitingCard.jpg"
   }
 ]
