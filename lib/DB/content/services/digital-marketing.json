@@ -10,12 +10,7 @@
         "subLine": "Boost your online visibility, attract qualified leads, and grow your business with strategic SEO, social media, and performance marketing campaigns."
     },
     "image": "/images/digitalMarketing.png",
-    "products": [
-        { "name": "SEO", "slug": "" },
-        { "name": "Social Media Marketing", "slug": "" },
-        { "name": "Content Marketing", "slug": "" },
-        { "name": "Pay Per Click (PPC)", "slug": "" }
-    ],
+    "products": [],
     "blocks": [
         {
             "type": "text",

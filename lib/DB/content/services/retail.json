@@ -11,13 +11,18 @@
     },
     "image": "/images/retailSoftware.jpeg",
     "products": [
-        {
-        "name": "Jewellery Store Management System",
-        "slug": "jewellery-management"
+      {
+        "name": "Transport Management System",
+        "slug": "transport-management"
       },
-      { "name": "Billing Software", "slug": "billing-software" },
-      { "name": "Salon Management System", "slug": "salon-management" },
-      { "name": "Tailoring ERP", "slug": "tailoring-erp" }
+      {
+        "name": "Retail Billing Software",
+        "slug": "billing-software"
+      },
+      {
+        "name": "Gym Management System",
+        "slug": "gym-management"
+      }
     ],
     "blocks": [
         {

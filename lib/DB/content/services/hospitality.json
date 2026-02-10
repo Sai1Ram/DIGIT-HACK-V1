@@ -1,28 +1,28 @@
 {
-    "slug": "healthcare",
-    "title": "Healthcare Software Solutions",
+    "slug": "hospitality",
+    "title": "Hospitality Industry",
     "meta":{
-        "title": "Healthcare Software Solutions | Custom Hospital & Clinic Management Systems in India",
-        "description": "Custom healthcare software development for hospitals, clinics & pharmacies. HMS, doctor apps & billing solutions. Trusted by 200+ healthcare providers across India."
+        "title": "Hospitality Software Solutions | Custom Hotel & Restaurant Management Systems in India",
+        "description": "Custom hospitality software development for hotels, restaurants & spas. HMS, restaurant management & billing solutions. Trusted by 200+ hospitality providers across India."
     },
     "hero": {
-        "headline": "Digital Healthcare Solutions for Modern Medical Practices",
-        "subLine": "Enhance patient care, streamline operations, and ensure compliance with custom-built healthcare management systems."
+        "headline": "Digital Hospitality Solutions for Modern Hotels & Restaurants",
+        "subLine": "Enhance guest experiences, streamline operations, and ensure compliance with custom-built hospitality management systems."
     },
     "image": "/images/healthcareSoftware.jpg",
     "products": [
         {
-            "name": "Hospital Management System (HMS)",
-            "slug": "hospital-management"
-        },
-        {
-            "name": "Mobile Applications for Doctors",
-            "slug": "hospital-management"
-        },
-        {
-            "name": "Pharmacy Billing & Inventory Solution",
-            "slug": "hospital-management"
-        }
+        "name": "Hospital Management System",
+        "slug": "hospital-management"
+      },
+      {
+        "name": "Salon Management System",
+        "slug": "salon-management"
+      },
+      {
+        "name": "Restaurant Management System",
+        "slug": "restaurant-management"
+      }
     ],
         
     "blocks": [

@@ -7,5 +7,6 @@
     "href": "/services",
     "children": "services"
   },
-  { "id": 4, "label": "Contact", "href": "/contact" }
+  { "id": 4, "label": "Contact", "href": "/contact" },
+  { "id": 5, "label": "AI Portfolio", "href": "https://www.foxtroit.in/" }
 ]

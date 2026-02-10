@@ -81,13 +81,14 @@ export default async function ServicePage({ params }: PageProps) {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/3 rounded-xl bg-[#EDE1FF] p-3 sm:p-4 h-fit">
-            <ul className="space-y-3 sm:space-y-4">
-              {service.products.map((product, index) => (
-                <li key={index}>
-                  <Link
-                    href={`/services/${service.slug}/${product.slug}`}
-                    className="
+          {service.products.length > 0 && (
+            <div className="w-full lg:w-1/3 rounded-xl bg-[#EDE1FF] p-3 sm:p-4 h-fit">
+              <ul className="space-y-3 sm:space-y-4">
+                {service.products.map((product, index) => (
+                  <li key={index}>
+                    <Link
+                      href={`/services/${service.slug}/${product.slug}`}
+                      className="
             p-3 sm:p-4 
             flex items-center justify-between gap-3
             bg-white rounded-xl
@@ -95,17 +96,18 @@ export default async function ServicePage({ params }: PageProps) {
             hover:shadow-md hover:scale-[1.01]
             active:scale-[0.99]
           "
-                  >
-                    <h3 className="text-sm sm:text-base font-medium flex-1 truncate">
-                      {product.name}
-                    </h3>
+                    >
+                      <h3 className="text-sm sm:text-base font-medium flex-1 truncate">
+                        {product.name}
+                      </h3>
 
-                    <ChevronRight className="shrink-0 size-4 sm:size-5 text-gray-600" />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+                      <ChevronRight className="shrink-0 size-4 sm:size-5 text-gray-600" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </Section>
     </>

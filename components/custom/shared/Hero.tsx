@@ -105,7 +105,7 @@ export default function Hero() {
               </Reveal>
               <Reveal direction="right" delay={0.2}>
                 <CircularBtn
-                  circularText="Award winning business - since 2021 - "
+                  circularText="Award winning business - since 2024 - "
                   middleText="W"
                 />
               </Reveal>

@@ -1,5 +1,5 @@
 {
-    "slug": "education",
+    "slug": "institutional",
     "title": "School Management Software",
     "meta": {
         "title": "School Management Software | Education ERP & Student Information Systems in India",
@@ -11,7 +11,7 @@
     },
     "image": "/images/schoolManagement.png",
     "products": [
-        { "name": "School Management System", "slug": "school-management" }
+        { "name": "School Management System", "slug": "/" }
     ],
     "blocks": [
         {
