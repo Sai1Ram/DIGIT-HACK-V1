@@ -7,7 +7,7 @@
   {
     "id": 2,
     "src": "indulge",
-    "link": "https://indulge.com/"
+    "link": "https://www.indulge.salon/"
   },
   {
     "id": 3,
@@ -33,5 +33,20 @@
     "id": 7,
     "src": "khadiIndia",
     "link": "https://www.ekhadiindia.com/"
+  },
+  {
+    "id": 8,
+    "src": "studio",
+    "link": "https://www.studio11.co/"
+  },
+  {
+    "id": 9,
+    "src": "onebite",
+    "link": "https://www.onebite.co.in/"
+  },
+  {
+    "id":10,
+    "src": "barc",
+    "link": "https://www.barc.gov.in/"
   }
 ]

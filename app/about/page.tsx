@@ -11,6 +11,7 @@ import Header from "@/components/custom/shared/Header";
 import Reveal from "@/components/custom/ui/Reveal";
 import { RevealCard } from "@/components/custom/ui/RevealCard";
 import HighlightedText from "@/components/custom/shared/HighlightedText";
+import ImageSlider from "@/components/custom/ui/ImageSlider";
 export default function About() {
   return (
     <Container>
@@ -65,7 +66,8 @@ export default function About() {
           <div className="relative z-5 flex flex-col md:flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 xl:gap-20 w-full">
             {/* Left */}
             <div className="w-full">
-              <ParallaxCard img="./images/person.webp" direction="down" />
+              {/* <ParallaxCard img="./images/person.webp" direction="down" /> */}
+              <ImageSlider/>
             </div>
 
             {/* Right */}
@@ -188,12 +190,12 @@ export default function About() {
             <h3 className="text-xl sm:text-2xl font-semibold">
               Join Over{" "}
               <span className="px-2 bg-primary text-white rounded-full">
-                1000+
+                100+
               </span>
             </h3>
             <p className="text-base sm:text-xl font-medium mt-1">
               Companies with{" "}
-              <span className="text-primary font-bold">Bexon</span> Here
+              <span className="text-primary font-bold">DigIT-Hack</span> Here
             </p>
           </div>
         </div>

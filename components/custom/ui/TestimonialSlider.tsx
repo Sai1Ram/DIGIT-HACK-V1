@@ -100,9 +100,9 @@ export default function TestimonialSlider() {
               <h4 className="font-semibold text-lg sm:text-xl lg:text-2xl">
                 {t.name}
               </h4>
-              <p className="text-sm sm:text-base lg:text-lg text-gray-500">
+              {/* <p className="text-sm sm:text-base lg:text-lg text-gray-500">
                 {t.role}
-              </p>
+              </p> */}
             </div>
           </div>
         ))}

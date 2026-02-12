@@ -1,10 +1,9 @@
-import {loadServices} from "@/lib/loadServices";
+import { loadServices } from "@/lib/loadServices";
 import { NAV_LINKS } from "@/lib/DB/ui/NavMapper";
 import AnimatedButton from "../ui/AnimatedBtn";
 import Container from "../ui/Container";
 import Section from "../ui/Section";
 import Link from "next/link";
-
 
 export default function Footer() {
   const SERVICES = loadServices();
@@ -154,6 +153,33 @@ export default function Footer() {
                 </button>
               </div>
             </div>
+          </div>
+          <div className="text-sm text-gray-600 space-y-1 relative z-5 mt-10">
+            <p className="font-semibold text-gray-800">Official Partners</p>
+
+            <p>
+              Dectwin Services –{" "}
+              <a
+                href="https://www.dectwinservices.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                www.dectwinservices.com
+              </a>
+            </p>
+
+            <p>
+              Foxtroit –{" "}
+              <a
+                href="https://www.foxtroit.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                www.foxtroit.in
+              </a>
+            </p>
           </div>
         </Section>
       </footer>

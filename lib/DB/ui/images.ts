@@ -5,7 +5,9 @@ import pizzaHut from "@/public/images/brandLogo/pizza-hut-logo.png";
 import arsalan from "@/public/images/brandLogo/Arsalan-gold-logo.png";
 import baskinRobbins from "@/public/images/brandLogo/Baskin-Robbins-Logo.wine.png";
 import khadiIndia from "@/public/images/brandLogo/khadi-india-logo.png";
-
+import studio from "@/public/images/brandLogo/studio.png";
+import onebite from "@/public/images/brandLogo/onebite.png";
+import barc from "@/public/images/brandLogo/BARC-Logo.svg";
 export const BRAND_IMAGES = {
   samosa,
   indulge,
@@ -14,6 +16,9 @@ export const BRAND_IMAGES = {
   arsalan,
   baskinRobbins,
   khadiIndia,
+  studio,
+  onebite,
+  barc
 } as const;
 export type BrandImageKey = keyof typeof BRAND_IMAGES;
 

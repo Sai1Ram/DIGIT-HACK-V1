@@ -29,12 +29,12 @@ export default function Home() {
             <h3 className="text-xl sm:text-2xl font-semibold">
               Join Over{" "}
               <span className="px-2 bg-primary text-white rounded-full">
-                1000+
+                100+
               </span>
             </h3>
             <p className="text-base sm:text-xl font-medium mt-1">
               Companies with{" "}
-              <span className="text-primary font-bold">Bexon</span> Here
+              <span className="text-primary font-bold">DigIT-Hack</span> Here
             </p>
           </div>
         </div>

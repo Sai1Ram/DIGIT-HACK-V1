@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Restaurant Management System",
+        "url": "/images/restaurantManagement.png"
+    },
+    {
+        "name":"Gym Management System",
+        "url": "/images/gymManagement.png"
+    },
+    {
+        "name": "School Management System",
+        "url": "/images/schoolManagement.png"
+    },
+    {
+        "name": "Salon Management System",
+        "url": "/images/salonManagement.png"
+    },
+    {
+        "name": "App and Website",
+        "url": "/images/appAndWebsite.png"
+    }
+]
