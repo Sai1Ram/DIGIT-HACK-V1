@@ -8,6 +8,20 @@ import khadiIndia from "@/public/images/brandLogo/khadi-india-logo.png";
 import studio from "@/public/images/brandLogo/studio.png";
 import onebite from "@/public/images/brandLogo/onebite.png";
 import barc from "@/public/images/brandLogo/BARC-Logo.svg";
+import retailSoftware from "@/public/images/retailsoftware.jpeg";
+import healthcareSoftware from "@/public/images/healthcareSoftware.jpg";
+import schoolManagement from "@/public/images/schoolManagement.png";
+import digitalMarketing from "@/public/images/DigitalMarketing.png";
+
+export const SERVICE_IMAGES = {
+  retailSoftware,
+  healthcareSoftware,
+  schoolManagement,
+  digitalMarketing,
+} as const;
+
+export type ServiceImageKey = keyof typeof SERVICE_IMAGES;
+
 export const BRAND_IMAGES = {
   samosa,
   indulge,

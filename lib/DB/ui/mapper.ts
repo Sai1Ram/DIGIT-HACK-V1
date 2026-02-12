@@ -1,4 +1,4 @@
-import { BRAND_IMAGES } from "./images";
+import { BRAND_IMAGES, SERVICE_IMAGES } from "./images";
 import brands from "../content/Brands.json";
 import aboutCards from "../content/AboutCards.json";
 import contactInfo from "../content/ContactInfo.json";
@@ -37,7 +37,7 @@ export const SERVICES: ServiceItem[] = typedServices.map((s) => ({
   id: s.id,
   title: s.title,
   description: s.description,
-  image: s.image,
+  image: SERVICE_IMAGES[s.image],
   icon: SERVICES_ICONS[s.icon],
   slug: s.slug,
   products: s.products?.map((p) => ({
