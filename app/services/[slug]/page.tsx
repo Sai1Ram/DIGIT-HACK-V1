@@ -43,7 +43,6 @@ export async function generateMetadata({
     openGraph: {
       title: service.meta?.title ?? service.title,
       description: service.meta?.description,
-      images: service.image ? [{ url: service.image }] : [],
     },
   };
 }

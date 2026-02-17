@@ -25,13 +25,15 @@ export const PRODUCT_IMAGES = {
   "transport-management": transportManagement,
   "school-management": schoolManagement,
   "billing-software": billingSoftware,
+  "web-app": digitalMarketing,
 } as const;
 
 export const SERVICE_IMAGES = {
-  retailSoftware,
-  healthcareSoftware,
-  schoolManagement,
-  digitalMarketing,
+  "retail": retailSoftware,
+  "hospitality": healthcareSoftware,
+  "institutional": schoolManagement,
+  "web-app": digitalMarketing,
+  "digital-marketing": digitalMarketing,
 } as const;
 
 export const BRAND_IMAGES = {

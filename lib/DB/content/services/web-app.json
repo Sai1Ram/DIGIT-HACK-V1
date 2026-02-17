@@ -9,7 +9,6 @@
     "headline": "Build Powerful Web & Mobile Applications That Drive Business Growth",
     "subLine": "From responsive websites to enterprise web applications and native mobile apps—we deliver custom solutions that engage users and scale with your ambitions."
   },
-  "image": "/images/service-1.webp",
   "products": [
       { "name": "Website & Application Development", "slug": "web-app" }
   ],

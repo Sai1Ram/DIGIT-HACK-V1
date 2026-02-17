@@ -37,7 +37,7 @@ export const SERVICES: ServiceItem[] = typedServices.map((s) => ({
   id: s.id,
   title: s.title,
   description: s.description,
-  image: SERVICE_IMAGES[s.image],
+  image: SERVICE_IMAGES[s.slug as keyof typeof SERVICE_IMAGES],
   icon: SERVICES_ICONS[s.icon],
   slug: s.slug,
   products: s.products?.map((p) => ({

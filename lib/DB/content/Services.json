@@ -17,7 +17,6 @@
         "slug": "gym-management"
       }
     ],
-    "image": "retailSoftware",
     "icon": "Store",
     "slug": "retail"
   },
@@ -39,7 +38,6 @@
         "slug": "restaurant-management"
       }
     ],
-    "image": "healthcareSoftware",
     "icon": "Hospital",
     "slug": "hospitality"
   },
@@ -54,8 +52,7 @@
         "name": "School Management System",
         "slug": "school-management"
       }
-    ],
-    "image": "schoolManagement"
+    ]
   },
   {
     "id": 7,
@@ -63,8 +60,7 @@
     "title": "Digital Marketing",
     "icon": "Tv",
     "description": "Maximize your digital presence with our tailored marketing software, driving engagement and boosting brand visibility.",
-    "products": [],
-    "image": "digitalMarketing"
+    "products": []
   },
   {
     "id": 9,
@@ -77,7 +73,6 @@
         "name": "Website & Application Development",
         "slug": "web-app"
       }
-    ],
-    "image": "retailSoftware"
+    ]
   }
 ]

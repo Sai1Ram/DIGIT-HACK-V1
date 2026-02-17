@@ -9,7 +9,6 @@
         "headline": "Complete School Management Solutions for Digital-Age Education",
         "subLine": "Transform your educational institution with comprehensive software that simplifies administration, enhances learning, and strengthens parent-teacher collaboration."
     },
-    "image": "/images/schoolManagement.png",
     "products": [
         { "name": "School Management System", "slug": "school-management" }
     ],

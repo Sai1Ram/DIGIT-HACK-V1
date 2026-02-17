@@ -18,7 +18,6 @@ export interface ServiceJson {
   id: number;
   title: string;
   description: string;
-  image: ServiceImageKey;
   icon: ServiceIconKey;
   products?: { name: string; slug: string }[];
   slug: string;
@@ -28,7 +27,7 @@ export interface ServiceJson {
 export interface ServiceDetails {
   slug: string;
   title: string;
-  image: string;
+  image: StaticImageData;
   meta: { title?: string; description?: string };
   hero?: {
     headline: string;
