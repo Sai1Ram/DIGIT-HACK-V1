@@ -12,6 +12,20 @@ import retailSoftware from "@/public/images/retailsoftware.jpeg";
 import healthcareSoftware from "@/public/images/healthcareSoftware.jpg";
 import schoolManagement from "@/public/images/schoolManagement.png";
 import digitalMarketing from "@/public/images/DigitalMarketing.png";
+import restaurantManagement from "@/public/images/restaurantManagement.png";
+import gymManagement from "@/public/images/gymManagement.png";
+import salonManagement from "@/public/images/salonManagement.png";
+import transportManagement from "@/public/images/transportManagement.jpeg";
+import billingSoftware from "@/public/images/BillingSoftware.png";
+export const PRODUCT_IMAGES = {
+  "restaurant-management": restaurantManagement,
+  "gym-management": gymManagement,
+  "salon-management": salonManagement,
+  "hospital-management": healthcareSoftware,
+  "transport-management": transportManagement,
+  "school-management": schoolManagement,
+  "billing-software": billingSoftware,
+} as const;
 
 export const SERVICE_IMAGES = {
   retailSoftware,
@@ -19,8 +33,6 @@ export const SERVICE_IMAGES = {
   schoolManagement,
   digitalMarketing,
 } as const;
-
-export type ServiceImageKey = keyof typeof SERVICE_IMAGES;
 
 export const BRAND_IMAGES = {
   samosa,
@@ -32,9 +44,10 @@ export const BRAND_IMAGES = {
   khadiIndia,
   studio,
   onebite,
-  barc
+  barc,
 } as const;
+
 export type BrandImageKey = keyof typeof BRAND_IMAGES;
-
-
+export type ProductImageKey = keyof typeof PRODUCT_IMAGES;
+export type ServiceImageKey = keyof typeof SERVICE_IMAGES;
 // export type ServiceImageKey = keyof typeof SERVICES_IMAGES;

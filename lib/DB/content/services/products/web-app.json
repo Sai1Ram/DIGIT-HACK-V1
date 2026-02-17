@@ -5,7 +5,7 @@
     "title": "Website & Application Development Services | Custom Web, Mobile Apps & Enterprise Solutions | DigIT-Hack",
     "description": "DigIT-Hack builds custom websites and high-performance applications tailored to your business needs. Get responsive web development, e-commerce solutions, CMS platforms, mobile apps, enterprise software, API integrations and user-centric design."
   },
-  "image": "/images/service-1.webp",
+    "isTopProduct": false,
   "hero": {
     "headline": "Website And Application Development",
     "subLine": "At DigIT-Hack, we craft bespoke digital solutions to elevate your online presence and optimize user experiences. Our expert team specializes in creating dynamic websites and intuitive applications tailored to meet your specific business needs."

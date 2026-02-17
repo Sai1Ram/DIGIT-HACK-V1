@@ -1,15 +1,17 @@
-import { notFound } from "next/navigation";
+import { PRODUCT_IMAGES } from "@/lib/DB/ui/images";
 import { ProductDetails } from "@/types/Service";
+import { notFound } from "next/navigation";
 
-export async function loadProduct(
-  slug: string,
-): Promise<ProductDetails> {
+export async function loadProduct(slug: string): Promise<ProductDetails> {
   try {
-    const product = await import(
-      `@/lib/DB/content/services/products/${slug}.json`
-    );
-    return product.default as ProductDetails;
+    const file = await import(`@/lib/DB/content/services/products/${slug}.json`);
+    const data = file.default;
+
+    return {
+      ...data,
+      image: PRODUCT_IMAGES[slug as keyof typeof PRODUCT_IMAGES],
+    };
   } catch {
-    return notFound();
+    notFound();
   }
 }

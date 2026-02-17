@@ -42,11 +42,12 @@ export interface ServiceDetails {
 export interface ProductDetails {
   slug: string;
   title: string;
-  image: string;
+  image: StaticImageData;
   meta: { title?: string; description?: string };
   hero?: {
     headline: string;
     subLine?: string;
   };
+  isTopProduct: boolean;
   blocks: ContentBlock[];
 }

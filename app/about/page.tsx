@@ -1,7 +1,5 @@
-"use client";
 import AnimatedButton from "@/components/custom/ui/AnimatedBtn";
 import AnimatedCard from "@/components/custom/ui/AnimatedCard";
-import ParallaxCard from "@/components/custom/ui/ParallaxCard";
 import Section from "@/components/custom/ui/Section";
 import { ABOUT_CARDS } from "@/lib/DB/ui/mapper";
 import { Box } from "lucide-react";
@@ -11,7 +9,7 @@ import Header from "@/components/custom/shared/Header";
 import Reveal from "@/components/custom/ui/Reveal";
 import { RevealCard } from "@/components/custom/ui/RevealCard";
 import HighlightedText from "@/components/custom/shared/HighlightedText";
-import ImageSlider from "@/components/custom/ui/ImageSlider";
+import TopProductsSlider from "@/components/custom/shared/TopProductsSlider";
 export default function About() {
   return (
     <Container>
@@ -67,7 +65,7 @@ export default function About() {
             {/* Left */}
             <div className="w-full">
               {/* <ParallaxCard img="./images/person.webp" direction="down" /> */}
-              <ImageSlider/>
+              <TopProductsSlider/>
             </div>
 
             {/* Right */}

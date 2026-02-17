@@ -11,8 +11,7 @@
   },
   "image": "/images/service-1.webp",
   "products": [
-      { "name": "Website", "slug": "web-app" },
-      { "name": "Application", "slug": "web-app" }
+      { "name": "Website & Application Development", "slug": "web-app" }
   ],
   "blocks": [
     {

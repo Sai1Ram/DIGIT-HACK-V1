@@ -5,7 +5,7 @@
     "title": "School Management Software | Student Information System & Fee Management in India",
     "description": "Complete school management system for student admissions, attendance, fee collection, timetable, library, and parent-teacher communication. Cloud-based ERP for schools and educational institutions."
   },
-  "image": "/images/service-1.webp",
+  "isTopProduct": true,
   "hero": {
     "headline": "DigIT-Hack School Management Software",
     "subLine": "Revolutionize the way your Institution Operates! DigIT-Hack is designed and crafted by experienced educators and is known for its non-compromised support and transparent pricing. We meet all the needs to manage an Institution!"

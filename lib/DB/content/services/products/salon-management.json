@@ -5,11 +5,11 @@
     "title": "Salon Management Software | Billing, Inventory, CRM & WhatsApp Integration",
     "description": "DigIT-Hack Salon Management Software helps salons manage billing, inventory, staff access, customer wallet, credit management, loyalty rewards, service reminders and WhatsApp API integration to streamline operations."
   },
-  "image": "/images/service-1.webp",
   "hero": {
     "headline": "DIGITHACK’S SALON MANAGEMENT SOFTWARE",
     "subLine": "At Digithack, we are dedicated to revolutionizing the way businesses manage their processes. With a commitment to innovation and user-centric solutions, we offer a comprehensive Salon Management software designed to simplify invoicing and streamline operations."
   },
+  "isTopProduct": true,
   "blocks": [
     {
       "type": "text",
@@ -98,7 +98,6 @@
         "It simplifies financial transactions for both customers and businesses."
       ]
     },
-
     {
       "type": "text",
       "content": "Contact us to schedule a demo or discuss how our software can optimize your billing process!"

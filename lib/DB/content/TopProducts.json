@@ -1,22 +1,22 @@
 [
     {
         "name": "Restaurant Management System",
-        "url": "/images/restaurantManagement.png"
+        "url": "restaurantManagement"
     },
     {
         "name":"Gym Management System",
-        "url": "/images/gymManagement.png"
+        "url": "gymManagement"
     },
     {
         "name": "School Management System",
-        "url": "/images/schoolManagement.png"
+        "url": "schoolManagement"
     },
     {
         "name": "Salon Management System",
-        "url": "/images/salonManagement.png"
+        "url": "salonManagement"
     },
     {
         "name": "App and Website",
-        "url": "/images/appAndWebsite.png"
+        "url": "appAndWebsite"
     }
 ]

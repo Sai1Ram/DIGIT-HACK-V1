@@ -4,9 +4,16 @@ import AnimatedButton from "../ui/AnimatedBtn";
 import Container from "../ui/Container";
 import Section from "../ui/Section";
 import Link from "next/link";
+import { loadAllProducts } from "@/lib/loadAllProducts";
+import DemoForm from "../shared/DemoForm";
 
-export default function Footer() {
+interface ProductShortDetails {
+  slug: string;
+  title: string;
+}
+export default async function Footer() {
   const SERVICES = loadServices();
+  const products: ProductShortDetails[] = await loadAllProducts();
   return (
     <Container>
       <footer className="relative rounded-2xl mb-4 mt-24 sm:mt-32">
@@ -121,38 +128,7 @@ export default function Footer() {
             </div>
 
             {/* Newsletter */}
-            <div>
-              <h4 className="font-semibold mb-4 text-lg">
-                Subscribe to Our Newsletter
-              </h4>
-
-              <div
-                className="
-                  flex flex-col sm:flex-row
-                  bg-white rounded-lg overflow-hidden
-                "
-              >
-                <input
-                  type="email"
-                  placeholder="Enter email"
-                  className="
-                    flex-1
-                    px-4 py-3
-                    outline-none
-                    text-sm sm:text-base
-                  "
-                />
-                <button
-                  className="
-                    px-4 py-3
-                    bg-primary text-white
-                    text-sm sm:text-base
-                  "
-                >
-                  →
-                </button>
-              </div>
-            </div>
+            <DemoForm products={products} />
           </div>
           <div className="text-sm text-gray-600 space-y-1 relative z-5 mt-10">
             <p className="font-semibold text-gray-800">Official Partners</p>

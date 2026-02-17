@@ -52,7 +52,7 @@
     "products": [
       {
         "name": "School Management System",
-        "slug": "/"
+        "slug": "school-management"
       }
     ],
     "image": "schoolManagement"
@@ -74,11 +74,7 @@
     "description": "Optimize the user experience and expand your reach to a larger audience by having your own dynamic website/application.",
     "products": [
       {
-        "name": "Website",
-        "slug": "web-app"
-      },
-      {
-        "name": "Application",
+        "name": "Website & Application Development",
         "slug": "web-app"
       }
     ],

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, easeInOut } from "motion/react";
 import AnimatedButton from "../ui/AnimatedBtn";
-import { NAV_LINKS} from "@/lib/DB/ui/NavMapper";
+import { NAV_LINKS } from "@/lib/DB/ui/NavMapper";
 
 /* ------------------ VARIANTS ------------------ */
 
@@ -57,7 +57,7 @@ export default function NavContent() {
                 : pathname.startsWith(link.href);
 
             const hasDropdown = !!link.children;
-
+            const aiLink = link.id === 5;
             return (
               <motion.div
                 key={link.id}
@@ -71,7 +71,10 @@ export default function NavContent() {
                   href={link.href}
                   className={`text-xl transition-colors duration-300
                     hover:text-primary
-                    ${isActive ? "text-primary" : "text-foreground/80"}`}
+                    ${isActive ? "text-primary" : "text-foreground/80"}
+                    ${aiLink ? "border border-primary p-2 rounded-2xl" : ""}
+                    `}
+                    target={aiLink ? "_blank" : ""}
                 >
                   {hasDropdown ? (
                     <span className="flex gap-1 items-center">
@@ -137,12 +140,14 @@ export default function NavContent() {
           {NAV_LINKS.map((link) => {
             const hasDropdown = !!link.children;
             const isOpen = openDropdown === link.id;
-
+            const aiLink = link.id === 5;
             return (
               <div key={link.id}>
                 {/* MAIN MOBILE LINK */}
                 <div
-                  className="flex justify-between items-center text-lg font-medium"
+                  className={`flex justify-between items-center text-lg font-medium ${
+                    aiLink ? "border border-primary p-2 rounded-2xl" : ""
+                  }`}
                   onClick={() => {
                     if (hasDropdown) {
                       setOpenDropdown(isOpen ? null : link.id);
@@ -151,7 +156,7 @@ export default function NavContent() {
                     }
                   }}
                 >
-                  <Link href={link.href}>{link.label}</Link>
+                  <Link href={link.href} target={aiLink ? "_blank" : ""}>{link.label}</Link>
 
                   {hasDropdown && (
                     <ChevronDown

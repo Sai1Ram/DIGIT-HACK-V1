@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import useScrollDirection from "@/hooks/useScrollDirection";
 import useInView from "@/hooks/useInView";
 import useScrollY from "@/hooks/useScrollY";
-import { NAV_LINKS} from "@/lib/DB/ui/NavMapper";
+import { NAV_LINKS } from "@/lib/DB/ui/NavMapper";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { AnimatePresence, easeInOut, motion } from "motion/react";
@@ -72,6 +72,7 @@ export function HeroNavbar() {
                 : pathname.startsWith(link.href);
 
             const hasDropdown = !!link.children;
+            const aiLink = link.id === 5;
 
             return (
               <motion.div
@@ -85,7 +86,10 @@ export function HeroNavbar() {
                   href={link.href}
                   className={`text-lg transition-colors duration-300
               hover:text-primary
-              ${isActive ? "text-primary" : "text-foreground/80"}`}
+              ${isActive ? "text-primary" : "text-foreground/80"}
+              ${aiLink ? "border border-primary p-2 rounded-2xl" : ""}
+              `}
+                  target={aiLink ? "_blank" : ""}
                 >
                   {hasDropdown ? (
                     <span className="flex gap-1 items-center">
@@ -157,12 +161,18 @@ export function HeroNavbar() {
               <div className="flex flex-col px-6 py-6 gap-4">
                 {NAV_LINKS.map((link) => {
                   const hasDropdown = !!link.children;
-
+                  const aiLink = link.id === 5;
                   return (
-                    <div key={link.id}>
+                    <div
+                      key={link.id}
+                      className={`${
+                        aiLink ? "border border-primary p-2 rounded-2xl" : ""
+                      }`}
+                    >
                       <Link
                         href={link.href}
                         onClick={() => setMobileOpen(false)}
+                        target={aiLink ? "_blank" : ""}
                       >
                         <button
                           onClick={() =>

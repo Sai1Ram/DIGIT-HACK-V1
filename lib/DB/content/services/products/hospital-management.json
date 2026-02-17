@@ -1,15 +1,14 @@
 {
-  "slug": "integrated-hospital-management",
-  "title": "Integrated Hospital Management Software",
+  "slug": "hospital-management",
+  "title": "Hospital Management Software",
   "meta": {
     "title": "Hospital Management Software (HMS) | OPD, IPD, Billing, Pharmacy, Lab & 450+ Reports | DigIT-Hack",
     "description": "DigIT-Hack Integrated Hospital Management Software (HMS) streamlines hospital operations with OPD/IPD, appointments, billing, lab, radiology, pharmacy, nursing, OT, discharge, HR, ambulance, SMS, inventory, cashless TPA and 450+ integrated reports."
   },
-  "image": "/images/service-1.webp",
   "hero": {
     "headline": "DigIT-Hack Integrated Hospital Management Software",
     "subLine": "To provide an integrated solution for hospitals that helps in efficient management, enhances patient care, improves work efficiency and fiscal control, eliminates pilferage chances, and enables hospital growth."
-  },
+  },  "isTopProduct": false,
   "blocks": [
     {
       "type": "list",

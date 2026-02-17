@@ -2,32 +2,21 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import TopProducts from "@/lib/DB/content/TopProducts.json"
+// import TopProducts from "@/lib/DB/content/TopProducts.json";
+import { ProductDetails } from "@/types/Service";
 
 /* ---------------- TYPES ---------------- */
-interface ProductSlide {
-  name: string;
-  url: string;
-}
 
-/* If TopProducts already typed, remove this line */
-const slides: ProductSlide[] = TopProducts;
-
-export default function ImageSlider() {
+export default function ImageSlider({ slides }: { slides: ProductDetails[] }) {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-
   /* ---------- PREV ---------- */
   const prevSlide = () => {
-    setCurrentIndex((prev) =>
-      prev === 0 ? slides.length - 1 : prev - 1
-    );
+    setCurrentIndex((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
   /* ---------- NEXT ---------- */
   const nextSlide = useCallback(() => {
-    setCurrentIndex((prev) =>
-      prev === slides.length - 1 ? 0 : prev + 1
-    );
+    setCurrentIndex((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   }, []);
 
   /* ---------- AUTO PLAY ---------- */
@@ -40,11 +29,11 @@ export default function ImageSlider() {
     <div className="h-full w-full relative group">
       {/* Image */}
       <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        style={{ backgroundImage: `url(${slides[currentIndex].image.src})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500 overflow-hidden"
       >
         <h2 className="bg-gray-200 lg:text-xl font-bold p-2 text-center rounded-tl-2xl rounded-tr-2xl">
-          {slides[currentIndex].name}
+          {slides[currentIndex].title}
         </h2>
       </div>
 

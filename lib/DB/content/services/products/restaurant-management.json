@@ -5,11 +5,11 @@
     "title": "Restaurant Management System | POS Billing Software for Restaurants, Cafes & QSR in India",
     "description": "Complete restaurant management software with POS billing, inventory management, online ordering integration, and kitchen management. Trusted by fine dine restaurants, cafes, and QSRs across India."
   },
-  "image": "/images/service-1.webp",
   "hero": {
     "headline": "DigIT-Hack Restaurant Management System",
     "subLine": "Manages all your restaurant operations efficiently so that you can focus on growing your brand, like a real boss! We provide a one stop solution for all the activities related to restaurant business, right from finance part till the customer relation part."
   },
+  "isTopProduct": true,
   "blocks": [
     {
       "type": "list",

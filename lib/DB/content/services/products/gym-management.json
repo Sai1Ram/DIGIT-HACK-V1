@@ -5,17 +5,17 @@
     "title": "Gym Management Software | Fitness Club CRM & Membership Management System in India",
     "description": "Cloud-based gym management software for admissions, renewals, billing, staff management & membership tracking. Complete fitness club CRM solution with SMS alerts and biometric integration."
   },
-  "image": "/images/service-1.webp",
   "hero": {
     "headline": "DigIT-Hack Gym Management Software",
     "subLine": "Gym Management Software is CRM Software, which is used for Management of Gym Business related activities like Admissions, Renewals, Accounts, Due Reminder and all other activities that's needed in gym management. DigIT-Hack Management Software is a Cloud based Gym Software that is used for manage gymnasium and fitness Club."
   },
+  "isTopProduct": true,
   "blocks": [
     {
       "type": "text",
       "title": "What is Gym Management Software",
       "content": "Gym Management Software is CRM Software, which is used for Management of Gym Business related activities like Admissions, Renewals, Accounts, Due Reminder and all other activities that's needed in gym management. DigIT-Hack Management Software is a Cloud based Gym Software that is used for manage gymnasium and fitness Club."
-    }, 
+    },
     {
       "type": "features",
       "title": "Our Key Features",
