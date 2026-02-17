@@ -26,10 +26,6 @@
     "description": "Empower your hospitality business with our intuitive software, streamlining guest experiences and administrative tasks effortlessly.",
     "products": [
       {
-        "name": "Hospital Management System",
-        "slug": "hospital-management"
-      },
-      {
         "name": "Salon Management System",
         "slug": "salon-management"
       },
@@ -38,7 +34,7 @@
         "slug": "restaurant-management"
       }
     ],
-    "icon": "Hospital",
+    "icon": "Utensils",
     "slug": "hospitality"
   },
   {
