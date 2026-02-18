@@ -18,21 +18,21 @@ export default function Home() {
         <div
           className="
                   absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-                  w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80
-                  rounded-full pointer-events-none
-                  border border-gray-300/60 bg-white/25 backdrop-blur-md
+                  w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-56 xl:h-56
+                  rounded-full pointer-events-none bg-white/25 
+                  border border-gray-300/60 backdrop-blur-md
                   shadow-[0_0_40px_30px_rgba(255,255,255,0.4)]
                   z-20
                 "
         >
           <div className="flex flex-col items-center justify-center h-full text-center px-6 sm:px-10">
-            <h3 className="text-xl sm:text-2xl font-semibold">
+            <h3 className="text-lg sm:text-xl font-semibold">
               Join Over{" "}
               <span className="px-2 bg-primary text-white rounded-full">
                 100+
               </span>
             </h3>
-            <p className="text-base sm:text-xl font-medium mt-1">
+            <p className="text-sm sm:text-base font-medium mt-1">
               Companies with{" "}
               <span className="text-primary font-bold">DigIT-Hack</span> Here
             </p>

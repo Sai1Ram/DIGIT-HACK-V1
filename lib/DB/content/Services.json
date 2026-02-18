@@ -38,7 +38,7 @@
     "slug": "hospitality"
   },
   {
-    "id": 6,
+    "id": 3,
     "slug": "institutional",
     "title": "Institutional Industry",
     "icon": "GraduationCap",
@@ -51,15 +51,7 @@
     ]
   },
   {
-    "id": 7,
-    "slug": "digital-marketing",
-    "title": "Digital Marketing",
-    "icon": "Tv",
-    "description": "Maximize your digital presence with our tailored marketing software, driving engagement and boosting brand visibility.",
-    "products": []
-  },
-  {
-    "id": 9,
+    "id": 4,
     "slug": "web-app",
     "title": "Website & Application",
     "icon": "Globe",
@@ -70,5 +62,13 @@
         "slug": "web-app"
       }
     ]
+  },
+  {
+    "id": 5,
+    "slug": "digital-marketing",
+    "title": "Digital Marketing",
+    "icon": "Tv",
+    "description": "Maximize your digital presence with our tailored marketing software, driving engagement and boosting brand visibility.",
+    "products": []
   }
 ]

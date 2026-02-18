@@ -9,7 +9,7 @@ import Header from "@/components/custom/shared/Header";
 import Reveal from "@/components/custom/ui/Reveal";
 import { RevealCard } from "@/components/custom/ui/RevealCard";
 import HighlightedText from "@/components/custom/shared/HighlightedText";
-import TopProductsSlider from "@/components/custom/shared/TopProductsSlider";
+import ParallaxCard from "@/components/custom/ui/ParallaxCard";
 export default function About() {
   return (
     <Container>
@@ -64,8 +64,7 @@ export default function About() {
           <div className="relative z-5 flex flex-col md:flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 xl:gap-20 w-full">
             {/* Left */}
             <div className="w-full">
-              {/* <ParallaxCard img="./images/person.webp" direction="down" /> */}
-              <TopProductsSlider/>
+              <ParallaxCard img="./images/person.webp" direction="down" />
             </div>
 
             {/* Right */}
@@ -170,11 +169,12 @@ export default function About() {
         <div
           className="
     absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-    w-56 h-56
-    sm:w-64 sm:h-64
-    md:w-72 md:h-72
-    lg:w-80 lg:h-80
-    xl:w-96 xl:h-96
+w-28 h-28
+sm:w-32 sm:h-32
+md:w-40 md:h-40
+lg:w-48 lg:h-48
+xl:w-56 xl:h-56
+
     rounded-full
     pointer-events-none
     border border-gray-300/60
@@ -185,13 +185,13 @@ export default function About() {
   "
         >
           <div className="flex flex-col items-center justify-center h-full text-center px-6 sm:px-10">
-            <h3 className="text-xl sm:text-2xl font-semibold">
+            <h3 className="text-lg sm:text-xl font-semibold">
               Join Over{" "}
               <span className="px-2 bg-primary text-white rounded-full">
                 100+
               </span>
             </h3>
-            <p className="text-base sm:text-xl font-medium mt-1">
+            <p className="text-sm sm:text-base font-medium mt-1">
               Companies with{" "}
               <span className="text-primary font-bold">DigIT-Hack</span> Here
             </p>

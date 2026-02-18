@@ -120,8 +120,8 @@ export default function Hero() {
                   <AnimatedButton label="Get Started" href="/contact" />
 
                   <p className="">
-                    Recognized by industry award leaders, <br />
-                    award winning team has be a proven record.
+                    Your dream we customize. <br />
+                    Tip to toe under your fingertips!
                   </p>
                 </div>
               </Reveal>

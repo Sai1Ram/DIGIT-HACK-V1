@@ -1,44 +1,26 @@
-"use client";
-import ParallaxCard from "@/components/custom/ui/ParallaxCard";
-import RevealText from "@/components/custom/ui/RevealText";
+import TopProductsSlider from "@/components/custom/shared/TopProductsSlider";
 import Section from "@/components/custom/ui/Section";
 import AnimatedButton from "@/components/custom/ui/AnimatedBtn";
+import HighlightedText from "./HighlightedText";
 
 export default function AboutUs() {
   return (
     <Section>
-      <div className="flex flex-col xl:flex-row gap-12 xl:gap-24 w-full">
+      <div className="flex flex-col xl:flex-row gap-12 w-full">
         {/* LEFT */}
-        <div className="w-full xl:w-2/5 flex flex-col gap-6 xl:justify-between">
+        <div className="w-full flex flex-col gap-6 xl:justify-between">
           <p className="text-primary uppercase font-semibold text-sm sm:text-base">
             .About Us
           </p>
-
-          <ParallaxCard img={"./images/person.webp"}>
-            <div
-              className="
-            absolute bottom-0 right-0
-            bg-white rounded-tl-xl
-            px-3 sm:px-4 py-2
-            shadow-md
-            flex items-center gap-2
-          "
-            >
-              <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-400" />
-              <div className="leading-tight">
-                <h3 className="font-semibold text-sm sm:text-base">Sai Ram</h3>
-                <p className="text-xs sm:text-sm text-gray-600">
-                  CEO & Founder
-                </p>
-              </div>
-            </div>
-          </ParallaxCard>
+          <div className="xl:h-full sm:h-110 h-96">
+            <TopProductsSlider />
+          </div>
         </div>
 
         {/* RIGHT */}
-        <div className="w-full xl:w-3/5 space-y-6 sm:space-y-8">
+        <div className="w-full space-y-6 sm:space-y-8">
           <h2 className="">
-            <RevealText
+            <HighlightedText
               text="Our Stories on Begins Passion Driven by Purpose, and Fueled by a Relentless Pursuit of Results and Client Real Success."
               className="
             text-3xl sm:text-4xl lg:text-5xl
@@ -47,9 +29,11 @@ export default function AboutUs() {
             tracking-tighter
             inline-flex
           "
-              getWordClassName={(word) =>
-                word === "Our" ? "ml-0 xl:ml-20" : ""
-              }
+              highlight="Our"
+              highlightClassName="ml-0 xl:ml-20"
+              // getWordClassName={(word) =>
+              //   word === "Our" ? "ml-0 xl:ml-20" : ""
+              // }
             />
           </h2>
 
@@ -83,8 +67,10 @@ export default function AboutUs() {
                 </p>
               </div>
 
-              <div className="w-1/2 sm:px-8
-              sm:border-l sm:border-dashed sm:border-gray-400">
+              <div
+                className="w-1/2 sm:px-8
+              sm:border-l sm:border-dashed sm:border-gray-400"
+              >
                 <h2 className="text-4xl sm:text-6xl lg:text-7xl font-semibold">
                   8.5X
                 </h2>
