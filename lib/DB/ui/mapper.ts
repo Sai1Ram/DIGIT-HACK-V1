@@ -1,4 +1,4 @@
-import { BRAND_IMAGES, SERVICE_IMAGES } from "./images";
+import { BRAND_IMAGES, SERVICE_IMAGES, TESTIMONIAL_IMAGES } from "./images";
 import brands from "../content/Brands.json";
 import aboutCards from "../content/AboutCards.json";
 import contactInfo from "../content/ContactInfo.json";
@@ -6,14 +6,23 @@ import services from "../content/Services.json";
 import { ABOUT_CARDS_ICONS, CONTACT_INFO_ICONS, SERVICES_ICONS } from "./icon";
 import { ServiceItem, ServiceJson } from "@/types/Service";
 import { ContactInfo, ContactInfoJson } from "@/types/ContactInfo";
-import { Brand, BrandJson } from "@/types/Brand";
+import { Brand, BrandJson, Testimonial, TestimonialJson } from "@/types/Brand";
 import { AboutCard, AboutCardJson } from "@/types/About";
+import testimonials from "../content/Testimonials.json";
 
 const typedBrands = brands as BrandJson[];
 export const BRANDS: Brand[] = typedBrands.map((b) => ({
   id: b.id,
   src: BRAND_IMAGES[b.src],
   link: b.link,
+}));
+
+const typedTestimonials = testimonials as TestimonialJson[];
+export const TESTIMONIALS: Testimonial[] = typedTestimonials.map((t) => ({
+  quote: t.quote,
+  name: t.name,
+  role: t.role,
+  avatar: TESTIMONIAL_IMAGES[t.avatar],
 }));
 
 const typedAboutCards = aboutCards as AboutCardJson[];

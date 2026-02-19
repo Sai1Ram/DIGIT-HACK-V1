@@ -3,30 +3,30 @@
     "quote": "This software has been very useful and the pricing is really good as compared to the market price. The 'Digital QR' and the 'Swiggy Zomato integration' has boosted our efficiency. Highly recommended!",
     "name": "Samosa Express",
     "role": "Sr. Executive",
-    "avatar": "/images/testimonial/testimonial-1.jpg"
+    "avatar": "samosa"
   },
   {
     "quote": "Daily attendance, classes scheduling, fee management are some of the best features which made our life pretty easy by making the operation fully digital. Best part about them is they are open to customization whenever it's required!",
-    "name": "Saraswati Sishu Vidya Mandir Odisha",
+    "name": "Delhi Public School",
     "role": "Product Manager",
-    "avatar": "/images/testimonial/cutfit.png"
+    "avatar": "delhiPublic"
   },
   {
     "quote": "Very easy to operate and affordable software! Order management with 'online orders integration' and 'live stock management' are really unique features which is rarely found in the software market and that too in this price. It has helped a lot to boost our revenue so, obviously it's a great buy.",
     "name": "Prestige Hotel And Convention",
     "role": "Founder",
-    "avatar": "/images/testimonial/prestige.jpg"
+    "avatar": "prestige"
   },
   {
     "quote": "The software is very easy to use and the customer service is very responsive. The 'Digital QR' has boosted our efficiency. The software is very easy to use and the customer service is very responsive.",
     "name": "Orchid Fashion Studio",
     "role": "Founder",
-    "avatar": "/images/brandLogo/samosa-logo.png"
+    "avatar": "orchid"
   },
   {
     "quote": "The software has revolutionized our business operations. From appointment scheduling to inventory management, it handles everything seamlessly. Highly recommended for any salon looking to streamline their processes and enhance their service quality.",
     "name": "Cult Fit Odisha",
     "role": "Founder",
-    "avatar": "/images/brandLogo/indulge-logo.png"
+    "avatar": "cultfit"
   }
 ]

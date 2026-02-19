@@ -3,9 +3,8 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Quote } from "lucide-react";
-import TESTIMONIALS from "@/lib/DB/content/Testimonials.json";
+import {TESTIMONIALS} from "@/lib/DB/ui/mapper";
 import Image from "next/image";
-
 const AUTO_DELAY = 2000; // ms
 
 export default function TestimonialSlider() {
@@ -96,7 +95,12 @@ export default function TestimonialSlider() {
 
             <hr className="border-gray-300" />
 
-            <div>
+            <div className="flex items-center gap-4">
+              <Image
+                src={t.avatar}
+                alt={t.name}
+                className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover"
+              />
               <h4 className="font-semibold text-lg sm:text-xl lg:text-2xl">
                 {t.name}
               </h4>

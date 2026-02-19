@@ -17,6 +17,10 @@ import gymManagement from "@/public/images/gymManagement.png";
 import salonManagement from "@/public/images/salonManagement.png";
 import transportManagement from "@/public/images/transportManagement.jpeg";
 import billingSoftware from "@/public/images/BillingSoftware.png";
+import prestige from "@/public/images/brandLogo/prestige.jpg";
+import cultfit from "@/public/images/brandLogo/cultfit.jpg";
+import orchid from "@/public/images/brandLogo/orchid.jpg";
+import delhiPublic from "@/public/images/brandLogo/delhiPublic.png";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -49,7 +53,14 @@ export const BRAND_IMAGES = {
   barc,
 } as const;
 
+export const TESTIMONIAL_IMAGES = {
+  samosa,
+  cultfit,
+  prestige,
+  orchid,
+  delhiPublic,
+} as const;
 export type BrandImageKey = keyof typeof BRAND_IMAGES;
 export type ProductImageKey = keyof typeof PRODUCT_IMAGES;
 export type ServiceImageKey = keyof typeof SERVICE_IMAGES;
-// export type ServiceImageKey = keyof typeof SERVICES_IMAGES;
+export type TestimonialImageKey = keyof typeof TESTIMONIAL_IMAGES;
