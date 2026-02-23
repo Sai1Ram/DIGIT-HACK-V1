@@ -130,21 +130,16 @@ export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
             return (
               <section key={index}>
                 <div
-                  className={`relative w-full overflow-hidden ${
+                  className={`relative w-1/2 overflow-hidden mx-auto ${
                     block.rounded ? "rounded-2xl" : "rounded-none"
                   }`}
-                  // style={{ aspectRatio: "16 / 9" }}
+                  style={{ aspectRatio: "3 / 2" }}
                 >
-                  {/* <Image
+                  <Image
                     src={block.src}
                     alt={block.alt ?? "image"}
                     fill
-                    className="object-cover"
-                  /> */}
-                  <img
-                    src={block.src}
-                    alt={block.alt ?? "image"}
-                    className="w-1/2 h-full mx-auto"
+                    className="object-fit"
                   />
                 </div>
               </section>

@@ -2,172 +2,119 @@
   "slug": "billing-software",
   "title": "Billing Software",
   "meta": {
-    "title": "Billing Software | POS, GST Reports, Inventory & Customer Wallet | DigIT-Hack",
-    "description": "DigIT-Hack Billing Software helps businesses manage invoicing, mobile POS (mPOS), credit management, staff control, GST sale/purchase reports, barcode scanning, cloud storage, inventory tracking, loyalty, wallet and fast invoice printing."
+    "title": "Billing Software | POS, Inventory, Accounts & WhatsApp | Digithack",
+    "description": "Digithack Billing Software helps businesses manage billing, stock, staff, accounts, expenses and customer communication in one smart cloud-based platform."
   },
-    "isTopProduct": false,
+  "isTopProduct": false,
   "hero": {
-    "headline": "DigIT-Hack Billing Software",
-    "subLine": "At DigIT-Hack, we are dedicated to revolutionizing the way businesses manage their billing processes. With a commitment to innovation and user-centric solutions, we offer a comprehensive billing software designed to simplify invoicing and streamline financial operations."
+    "headline": "Digithack Smart Billing Software",
+    "subLine": "Powerful yet simple billing software to manage sales, inventory, staff and accounts with real-time reports and WhatsApp integration."
   },
   "blocks": [
     {
       "type": "text",
-      "title": "Our Features",
-      "content": "Our billing software is designed to simplify invoicing and streamline financial operations with smart tools that enhance productivity and customer experience."
+      "title": "Complete Business Billing System",
+      "content": "Our billing software is built for retail stores, supermarkets, restaurants and service businesses. It simplifies invoicing, tracks stock, manages staff and provides clear financial reports so you can focus on growing your business."
     },
     {
       "type": "features",
-      "title": "mPOS",
+      "title": "POS (Point of Sale)",
       "items": [
         {
-          "title": "Mobile Billing Support",
-          "description": "Our billing Pos system supports mobile devices such as smartphones and tablets or Laptops."
+          "title": "Fast Billing",
+          "description": "Create professional invoices in seconds with barcode scanning, quick search and multiple payment options like cash, UPI and card.",
+          "icon": "Monitor"
         },
         {
-          "title": "On-the-go Payments",
-          "description": "This functionality empowers businesses to effortlessly process payments and efficiently manage sales transactions on the move, eliminating the need for dedicated billing counters."
+          "title": "Multi-Device Billing",
+          "description": "Use the billing system on desktop, laptop or tablet with cloud sync. Perfect for counters, mobile billing and multi-location stores.",
+          "icon": "Smartphone"
         }
       ]
     },
     {
       "type": "features",
-      "title": "Credit Management",
+      "title": "Stock Management",
       "items": [
         {
-          "title": "Customer Dues Tracking",
-          "description": "Billing software keeping track of how much money your customers owe you and making sure they pay it back on time."
+          "title": "Real-Time Inventory",
+          "description": "Inventory updates automatically after each sale or purchase so you always know your exact stock levels.",
+          "icon": "Package"
         },
         {
-          "title": "Credit Decisions",
-          "description": "It also involves deciding how much credit to give to each customer and checking if they can be trusted to pay you back."
+          "title": "Smart Alerts",
+          "description": "Get low stock alerts, manage suppliers and maintain proper stock flow to avoid shortages or overstocking.",
+          "icon": "Bell"
         }
       ]
     },
     {
       "type": "features",
-      "title": "Create Staff / Define User Control",
+      "title": "Staff Management",
       "items": [
         {
-          "title": "User Access Control",
-          "description": "The management and regulation of user access and permissions within the application."
+          "title": "User Roles & Permissions",
+          "description": "Create staff accounts with role-based access to control billing, reports and sensitive data securely.",
+          "icon": "Users"
         },
         {
-          "title": "Roles & Privileges",
-          "description": "It involves defining and assigning specific roles and privileges to staff members or users based on their responsibilities and requirements."
+          "title": "Sales Tracking",
+          "description": "Track staff performance, monitor sales and generate reports to improve productivity.",
+          "icon": "BarChart"
         }
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Online Bill Receipts on Customer Phone",
-      "items": [
-        "An online bill receipt in a customer billing app is like a digital receipt you get after buying something using the app.",
-        "It tells you what you bought, how much you paid, and how you paid for it. You can easily access it on your device."
-      ]
-    },
-    {
-      "type": "list",
-      "title": "GST Reports of Sale & Purchase",
-      "items": [
-        "A GST report of sale and purchase is a record that shows all the things a business sold and bought in a certain time, along with the taxes involved.",
-        "It helps the business follow the rules and calculate the right amount of taxes they owe."
       ]
     },
     {
       "type": "features",
-      "title": "Barcode Scan",
+      "title": "Accounts & Financial Reports",
       "items": [
         {
-          "title": "Quick Product Scanning",
-          "description": "The barcode scan feature in a billing app lets you use your phone's camera to quickly scan the barcodes on products."
+          "title": "Income & GST Reports",
+          "description": "Generate accurate sales, purchase and GST reports instantly. Stay compliant and ready for tax filing.",
+          "icon": "FileText"
         },
         {
-          "title": "Accurate Billing & Inventory",
-          "description": "This helps you easily and accurately add those products to your bill or keep track of your inventory. It's like a speedy and error-free way to identify and record items."
+          "title": "Profit Insights",
+          "description": "View profit, revenue and business performance through easy dashboards and downloadable reports.",
+          "icon": "TrendingUp"
         }
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Multiplatform Billing App",
-      "items": [
-        "Having a multiplatform billing app ensures that businesses and users can access and use the application regardless of their preferred device or operating system like Android, Windows."
       ]
     },
     {
       "type": "features",
-      "title": "Cloud Data Storage",
+      "title": "Expense Management",
       "items": [
         {
-          "title": "Secure Online Storage",
-          "description": "Cloud data storage for a billing app means keeping all the important billing information, like invoices and customer details, on the internet instead of on your computer."
+          "title": "Daily Expense Tracking",
+          "description": "Record and manage all business expenses in one place to maintain better financial control.",
+          "icon": "Receipt"
         },
         {
-          "title": "Access Anywhere",
-          "description": "It's like having a virtual safe place for your data that you can access from anywhere with an internet connection."
+          "title": "Expense Reports",
+          "description": "View categorized expense reports by day, month or year for smarter budgeting decisions.",
+          "icon": "PieChart"
         }
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Generate Bill In One Click",
-      "items": [
-        "Clicking once to create a bill simplifies and accelerates the billing process. It's like a shortcut for billing. It saves time and enhances efficiency, making it a valuable feature for businesses and individuals who need to create invoices quickly and effortlessly."
       ]
     },
     {
       "type": "features",
-      "title": "Track Your Inventory",
+      "title": "WhatsApp Integration",
       "items": [
         {
-          "title": "Auto Inventory Updates",
-          "description": "Built-in funcionality allows you to track inventory/stock. Auto-update inventory whenever you create an Invoice."
+          "title": "Send Bills Instantly",
+          "description": "Share digital invoices and receipts directly with customers on WhatsApp after every purchase.",
+          "icon": "MessageCircle"
         },
         {
-          "title": "Low Stock Notifications",
-          "description": "Notify you about low stock, stock availability and more."
+          "title": "Reminders & Promotions",
+          "description": "Send payment reminders, offers and updates to customers to improve engagement and repeat sales.",
+          "icon": "Send"
         }
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Customer Loyalty Display",
-      "items": [
-        "Let your point of sale tell you through customer profiles and sales history logs. Then, use that customer insight to create an impactful loyalty program."
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Customer Wallet",
-      "items": [
-        {
-          "title": "Wallet Balance Tracking",
-          "description": "This wallet is associated with a specific customer and holds any credit balances or extra payments they may have made."
-        },
-        {
-          "title": "Simplified Transactions",
-          "description": "It simplifies financial transactions for both customers and businesses."
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Invoice Printing",
-      "items": [
-        "DigIT-Hack billing app supports multiple type of PoS receipt printers and comes with super fast printing capability."
-      ]
-    },
-    {
-      "type": "list",
-      "title": "Advance Marketing Tools",
-      "items": [
-        "Create automated campaigns and target customers via sms and push notification."
       ]
     },
     {
       "type": "text",
-      "content": "Ready to Streamline Your Operations? Transform your workplace efficiency and customer satisfaction with our management software. Contact us to schedule a demo or discuss how our software can optimize your billing process!"
+      "content": "We also provide setup, training and customization based on your business needs. Our goal is to simplify your billing process and help your business run faster, smarter and more efficiently."
     }
   ]
 }

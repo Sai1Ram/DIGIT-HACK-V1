@@ -16,6 +16,7 @@ import restaurantManagement from "@/public/images/restaurantManagement.png";
 import gymManagement from "@/public/images/gymManagement.png";
 import salonManagement from "@/public/images/salonManagement.png";
 import transportManagement from "@/public/images/transportManagement.jpeg";
+import transportManagement1 from "@/public/images/TransportManagement1.png";
 import billingSoftware from "@/public/images/BillingSoftware.png";
 import prestige from "@/public/images/brandLogo/prestige.jpg";
 import cultfit from "@/public/images/brandLogo/cultfit.jpg";
@@ -31,6 +32,7 @@ export const PRODUCT_IMAGES = {
   "billing-software": billingSoftware,
   "web-app": digitalMarketing,
   "hotel-management": restaurantManagement,
+  "transport-management1": transportManagement1,
 } as const;
 
 export const SERVICE_IMAGES = {
@@ -60,7 +62,7 @@ export const TESTIMONIAL_IMAGES = {
   prestige,
   orchid,
   delhiPublic,
-} as const;
+} as const; 
 export type BrandImageKey = keyof typeof BRAND_IMAGES;
 export type ProductImageKey = keyof typeof PRODUCT_IMAGES;
 export type ServiceImageKey = keyof typeof SERVICE_IMAGES;
