@@ -14,6 +14,7 @@ export default function AboutUs() {
           </p>
           <div className="xl:h-full sm:h-110 h-96">
             <TopProductsSlider />
+            <h2 className="text-xl sm:text-2xl font-semibold mt-4 text-center">Top Products</h2>
           </div>
         </div>
 

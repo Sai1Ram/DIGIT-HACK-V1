@@ -1,0 +1,120 @@
+{
+  "slug": "hotel-management",
+  "title": "Hotel Management System",
+  "meta": {
+    "title": "Hotel Management System | Complete Cloud Software",
+    "description": "All-in-one restaurant & hotel management software with billing, inventory, staff, booking and analytics in one cloud platform."
+  },
+  "hero": {
+    "headline": "Smart Hotel Management",
+    "subLine": "Manage billing, bookings, staff, inventory and customer experience from one powerful cloud platform built for modern hotels."
+  },
+  "isTopProduct": true,
+  "blocks": [
+    {
+      "type": "list",
+      "title": "Perfect for",
+      "items": [
+        "Restaurants & Cafes",
+        "Hotels & Resorts",
+        "Cloud Kitchens",
+        "QSR Chains",
+        "Banquet Halls"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Core Features",
+      "items": [
+        "Cloud based full setup",
+        "Fast billing & POS",
+        "Inventory tracking",
+        "Staff management",
+        "Accounts & reports",
+        "Online booking integration"
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Hotel & Room Management",
+      "items": [
+        {
+          "title": "Cloud Setup",
+          "description": "Complete cloud system to manage rooms, billing, staff and operations from anywhere.",
+          "icon": "Cloud"
+        },
+        {
+          "title": "Check-in / Check-out",
+          "description": "Quick guest check-in and check-out with photo capture and digital records.",
+          "icon": "UserCheck"
+        },
+        {
+          "title": "Live Room Status",
+          "description": "Real-time room availability and booking tray for clear room tracking.",
+          "icon": "LayoutGrid"
+        },
+        {
+          "title": "Advance Booking",
+          "description": "Manage future reservations, walk-ins and online bookings easily.",
+          "icon": "Calendar"
+        },
+        {
+          "title": "Housekeeping App",
+          "description": "Assign and track housekeeping tasks with mobile access.",
+          "icon": "ClipboardList"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Business Operations",
+      "items": [
+        {
+          "title": "Accounts",
+          "description": "Track expenses, income, reports and financial summaries in one place.",
+          "icon": "Calculator"
+        },
+        {
+          "title": "Staff Management",
+          "description": "Manage roles, attendance, salaries and performance with ease.",
+          "icon": "Users"
+        },
+        {
+          "title": "Inventory",
+          "description": "Monitor stock, purchases and usage with real-time alerts.",
+          "icon": "Package"
+        },
+        {
+          "title": "Restaurant POS",
+          "description": "Integrated POS for dine-in, takeaway and online orders.",
+          "icon": "Monitor"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Advanced Modules",
+      "items": [
+        {
+          "title": "Channel Manager",
+          "description": "Sync rooms and pricing across booking platforms automatically.",
+          "icon": "Share2"
+        },
+        {
+          "title": "Booking Engine",
+          "description": "Accept direct bookings from your website with live availability.",
+          "icon": "Globe"
+        },
+        {
+          "title": "Banquet Module",
+          "description": "Manage events, halls, catering and payments from one dashboard.",
+          "icon": "CalendarDays"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "Fully customizable software tailored to your restaurant or hotel workflow. Simple, fast and scalable for growing businesses."
+    }
+  ]
+}

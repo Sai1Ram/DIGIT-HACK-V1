@@ -57,6 +57,11 @@
             "content": "Our transporter software seamlessly integrates into your existing systems, offering an intuitive interface for easy adoption. From initial setup to ongoing support, we ensure a smooth transition and provide comprehensive training for your team."
         },
         {
+            "type": "image",
+            "src": "/images/TransportManagement1.png",
+            "alt": "Transport Management Software"
+        },
+        {
             "type": "text",
             "title": "Industries We Serve",
             "content": "DigIT-Hack caters to a wide array of industries, including e-commerce, manufacturing, retail, and more. Our customizable solutions adapt to the unique needs of each sector, ensuring tailored solutions for maximum efficiency."

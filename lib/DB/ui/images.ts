@@ -30,6 +30,7 @@ export const PRODUCT_IMAGES = {
   "school-management": schoolManagement,
   "billing-software": billingSoftware,
   "web-app": digitalMarketing,
+  "hotel-management": restaurantManagement,
 } as const;
 
 export const SERVICE_IMAGES = {

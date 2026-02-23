@@ -34,7 +34,7 @@
             "title": "Trusted by Growing Retail Businesses",
             "items": [
                 {
-                    "value": "500+",
+                    "value": "50+",
                     "label": "Retail Businesses Served"
                 },
                 {
@@ -73,22 +73,6 @@
             ]
         },
         {
-            "type": "list",
-            "title": "Key Features That Drive Results",
-            "items": [
-                "Real-time inventory management with low-stock alerts and automated reordering",
-                "GST-compliant invoicing with e-way bills and GSTR report generation",
-                "Customer loyalty programs with points, rewards, and personalized offers",
-                "Multi-location support for chain stores with centralized dashboard",
-                "Mobile app integration for on-the-go business management",
-                "Advanced analytics and sales reporting with profit margin tracking",
-                "Barcode and QR code scanning for faster checkout",
-                "Supplier and purchase order management",
-                "Employee performance tracking and commission calculation",
-                "Seamless integration with payment gateways (Razorpay, PayU, Paytm)"
-            ]
-        },
-        {
             "type": "text",
             "title": "Benefits of Custom Retail Software",
             "content": "Off-the-shelf software forces you to adapt your business to its limitations. Our custom retail solutions are built around your specific needs. Reduce billing errors by 95%, cut inventory shrinkage by 60%, and increase customer retention by 40% with software designed for your business model. Get features that matter to you—not unnecessary bells and whistles you'll never use. Plus, own your data and scale without per-user licensing costs eating into your profits."
@@ -96,7 +80,7 @@
         {
             "type": "text",
             "title": "Why Choose DigITHack for Retail Software Development?",
-            "content": "As a leading custom software development company in India, we understand the unique challenges faced by Indian retailers. Our solutions are built keeping GST compliance, local business practices, and scalability in mind. We've helped retailers in Delhi, Mumbai, Bangalore, Hyderabad, Pune, and across India transform their operations with technology that actually works. Whether you run a single store or manage a retail chain, our software adapts to your workflow—not the other way around."
+            "content": "As a leading custom software development company in India, we understand the unique challenges faced by Indian retailers. Our solutions are built keeping GST compliance, local business practices, and scalability in mind. We've helped retailers across India transform their operations with technology that actually works. Whether you run a single store or manage a retail chain, our software adapts to your workflow—not the other way around."
         },
         {
             "type": "list",
@@ -118,7 +102,7 @@
         {
             "type": "cta",
             "title": "Ready to Transform Your Retail Business?",
-            "description": "Join 500+ retailers who've automated their operations with DigITHack. Get a free consultation and custom quote.",
+            "description": "Join 50+ retailers who've automated their operations with DigITHack. Get a free consultation and custom quote.",
             "button": {
                 "label": "Contact Us",
                 "href": "/contact"

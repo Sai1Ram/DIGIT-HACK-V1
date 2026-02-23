@@ -99,8 +99,7 @@ export default function Hero() {
                   <div className="h-1 w-10 bg-primary rounded-2xl"></div>
                 </div>
                 <p className="my-2 text-sm sm:text-base max-w-md">
-                  Recognized by industry award leaders, award winning team has
-                  be a proven record.
+                  Smart technology solutions crafted to grow and simplify your business.
                 </p>
               </Reveal>
               <Reveal direction="right" delay={0.2}>
@@ -120,8 +119,8 @@ export default function Hero() {
                   <AnimatedButton label="Get Started" href="/contact" />
 
                   <p className="">
-                    Your dream we customize. <br />
-                    Tip to toe under your fingertips!
+                    You dream we customize. <br />
+                    {/* Tip to toe under your fingertips! */}
                   </p>
                 </div>
               </Reveal>

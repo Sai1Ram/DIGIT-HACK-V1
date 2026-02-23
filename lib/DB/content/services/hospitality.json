@@ -17,6 +17,10 @@
         {
             "name": "Restaurant Management System",
             "slug": "restaurant-management"
+        },
+        {
+            "name": "Hotel Management System",
+            "slug": "hotel-management"
         }
     ],
     "blocks": [
