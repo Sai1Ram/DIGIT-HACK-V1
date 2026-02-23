@@ -3,6 +3,7 @@ import { ContentBlock } from "@/types/Content";
 import AnimatedButton from "../custom/ui/AnimatedBtn";
 import { RevealCard } from "../custom/ui/RevealCard";
 import { redirect } from "next/navigation";
+import { BLOCK_IMAGES } from "@/lib/DB/ui/images";
 export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
   return (
     <div className="w-full space-y-10 sm:space-y-14">
@@ -127,6 +128,7 @@ export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
             );
           // ✅ IMAGE BLOCK
           case "image":
+            const img = BLOCK_IMAGES[block.src as keyof typeof BLOCK_IMAGES];
             return (
               <section key={index}>
                 <div
@@ -136,7 +138,7 @@ export default function BlockRenderer({ blocks }: { blocks: ContentBlock[] }) {
                   style={{ aspectRatio: "3 / 2" }}
                 >
                   <Image
-                    src={block.src}
+                    src={img}
                     alt={block.alt ?? "image"}
                     fill
                     className="object-fit"

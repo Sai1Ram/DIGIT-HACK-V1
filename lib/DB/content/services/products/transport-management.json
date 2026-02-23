@@ -58,7 +58,7 @@
         },
         {
             "type": "image",
-            "src": "/public/images/TransportManagement1.png",
+            "src": "transportManagement1",
             "alt": "Transport Management Software"
         },
         {
