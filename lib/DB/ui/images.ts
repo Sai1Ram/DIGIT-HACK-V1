@@ -9,7 +9,7 @@ import studio from "@/public/images/brandLogo/studio.png";
 import onebite from "@/public/images/brandLogo/onebite.png";
 import barc from "@/public/images/brandLogo/BARC-Logo.svg";
 import retailSoftware from "@/public/images/retailsoftware.jpeg";
-import healthcareSoftware from "@/public/images/healthcareSoftware.jpg";
+import hospitalityManagement from "@/public/images/hospitalityManagement.png";
 import schoolManagement from "@/public/images/schoolManagement.png";
 import digitalMarketing from "@/public/images/DigitalMarketing.png";
 import restaurantManagement from "@/public/images/restaurantManagement.png";
@@ -22,11 +22,12 @@ import prestige from "@/public/images/brandLogo/prestige.jpg";
 import cultfit from "@/public/images/brandLogo/cultfit.jpg";
 import orchid from "@/public/images/brandLogo/orchid.jpg";
 import delhiPublic from "@/public/images/brandLogo/delhiPublic.png";
+import BillingSoftware2 from "@/public/images/BillingSoftware2.jpg";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
   "salon-management": salonManagement,
-  "hospital-management": healthcareSoftware,
+  "hospital-management": hospitalityManagement,
   "transport-management": transportManagement,
   "school-management": schoolManagement,
   "billing-software": billingSoftware,
@@ -35,11 +36,12 @@ export const PRODUCT_IMAGES = {
 } as const;
 export const BLOCK_IMAGES = {
   transportManagement1,
+  BillingSoftware2,
 } as const;
 
 export const SERVICE_IMAGES = {
   "retail": retailSoftware,
-  "hospitality": healthcareSoftware,
+  "hospitality": hospitalityManagement,
   "institutional": schoolManagement,
   "web-app": digitalMarketing,
   "digital-marketing": digitalMarketing,

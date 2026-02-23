@@ -59,7 +59,7 @@ if (!product) return <ComingSoonPage />
 
       <Section>
         <div>
-          <div className="relative h-[40vh] sm:h-[50vh] lg:h-[60vh]">
+          <div className="relative h-[40vh] sm:h-[60vh] lg:h-[70vh]">
             <Image
               src={product.image}
               alt={product.title}

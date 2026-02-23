@@ -14,107 +14,66 @@
     {
       "type": "text",
       "title": "Complete Business Billing System",
-      "content": "Our billing software is built for retail stores, supermarkets, restaurants and service businesses. It simplifies invoicing, tracks stock, manages staff and provides clear financial reports so you can focus on growing your business."
+      "content": "Our billing software is designed to simplify daily operations for modern businesses. Manage billing, stock, staff and financial reports from one secure and easy-to-use platform."
     },
     {
-      "type": "features",
+      "type": "list",
+      "title": "Perfect For",
+      "items": [
+        "Retail Stores",
+        "Supermarkets",
+        "Restaurants & Cafes",
+        "Pharmacies",
+        "Garment Shops",
+        "Electronics Stores",
+        "Service Businesses",
+        "Multi-Outlet Shops"
+      ]
+    },
+    {
+      "type": "text",
       "title": "POS (Point of Sale)",
-      "items": [
-        {
-          "title": "Fast Billing",
-          "description": "Create professional invoices in seconds with barcode scanning, quick search and multiple payment options like cash, UPI and card.",
-          "icon": "Monitor"
-        },
-        {
-          "title": "Multi-Device Billing",
-          "description": "Use the billing system on desktop, laptop or tablet with cloud sync. Perfect for counters, mobile billing and multi-location stores.",
-          "icon": "Smartphone"
-        }
-      ]
+      "content": "Create invoices in seconds with barcode scanning and support for cash, UPI and card payments. The POS system is fast, reliable and works smoothly across multiple devices with real-time data sync."
     },
     {
-      "type": "features",
+      "type": "image",
+      "src": "BillingSoftware2",
+      "alt": "Billing Software"
+    },
+    {
+      "type": "text",
       "title": "Stock Management",
-      "items": [
-        {
-          "title": "Real-Time Inventory",
-          "description": "Inventory updates automatically after each sale or purchase so you always know your exact stock levels.",
-          "icon": "Package"
-        },
-        {
-          "title": "Smart Alerts",
-          "description": "Get low stock alerts, manage suppliers and maintain proper stock flow to avoid shortages or overstocking.",
-          "icon": "Bell"
-        }
-      ]
+      "content": "Track inventory in real time with automatic stock updates after every sale or purchase. Get low-stock alerts, manage suppliers and maintain proper stock flow without manual effort."
     },
     {
-      "type": "features",
+      "type": "text",
       "title": "Staff Management",
-      "items": [
-        {
-          "title": "User Roles & Permissions",
-          "description": "Create staff accounts with role-based access to control billing, reports and sensitive data securely.",
-          "icon": "Users"
-        },
-        {
-          "title": "Sales Tracking",
-          "description": "Track staff performance, monitor sales and generate reports to improve productivity.",
-          "icon": "BarChart"
-        }
-      ]
+      "content": "Create staff accounts with role-based permissions. Monitor performance, track sales activity and control access to reports and billing features from a single dashboard."
+    },
+    {
+      "type": "text",
+      "title": "Accounts & Reports",
+      "content": "View income, expenses, GST reports and profit insights in one place. Download reports anytime to stay financially organized and make smarter business decisions."
     },
     {
       "type": "features",
-      "title": "Accounts & Financial Reports",
+      "title": "Expense & WhatsApp Integration",
       "items": [
         {
-          "title": "Income & GST Reports",
-          "description": "Generate accurate sales, purchase and GST reports instantly. Stay compliant and ready for tax filing.",
-          "icon": "FileText"
-        },
-        {
-          "title": "Profit Insights",
-          "description": "View profit, revenue and business performance through easy dashboards and downloadable reports.",
-          "icon": "TrendingUp"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "Expense Management",
-      "items": [
-        {
-          "title": "Daily Expense Tracking",
-          "description": "Record and manage all business expenses in one place to maintain better financial control.",
+          "title": "Expense Management",
+          "description": "Record daily expenses and categorize spending to maintain complete financial control with detailed reports.",
           "icon": "Receipt"
         },
         {
-          "title": "Expense Reports",
-          "description": "View categorized expense reports by day, month or year for smarter budgeting decisions.",
-          "icon": "PieChart"
-        }
-      ]
-    },
-    {
-      "type": "features",
-      "title": "WhatsApp Integration",
-      "items": [
-        {
-          "title": "Send Bills Instantly",
-          "description": "Share digital invoices and receipts directly with customers on WhatsApp after every purchase.",
+          "title": "WhatsApp Messages",
+          "description": "Send digital bills, payment reminders and promotional messages directly to customers on WhatsApp.",
           "icon": "MessageCircle"
-        },
-        {
-          "title": "Reminders & Promotions",
-          "description": "Send payment reminders, offers and updates to customers to improve engagement and repeat sales.",
-          "icon": "Send"
         }
       ]
     },
     {
       "type": "text",
-      "content": "We also provide setup, training and customization based on your business needs. Our goal is to simplify your billing process and help your business run faster, smarter and more efficiently."
+      "content": "Digithack billing software is secure, cloud-based and fully customizable. Whether you run a single store or multiple outlets, manage everything from one simple system and grow your business with confidence."
     }
   ]
 }

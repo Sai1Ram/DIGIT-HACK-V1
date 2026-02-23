@@ -59,12 +59,15 @@ export default async function ServicePage({ params }: PageProps) {
       <Section>
         <div className="flex flex-col lg:flex-row gap-10">
           <div className="left flex-1">
-            <div className="relative h-[40vh] sm:h-[50vh] lg:h-[60vh]">
+            <div className="w-full">
               <Image
                 src={service.image}
                 alt={service.title}
-                fill
-                className="rounded-xl object-cover"
+                width={1600}
+                height={900}
+                className="rounded-xl w-full h-auto"
+                sizes="100vw"
+                priority
               />
             </div>
 

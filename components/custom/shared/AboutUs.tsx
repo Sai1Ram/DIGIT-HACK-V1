@@ -14,7 +14,9 @@ export default function AboutUs() {
           </p>
           <div className="xl:h-full sm:h-110 h-96">
             <TopProductsSlider />
-            <h2 className="text-xl sm:text-2xl font-semibold mt-4 text-center">Top Products</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold mt-4 text-center">
+              Top Products
+            </h2>
           </div>
         </div>
 
@@ -22,7 +24,7 @@ export default function AboutUs() {
         <div className="w-full space-y-6 sm:space-y-8">
           <h2 className="">
             <HighlightedText
-              text="Our Stories on Begins Passion Driven by Purpose, and Fueled by a Relentless Pursuit of Results and Client Real Success."
+              text="Crafting powerful digital solutions to elevate your business experience."
               className="
             text-3xl sm:text-4xl lg:text-5xl
             font-semibold
@@ -40,11 +42,7 @@ export default function AboutUs() {
 
           <div className="ml-0 xl:ml-20 space-y-6">
             <p className="text-sm sm:text-base leading-relaxed">
-              Recognize that exceptional customer experiences are at the heart
-              of every successful business. Our Customer Experience Solutions
-              are crafted to help you transform every interaction your customers
-              have with your brand business into a meaningful and positive
-              experience. We believe that understanding the customer.
+              Since 2024, <span className="text-primary">DigIT-Hack</span> has been helping businesses transform their ideas into powerful digital solutions. Through smart technology and innovative thinking, we build websites, mobile apps, and complete management systems that simplify operations, enhance customer experiences, and support sustainable business growth. By combining creativity, technical expertise, and a collaborative approach, we deliver solutions that create real impact and long-term success.
             </p>
 
             {/* STATS */}
@@ -61,10 +59,10 @@ export default function AboutUs() {
             >
               <div className="w-1/2">
                 <h2 className="text-4xl sm:text-6xl lg:text-7xl font-semibold">
-                  20M
+                  200+
                 </h2>
                 <p className="text-sm sm:text-base">
-                  Reach Worldwide empower dreams everywhere.
+                  Projects delivered with excellence and innovation.
                 </p>
               </div>
 
