@@ -1,79 +1,109 @@
 {
   "slug": "school-management",
-  "title": "School Management Software",
+  "title": "School Management System",
   "meta": {
-    "title": "School Management Software | Student Information System & Fee Management in India",
-    "description": "Complete school management system for student admissions, attendance, fee collection, timetable, library, and parent-teacher communication. Cloud-based ERP for schools and educational institutions."
+    "title": "School Management System | Complete School ERP | Digithack",
+    "description": "Comprehensive school ERP to manage admissions, attendance, fees, communication, academics and online learning from one cloud platform."
   },
   "isTopProduct": true,
   "hero": {
-    "headline": "DigIT-Hack School Management Software",
-    "subLine": "Revolutionize the way your Institution Operates! DigIT-Hack is designed and crafted by experienced educators and is known for its non-compromised support and transparent pricing. We meet all the needs to manage an Institution!"
+    "headline": "Smart School Management System",
+    "subLine": "A complete cloud-based solution to manage admissions, students, staff, academics, communication and fees from one centralized dashboard."
   },
   "blocks": [
     {
       "type": "text",
-      "title": "Revolutionize the way your Institution Operates!",
-      "content": "DigIT-Hack is designed and crafted by experienced educators and is known for its non-compromised support and transparent pricing. We meet all the needs to manage an Institution!"
+      "title": "Complete School & Institute Management",
+      "content": "Our school management system is built to simplify administration and improve coordination across your institution. From admissions and attendance to online classes, exams and fee tracking, everything can be managed digitally. The system provides real-time reports, reduces manual work and ensures smooth communication between school management, teachers, students and parents."
+    },
+    {
+      "type": "list",
+      "title": "Perfect For",
+      "items": [
+        "Schools",
+        "Colleges",
+        "Coaching Institutes",
+        "Training Centers",
+        "Hostel-Based Institutions",
+        "Multi-Branch Schools",
+        "Educational Trusts"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Admission & Student Database",
+      "content": "Easily manage student inquiries, admissions and enrollment from a single dashboard. Maintain a complete digital database including student profiles, documents, academic records and parent contact details. Front office staff can track admission progress, approvals and fee payments without paperwork."
     },
     {
       "type": "features",
+      "title": "Academic Management",
       "items": [
         {
-          "title": "Student Information Management",
-          "description": "Student Profiles: Store student details like name, contact information, emergency contacts, etc. Admissions: Manage admission processes, including registration, documentation, and fee payments. Attendance: Track student attendance, generate reports, and notify parents about absences.",
-          "icon": "User"
+          "title": "Attendance Tracking",
+          "description": "Track daily attendance for students and staff with automated reports and notifications for absentees.",
+          "icon": "CheckSquare"
         },
         {
-          "title": "Academic Management",
-          "description": "Curriculum Planning: Plan and manage the school curriculum, syllabus, and lesson schedules. Grading and Assessments: Record grades, conduct assessments, and generate report cards. Timetable Management: Create and manage class schedules and teacher timetables.",
+          "title": "Daily Activities",
+          "description": "Manage classwork, homework, assignments, leaves and teacher updates for better academic coordination.",
           "icon": "BookOpen"
         },
         {
-          "title": "Teacher and Staff Management",
-          "description": "Teacher Profiles: Store teacher details, qualifications, and contact information. Attendance and Leave Management: Track teacher attendance, manage leave requests, and schedules. Performance Evaluation: Conduct performance reviews and appraisals for staff.",
-          "icon": "Users"
-        },
-        {
-          "title": "Fee and Financial Management",
-          "description": "Fee Collection And Management: Can easily track and manage student fees, generate detailed fee structures, and receive automated notifications for upcoming payments. Real-time updates on fee statuses, enabling timely communication between parents, students, and school administrators. Financial Reports: Generate financial reports, including income, expenses, and balance sheets.",
-          "icon": "DollarSign"
-        },
-        {
-          "title": "Library Management",
-          "description": "Catalog and Inventory: Maintain a catalog of books, manage inventory, and track lending. Book Issuing and Returning: Handle book borrowing, returning, and reservation processes.",
-          "icon": "Library"
-        },
-        {
-          "title": "Communication and Collaboration",
-          "description": "Parent-Teacher Communication: Facilitate communication between teachers and parents through messaging or notifications. Announcements and Notices: Send out school-wide announcements, event notifications, and important notices. Collaboration Tools: Provide platforms for collaboration among teachers, students, and parents.",
-          "icon": "MessageCircle"
-        },
-        {
-          "title": "Extracurricular Activities and Events",
-          "description": "Event Management: Plan, schedule, and manage school events, competitions, and extracurricular activities. Sports Management: Manage sports teams, schedules, and track achievements.",
-          "icon": "Calendar"
-        },
-        {
-          "title": "Transportation Management",
-          "description": "Route Planning: Manage bus routes, stops, and schedules. Vehicle and Driver Information: Maintain information about vehicles, drivers, and their schedules.",
-          "icon": "Bus"
-        },
-        {
-          "title": "Late Fee Alerts",
-          "description": "Automatically notify parents/students about impending or overdue fee payments, ensuring timely payments and adherence to school fee policies.",
-          "icon": "Bell"
-        },
-        {
-          "title": "Analytics",
-          "description": "Generate all types of reports, starting from administration to the entire parent-student management setup, which includes inquiry reports, admission stats, financial reports, etc.",
-          "icon": "BarChart"
+          "title": "Online Classes & Exams",
+          "description": "Conduct online classes, create exams and generate digital results with performance reports.",
+          "icon": "Monitor"
         }
       ]
     },
     {
       "type": "text",
-      "content": "We can customize as per the requirements and surely can meet all the needs to make the schooling easier from both business and parents/students perspective."
+      "title": "Digital Learning & Communication",
+      "content": "Keep students and parents informed with instant updates, homework alerts, exam schedules and announcements. The system helps improve communication through app notifications, SMS and digital reports so everyone stays connected."
+    },
+    {
+      "type": "features",
+      "title": "Institution Modules",
+      "items": [
+        {
+          "title": "Library Management",
+          "description": "Maintain book inventory, issue and return records, and track library usage with ease.",
+          "icon": "Library"
+        },
+        {
+          "title": "Transport Management",
+          "description": "Manage bus routes, driver details and student transport assignments efficiently.",
+          "icon": "Bus"
+        },
+        {
+          "title": "Hostel Management",
+          "description": "Track hostel rooms, student allocations and fee records in one place.",
+          "icon": "Home"
+        },
+        {
+          "title": "Store & Inventory",
+          "description": "Monitor uniforms, books, stationery and other institutional supplies with stock updates.",
+          "icon": "Package"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Accounts & Communication",
+      "items": [
+        "Manage fee collection, expenses and financial reports from one dashboard.",
+        "Integrated payment gateway for secure online fee payments.",
+        "Send notices, reminders and announcements via mobile app and SMS.",
+        "Track pending fees and automate payment alerts to parents."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Reports & Insights",
+      "content": "Generate detailed reports for attendance, fees, academic performance and daily activities. Access real-time dashboards to make better administrative decisions and track overall institution performance."
+    },
+    {
+      "type": "text",
+      "content": "Digithack School Management Software is fully customizable to match your institution workflow. Whether you run a single school or multiple campuses, manage everything efficiently from one secure and scalable cloud platform."
     }
   ]
 }

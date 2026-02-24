@@ -1,0 +1,156 @@
+{
+  "slug": "jewellery-management",
+  "title": "Jewellery Store Management Software",
+  "meta": {
+    "title": "Jewellery Store Management Software | Billing, Stock & Accounting | DigIT-Hack",
+    "description": "DigIT-Hack Jewellery Management Software helps jewellers manage billing, metal rates, stock, karigar accounts, udhaar, reports and customer communication in one secure system."
+  },
+  "isTopProduct": false,
+  "hero": {
+    "headline": "Smart Jewellery Store Management Software",
+    "subLine": "Complete solution for jewellery billing, inventory, metal rates, customer management and accounting — built specially for jewellers."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Complete Jewellery Business Management",
+      "content": "Designed specifically for jewellery businesses, our software simplifies billing, stock control, metal rate management and financial tracking. Manage your entire showroom operations accurately and securely from one powerful dashboard."
+    },
+    {
+      "type": "list",
+      "title": "Perfect For",
+      "items": [
+        "Gold & Silver Jewellery Shops",
+        "Retail Showrooms",
+        "Wholesale Jewellers",
+        "Manufacturing Units",
+        "Diamond & Stone Traders",
+        "Multi-Branch Jewellery Stores"
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Billing & Sales Management",
+      "items": [
+        {
+          "title": "Jewellery Sell / Purchase Billing",
+          "description": "Generate accurate bills with metal rates, making charges, wastage and GST calculations.",
+          "icon": "Receipt"
+        },
+        {
+          "title": "Invoice Customization",
+          "description": "Customize invoice formats with your logo, pricing structure and tax details.",
+          "icon": "FileText"
+        },
+        {
+          "title": "Order Management",
+          "description": "Manage custom jewellery orders, advances and delivery tracking easily.",
+          "icon": "ClipboardList"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Inventory & Stock Control",
+      "content": "Track fine jewellery, raw metals and stones with complete precision. Maintain separate stock for retail jewellery, raw materials and stones with automatic updates after every transaction."
+    },
+    {
+      "type": "features",
+      "title": "Stock & Tagging",
+      "items": [
+        {
+          "title": "Retail Stock Management",
+          "description": "Manage fine jewellery, raw gold, silver and stones with real-time tracking.",
+          "icon": "Package"
+        },
+        {
+          "title": "Tagging & Barcoding",
+          "description": "Generate barcode tags for fast billing and easy product identification.",
+          "icon": "ScanLine"
+        },
+        {
+          "title": "Stock Master Management",
+          "description": "Maintain master records for categories, designs and item specifications.",
+          "icon": "Database"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Customer & Supplier Management",
+      "items": [
+        {
+          "title": "Customer / Supplier / Karigar Management",
+          "description": "Maintain complete records of customers, suppliers and karigars with transaction history.",
+          "icon": "Users"
+        },
+        {
+          "title": "Udhaar / Advances Management",
+          "description": "Track credit balances, advances and pending payments accurately.",
+          "icon": "Wallet"
+        },
+        {
+          "title": "User Reference / Relations",
+          "description": "Manage referrals and relationship tracking to build long-term customer trust.",
+          "icon": "UserPlus"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Accounts & Reports",
+      "items": [
+        {
+          "title": "Accounting",
+          "description": "Maintain complete financial records including income, expenses and balance summaries.",
+          "icon": "Calculator"
+        },
+        {
+          "title": "Day Book / Daily Cash Reports",
+          "description": "Monitor daily cash transactions and financial activity with automated reports.",
+          "icon": "Book"
+        },
+        {
+          "title": "Daily / Monthly / Yearly Reports",
+          "description": "Access detailed sales and purchase reports for better business decisions.",
+          "icon": "BarChart"
+        },
+        {
+          "title": "User Expense Management",
+          "description": "Track daily business expenses and maintain accurate financial control.",
+          "icon": "Receipt"
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "title": "Automation & Communication",
+      "items": [
+        {
+          "title": "Daily Metal Rates Management",
+          "description": "Update gold and silver rates daily for accurate billing and valuation.",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "SMS / WhatsApp Feature",
+          "description": "Send invoices, reminders and promotional messages directly to customers.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Reminder Options",
+          "description": "Set payment and order reminders for customers to improve follow-ups.",
+          "icon": "Bell"
+        },
+        {
+          "title": "Auto Data Backup",
+          "description": "Secure cloud backup keeps your jewellery business data safe at all times.",
+          "icon": "Cloud"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "content": "DigIT-Hack Jewellery Management Software is secure, accurate and fully customizable for your showroom workflow. Whether you run a single store or multiple branches, manage everything with confidence and precision."
+    }
+  ]
+}

@@ -45,7 +45,7 @@ export default function NavContent() {
       <div className="h-20 flex justify-between items-center px-4">
         {/* LOGO */}
         <Link href="/">
-          <h1 className="text-2xl font-bold">DigitHack</h1>
+          <h1 className="text-2xl font-bold">DigIT-Hack</h1>
         </Link>
 
         {/* DESKTOP NAV */}

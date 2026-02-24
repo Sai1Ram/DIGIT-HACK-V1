@@ -60,7 +60,7 @@ export function HeroNavbar() {
       >
         {/* LOGO */}
         <Link href="/">
-          <h1 className="text-xl sm:text-2xl font-bold">DigitHack</h1>
+          <h1 className="text-xl sm:text-2xl font-bold">DigIT-Hack</h1>
         </Link>
 
         {/* ================= DESKTOP NAV ================= */}

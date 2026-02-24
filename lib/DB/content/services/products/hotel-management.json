@@ -2,119 +2,113 @@
   "slug": "hotel-management",
   "title": "Hotel Management System",
   "meta": {
-    "title": "Hotel Management System | Complete Cloud Software",
-    "description": "All-in-one restaurant & hotel management software with billing, inventory, staff, booking and analytics in one cloud platform."
+    "title": "Hotel Management System | Room Booking & Cloud PMS | Digithack",
+    "description": "Complete hotel management software for room booking, check-in, housekeeping, accounts and channel manager. Built for modern hotels and resorts."
   },
   "hero": {
-    "headline": "Smart Hotel Management",
-    "subLine": "Manage billing, bookings, staff, inventory and customer experience from one powerful cloud platform built for modern hotels."
+    "headline": "Smart Hotel Management Software",
+    "subLine": "Complete cloud-based system to manage room bookings, check-ins, staff, housekeeping and hotel operations from one dashboard."
   },
   "isTopProduct": true,
   "blocks": [
     {
-      "type": "list",
-      "title": "Perfect for",
-      "items": [
-        "Restaurants & Cafes",
-        "Hotels & Resorts",
-        "Cloud Kitchens",
-        "QSR Chains",
-        "Banquet Halls"
-      ]
+      "type": "text",
+      "title": "Complete Hotel Management Solution",
+      "content": "Designed for hotels, lodges and resorts, our system helps manage room bookings, guest check-ins, housekeeping, billing and reports in one secure cloud platform. Monitor your hotel operations in real time and deliver a smooth guest experience."
     },
     {
       "type": "list",
-      "title": "Core Features",
+      "title": "Perfect For",
       "items": [
-        "Cloud based full setup",
-        "Fast billing & POS",
-        "Inventory tracking",
-        "Staff management",
-        "Accounts & reports",
-        "Online booking integration"
+        "Hotels & Resorts",
+        "Lodges & Guest Houses",
+        "Service Apartments",
+        "Hostels",
+        "Boutique Hotels",
+        "Multi-Branch Hotels"
       ]
     },
     {
       "type": "features",
-      "title": "Hotel & Room Management",
+      "title": "Room Booking & Front Desk",
       "items": [
         {
-          "title": "Cloud Setup",
-          "description": "Complete cloud system to manage rooms, billing, staff and operations from anywhere.",
+          "title": "Full Cloud Setup",
+          "description": "Access your hotel system from anywhere with secure cloud-based management.",
           "icon": "Cloud"
         },
         {
           "title": "Check-in / Check-out",
-          "description": "Quick guest check-in and check-out with photo capture and digital records.",
+          "description": "Fast guest check-in and check-out with face photo capture and digital records.",
           "icon": "UserCheck"
         },
         {
           "title": "Live Room Status",
-          "description": "Real-time room availability and booking tray for clear room tracking.",
+          "description": "Booking tray with real-time room availability and occupancy status.",
           "icon": "LayoutGrid"
         },
         {
           "title": "Advance Booking",
           "description": "Manage future reservations, walk-ins and online bookings easily.",
           "icon": "Calendar"
-        },
-        {
-          "title": "Housekeeping App",
-          "description": "Assign and track housekeeping tasks with mobile access.",
-          "icon": "ClipboardList"
         }
       ]
     },
     {
+      "type": "text",
+      "title": "Housekeeping & Operations",
+      "content": "Track room cleaning status, assign housekeeping tasks and ensure rooms are always ready for guests. Improve efficiency and maintain service quality with real-time updates."
+    },
+    {
       "type": "features",
-      "title": "Business Operations",
+      "title": "Staff & Accounts",
       "items": [
         {
-          "title": "Accounts",
-          "description": "Track expenses, income, reports and financial summaries in one place.",
-          "icon": "Calculator"
-        },
-        {
           "title": "Staff Management",
-          "description": "Manage roles, attendance, salaries and performance with ease.",
+          "description": "Manage staff roles, shifts, salaries and performance easily.",
           "icon": "Users"
         },
         {
-          "title": "Inventory",
-          "description": "Monitor stock, purchases and usage with real-time alerts.",
-          "icon": "Package"
+          "title": "Accounts",
+          "description": "Track income, expenses and financial reports for complete hotel accounting.",
+          "icon": "Calculator"
         },
         {
-          "title": "Restaurant POS",
-          "description": "Integrated POS for dine-in, takeaway and online orders.",
-          "icon": "Monitor"
+          "title": "Inventory Management",
+          "description": "Monitor hotel inventory like linens, room items and supplies.",
+          "icon": "Package"
         }
       ]
     },
     {
       "type": "features",
-      "title": "Advanced Modules",
+      "title": "Advanced Hotel Modules",
       "items": [
         {
           "title": "Channel Manager",
-          "description": "Sync rooms and pricing across booking platforms automatically.",
+          "description": "Sync room availability and pricing across booking platforms automatically.",
           "icon": "Share2"
         },
         {
           "title": "Booking Engine",
-          "description": "Accept direct bookings from your website with live availability.",
+          "description": "Allow direct room bookings from your website with real-time availability.",
           "icon": "Globe"
         },
         {
+          "title": "Restaurant POS Integration",
+          "description": "Integrated restaurant billing for in-house guests and room service.",
+          "icon": "Monitor"
+        },
+        {
           "title": "Banquet Module",
-          "description": "Manage events, halls, catering and payments from one dashboard.",
+          "description": "Manage events, hall bookings and catering services easily.",
           "icon": "CalendarDays"
         }
       ]
     },
     {
       "type": "text",
-      "content": "Fully customizable software tailored to your restaurant or hotel workflow. Simple, fast and scalable for growing businesses."
+      "content": "Digithack hotel management software is fully customizable for your property workflow. Whether you run a small lodge or a large hotel, manage bookings, rooms, staff and reports from one powerful system."
     }
   ]
 }

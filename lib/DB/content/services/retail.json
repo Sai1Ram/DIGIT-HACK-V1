@@ -21,13 +21,17 @@
       {
         "name": "Gym Management System",
         "slug": "gym-management"
+      },
+      {
+        "name": "Jewellery Shop Management System",
+        "slug": "jewellery-management"
       }
     ],
     "blocks": [
         {
             "type": "text",
             "title": "Custom Retail Software Development Company in India",
-            "content": "DigITHack delivers intelligent retail management systems designed specifically for Indian businesses. From jewellery showrooms in Mumbai to salon chains in Bangalore, our custom software solutions help retailers across India automate operations, manage inventory efficiently, and create seamless customer experiences. We combine deep retail domain expertise with cutting-edge technology to build scalable solutions that grow with your business."
+            "content": "DigIT-Hack delivers intelligent retail management systems designed specifically for Indian businesses. From jewellery showrooms in Mumbai to salon chains in Bangalore, our custom software solutions help retailers across India automate operations, manage inventory efficiently, and create seamless customer experiences. We combine deep retail domain expertise with cutting-edge technology to build scalable solutions that grow with your business."
         },
         {
             "type": "stats",
@@ -79,7 +83,7 @@
         },
         {
             "type": "text",
-            "title": "Why Choose DigITHack for Retail Software Development?",
+            "title": "Why Choose DigIT-Hack for Retail Software Development?",
             "content": "As a leading custom software development company in India, we understand the unique challenges faced by Indian retailers. Our solutions are built keeping GST compliance, local business practices, and scalability in mind. We've helped retailers across India transform their operations with technology that actually works. Whether you run a single store or manage a retail chain, our software adapts to your workflow—not the other way around."
         },
         {
@@ -102,7 +106,7 @@
         {
             "type": "cta",
             "title": "Ready to Transform Your Retail Business?",
-            "description": "Join 50+ retailers who've automated their operations with DigITHack. Get a free consultation and custom quote.",
+            "description": "Join 50+ retailers who've automated their operations with DigIT-Hack. Get a free consultation and custom quote.",
             "button": {
                 "label": "Contact Us",
                 "href": "/contact"

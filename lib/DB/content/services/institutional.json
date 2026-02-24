@@ -10,13 +10,20 @@
         "subLine": "Transform your educational institution with comprehensive software that simplifies administration, enhances learning, and strengthens parent-teacher collaboration."
     },
     "products": [
-        { "name": "School Management System", "slug": "school-management" }
+        {
+            "name": "School Management System",
+            "slug": "school-management"
+        },
+        {
+            "name": "CA Office Management Software",
+            "slug": "ca-office"
+        }
     ],
     "blocks": [
         {
             "type": "text",
             "title": "Custom School Management Software Development Company in India",
-            "content": "DigITHack delivers comprehensive school management systems designed specifically for Indian educational institutions. From CBSE schools in Delhi to state board schools in rural Maharashtra, coaching institutes in Kota to international schools in Bangalore, our education ERP helps you eliminate paperwork, automate administrative tasks, and focus on what matters most—quality education. We build scalable solutions that handle everything from student admissions to alumni management, bringing complete digital transformation to schools, colleges, and training centers across India."
+            "content": "DigIT-Hack delivers comprehensive school management systems designed specifically for Indian educational institutions. From CBSE schools in Delhi to state board schools in rural Maharashtra, coaching institutes in Kota to international schools in Bangalore, our education ERP helps you eliminate paperwork, automate administrative tasks, and focus on what matters most—quality education. We build scalable solutions that handle everything from student admissions to alumni management, bringing complete digital transformation to schools, colleges, and training centers across India."
         },
         {
             "type": "stats",
@@ -84,7 +91,7 @@
         },
         {
             "type": "text",
-            "title": "Why Educational Institutions Choose DigITHack",
+            "title": "Why Educational Institutions Choose DigIT-Hack",
             "content": "As a leading custom software development company in India, we understand the diverse needs of Indian education system—CBSE, ICSE, state boards, NIOS, international curricula, vocational training, and competitive exam coaching. Our school management software is built for Indian context with features like RTE quota management, EWS category handling, caste certificate verification, Aadhaar integration, scholarship schemes (PM-YASASVI, NSP), and compliance with NCPCR guidelines. We've helped schools in Mumbai, Delhi, Bangalore, Hyderabad, Pune, Jaipur, and across India transition from register-based systems to complete digital operations, saving 20+ administrative hours per week."
         },
         {
@@ -334,7 +341,7 @@
         {
             "type": "cta",
             "title": "Ready to Digitize Your Educational Institution?",
-            "description": "Join 150+ schools and colleges transforming education with DigITHack. Get a free demo customized for your institution type and size.",
+            "description": "Join 150+ schools and colleges transforming education with DigIT-Hack. Get a free demo customized for your institution type and size.",
             "button": {
                 "label": "Schedule Free Demo",
                 "href": "/contact"

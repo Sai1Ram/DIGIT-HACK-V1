@@ -2,12 +2,12 @@
   "slug": "billing-software",
   "title": "Billing Software",
   "meta": {
-    "title": "Billing Software | POS, Inventory, Accounts & WhatsApp | Digithack",
-    "description": "Digithack Billing Software helps businesses manage billing, stock, staff, accounts, expenses and customer communication in one smart cloud-based platform."
+    "title": "Billing Software | POS, Inventory, Accounts & WhatsApp | DigIT-Hack",
+    "description": "DigIT-Hack Billing Software helps businesses manage billing, stock, staff, accounts, expenses and customer communication in one smart cloud-based platform."
   },
   "isTopProduct": false,
   "hero": {
-    "headline": "Digithack Smart Billing Software",
+    "headline": "DigIT-Hack Smart Billing Software",
     "subLine": "Powerful yet simple billing software to manage sales, inventory, staff and accounts with real-time reports and WhatsApp integration."
   },
   "blocks": [
@@ -73,7 +73,7 @@
     },
     {
       "type": "text",
-      "content": "Digithack billing software is secure, cloud-based and fully customizable. Whether you run a single store or multiple outlets, manage everything from one simple system and grow your business with confidence."
+      "content": "DigIT-Hack billing software is secure, cloud-based and fully customizable. Whether you run a single store or multiple outlets, manage everything from one simple system and grow your business with confidence."
     }
   ]
 }

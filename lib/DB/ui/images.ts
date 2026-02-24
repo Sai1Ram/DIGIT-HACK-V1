@@ -23,6 +23,8 @@ import cultfit from "@/public/images/brandLogo/cultfit.jpg";
 import orchid from "@/public/images/brandLogo/orchid.jpg";
 import delhiPublic from "@/public/images/brandLogo/delhiPublic.png";
 import BillingSoftware2 from "@/public/images/BillingSoftware2.jpg";
+import CAOffice from "@/public/images/CAOffice.jpg";
+import JewelleryManagement from "@/public/images/jewellery-management.png";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -32,7 +34,9 @@ export const PRODUCT_IMAGES = {
   "school-management": schoolManagement,
   "billing-software": billingSoftware,
   "web-app": digitalMarketing,
-  "hotel-management": restaurantManagement
+  "hotel-management": restaurantManagement,
+  "ca-office": CAOffice,
+  "jewellery-management": JewelleryManagement,
 } as const;
 export const BLOCK_IMAGES = {
   transportManagement1,
