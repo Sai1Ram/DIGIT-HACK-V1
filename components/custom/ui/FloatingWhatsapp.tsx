@@ -1,9 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 export default function FloatingWhatsapp() {
-  const [visible, setVisible] = useState(false);
 
   const phone = "917657024042";
 
@@ -15,14 +12,6 @@ Can you share more details?`;
     message
   )}`;
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setVisible(window.scrollY > 120);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <a
@@ -46,12 +35,6 @@ Can you share more details?`;
         z-50
         transition-all duration-300
         hover:scale-105 active:scale-95
-
-        ${
-          visible
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 translate-y-5 pointer-events-none"
-        }
       `}
       aria-label="Chat on WhatsApp"
     >
