@@ -174,7 +174,6 @@ sm:w-32 sm:h-32
 md:w-40 md:h-40
 lg:w-48 lg:h-48
 xl:w-56 xl:h-56
-
     rounded-full
     pointer-events-none
     border border-gray-300/60
@@ -182,19 +181,20 @@ xl:w-56 xl:h-56
     backdrop-blur-md
     shadow-[0_0_40px_30px_rgba(255,255,255,0.4)]
     z-20
+    flex justify-center items-center
   "
         >
-          <div className="flex flex-col items-center justify-center h-full text-center px-6 sm:px-10">
-            <h3 className="text-lg sm:text-xl font-semibold">
-              Join Over{" "}
-              <span className="px-2 bg-primary text-white rounded-full">
-                100+
-              </span>
-            </h3>
-            <p className="text-sm sm:text-base font-medium mt-1">
-              Companies with{" "}
-              <span className="text-primary font-bold">DigIT-Hack</span> Here
-            </p>
+          <div className="md:flex hidden flex-col items-center justify-center h-full font-bold text-center px-6 sm:px-10">
+            Empowering{" "}
+            <span className="px-2 bg-primary text-white rounded-full">
+              100+
+            </span>
+            Businesses with{" "}
+            <span className="text-primary font-bold">DigIT-Hack</span>
+            Solutions
+          </div>
+          <div className="md:hidden flex justify-center items-center text-center px-4 text-sm font-bold">
+            Brand Tie-Ups
           </div>
         </div>
 

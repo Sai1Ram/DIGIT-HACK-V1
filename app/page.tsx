@@ -26,19 +26,16 @@ export default function Home() {
                   z-20
                 "
         >
-          <div className="md:flex hidden flex-col items-center justify-center h-full text-center px-6 sm:px-10">
-            <h3 className="text-lg sm:text-xl font-semibold">
-              Join Over{" "}
-              <span className="px-2 bg-primary text-white rounded-full">
-                100+
-              </span>
-            </h3>
-            <p className="text-sm sm:text-base font-medium mt-1">
-              Companies with{" "}
-              <span className="text-primary font-bold">DigIT-Hack</span> Here
-            </p>
+          <div className="md:flex hidden flex-col items-center justify-center h-full font-bold text-center px-6 sm:px-10">
+            Empowering{" "}
+            <span className="px-2 bg-primary text-white rounded-full">
+              100+
+            </span>
+            Businesses with{" "}
+            <span className="text-primary font-bold">DigIT-Hack</span>
+            Solutions
           </div>
-          <div className="md:hidden flex justify-center items-center text-center px-4 text-sm font-medium">
+          <div className="md:hidden flex justify-center items-center text-center px-4 text-sm font-bold">
             Brand Tie-Ups
           </div>
         </div>
