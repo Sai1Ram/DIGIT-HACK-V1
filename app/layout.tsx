@@ -6,6 +6,7 @@ import BackToTop from "@/components/custom/ui/BackToTop";
 import Navbar from "@/components/custom/layout/Navbar";
 import Footer from "@/components/custom/layout/Footer";
 import SecondaryNavbar from "@/components/custom/layout/SecondaryNavbar";
+import FloatingWhatsapp from "@/components/custom/ui/FloatingWhatsapp";
 
 
 const geistMono = Geist_Mono({
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <FloatingWhatsapp />
          <BackToTop />
          <Footer />
       </body>
