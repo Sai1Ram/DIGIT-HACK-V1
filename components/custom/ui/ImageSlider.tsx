@@ -1,13 +1,15 @@
 "use client";
 
+import { StaticImageData } from "next/image";
 import React, { useCallback, useEffect, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-// import TopProducts from "@/lib/DB/content/TopProducts.json";
-import { ProductDetails } from "@/types/Service";
 
 /* ---------------- TYPES ---------------- */
-
-export default function ImageSlider({ slides }: { slides: ProductDetails[] }) {
+interface Products {
+  title: string;
+  image: StaticImageData;
+}
+export default function ImageSlider({ slides }: { slides: Products[] }) {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   /* ---------- PREV ---------- */
   const prevSlide = () => {

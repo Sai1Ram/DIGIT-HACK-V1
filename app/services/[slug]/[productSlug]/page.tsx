@@ -64,7 +64,7 @@ if (!product) return <ComingSoonPage />
               src={product.image}
               alt={product.title}
               fill
-              className="rounded-xl object-cover"
+              className="rounded-xl"
             />
           </div>
 

@@ -22,10 +22,11 @@ export default function Home() {
                   rounded-full pointer-events-none bg-white/25 
                   border border-gray-300/60 backdrop-blur-md
                   shadow-[0_0_40px_30px_rgba(255,255,255,0.4)]
+                  flex justify-center items-center
                   z-20
                 "
         >
-          <div className="flex flex-col items-center justify-center h-full text-center px-6 sm:px-10">
+          <div className="md:flex hidden flex-col items-center justify-center h-full text-center px-6 sm:px-10">
             <h3 className="text-lg sm:text-xl font-semibold">
               Join Over{" "}
               <span className="px-2 bg-primary text-white rounded-full">
@@ -36,6 +37,9 @@ export default function Home() {
               Companies with{" "}
               <span className="text-primary font-bold">DigIT-Hack</span> Here
             </p>
+          </div>
+          <div className="md:hidden flex justify-center items-center text-center px-4 text-sm font-medium">
+            Brand Tie-Ups
           </div>
         </div>
 

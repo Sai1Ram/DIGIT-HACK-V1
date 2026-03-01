@@ -119,7 +119,7 @@ export default function Hero() {
                   <AnimatedButton label="Get Started" href="/contact" />
 
                   <p className="">
-                    You dream we customize. <br />
+                    You Dream, We Customize! <br />
                     {/* Tip to toe under your fingertips! */}
                   </p>
                 </div>

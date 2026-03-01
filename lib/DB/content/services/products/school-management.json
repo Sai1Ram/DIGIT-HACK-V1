@@ -5,7 +5,7 @@
     "title": "School Management System | Complete School ERP | Digithack",
     "description": "Comprehensive school ERP to manage admissions, attendance, fees, communication, academics and online learning from one cloud platform."
   },
-  "isTopProduct": true,
+  "isTopProduct": false,
   "hero": {
     "headline": "Smart School Management System",
     "subLine": "A complete cloud-based solution to manage admissions, students, staff, academics, communication and fees from one centralized dashboard."

@@ -28,91 +28,85 @@
       }
     ],
     "blocks": [
-        {
-            "type": "text",
-            "title": "Custom Retail Software Development Company in India",
-            "content": "DigIT-Hack delivers intelligent retail management systems designed specifically for Indian businesses. From jewellery showrooms in Mumbai to salon chains in Bangalore, our custom software solutions help retailers across India automate operations, manage inventory efficiently, and create seamless customer experiences. We combine deep retail domain expertise with cutting-edge technology to build scalable solutions that grow with your business."
-        },
-        {
-            "type": "stats",
-            "title": "Trusted by Growing Retail Businesses",
-            "items": [
-                {
-                    "value": "50+",
-                    "label": "Retail Businesses Served"
-                },
-                {
-                    "value": "70%",
-                    "label": "Average Efficiency Improvement"
-                },
-                {
-                    "value": "99.9%",
-                    "label": "System Uptime Guarantee"
-                },
-                {
-                    "value": "24/7",
-                    "label": "Technical Support"
-                }
-            ]
-        },
-        {
-            "type": "features",
-            "title": "Comprehensive Retail Management Solutions",
-            "items": [
-                {
-                    "title": "Jewellery Shop Management System",
-                    "description": "Complete jewellery retail solution with inventory tracking, making charges calculation, purity management, barcode printing, GST-compliant billing, and customer order management. Perfect for gold, silver, and diamond retailers.",
-                    "icon": "diamond"
-                },
-                {
-                    "title": "GST Billing Software",
-                    "description": "Fast, accurate billing with automated GST calculations, e-invoicing, inventory sync, payment gateway integration, and real-time reporting. Supports multiple stores and counters with cloud-based access.",
-                    "icon": "receipt"
-                },
-                {
-                    "title": "Salon & Spa Management",
-                    "description": "All-in-one salon software with appointment scheduling, staff management, service packages, membership plans, SMS reminders, and customer history tracking. Boost bookings and reduce no-shows.",
-                    "icon": "scissors"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Benefits of Custom Retail Software",
-            "content": "Off-the-shelf software forces you to adapt your business to its limitations. Our custom retail solutions are built around your specific needs. Reduce billing errors by 95%, cut inventory shrinkage by 60%, and increase customer retention by 40% with software designed for your business model. Get features that matter to you—not unnecessary bells and whistles you'll never use. Plus, own your data and scale without per-user licensing costs eating into your profits."
-        },
-        {
-            "type": "text",
-            "title": "Why Choose DigIT-Hack for Retail Software Development?",
-            "content": "As a leading custom software development company in India, we understand the unique challenges faced by Indian retailers. Our solutions are built keeping GST compliance, local business practices, and scalability in mind. We've helped retailers across India transform their operations with technology that actually works. Whether you run a single store or manage a retail chain, our software adapts to your workflow—not the other way around."
-        },
-        {
-            "type": "list",
-            "title": "Implementation Process",
-            "items": [
-                "Business requirement analysis and workflow mapping (Week 1-2)",
-                "Custom solution design with your feedback and approval (Week 3-4)",
-                "Agile development with weekly progress updates (Week 5-10)",
-                "Staff training and system migration support (Week 11-12)",
-                "Go-live with dedicated technical support",
-                "Ongoing maintenance, updates, and feature enhancements"
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Technology Stack for Reliable Performance",
-            "content": "We build retail software using modern, proven technologies that ensure speed, security, and scalability. Our solutions leverage cloud infrastructure for 99.9% uptime, responsive frameworks for mobile-friendly interfaces, and robust databases for handling high transaction volumes. Whether you need a desktop application, web-based system, or mobile app—we've got you covered with the right tech stack for your requirements and budget."
-        },
-        {
-            "type": "cta",
-            "title": "Ready to Transform Your Retail Business?",
-            "description": "Join 50+ retailers who've automated their operations with DigIT-Hack. Get a free consultation and custom quote.",
-            "button": {
-                "label": "Contact Us",
-                "href": "/contact"
-            }
-        }
-    ],
+  {
+    "type": "text",
+    "title": "Retail Software Solutions Built for Daily Operations",
+    "content": "DigIT-Hack provides practical software solutions designed for real retail workflows. From billing and inventory tracking to jewellery and fitness management systems, our products help businesses reduce manual work, maintain accurate records and manage operations smoothly from one platform."
+  },
+  {
+    "type": "stats",
+    "title": "Helping Retail Businesses Work Smarter",
+    "items": [
+      {
+        "value": "50+",
+        "label": "Active Businesses Using Our Software"
+      },
+      {
+        "value": "30%",
+        "label": "Average Time Saved in Daily Operations"
+      },
+      {
+        "value": "99%",
+        "label": "Billing Accuracy"
+      },
+      {
+        "value": "24/7",
+        "label": "Support Availability"
+      }
+    ]
+  },
+  {
+    "type": "features",
+    "title": "Retail Products We Offer",
+    "items": [
+      {
+        "title": "Jewellery Shop Management",
+        "description": "Manage jewellery billing, metal rates, stock tracking, barcoding and customer orders with software built specifically for jewellers.",
+        "icon": "diamond"
+      },
+      {
+        "title": "Billing Software",
+        "description": "Fast GST billing with inventory tracking, expense management and real-time sales reports suitable for retail stores and service businesses.",
+        "icon": "receipt"
+      },
+      {
+        "title": "Gym Management System",
+        "description": "Handle memberships, attendance, payments and reminders with an easy system designed for gyms and fitness centers.",
+        "icon": "activity"
+      },
+      {
+        "title": "Transport Management System",
+        "description": "Track vehicles, trips, expenses and operations with centralized transport management tools.",
+        "icon": "truck"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "title": "Designed Around Your Business",
+    "content": "Our software focuses on solving real operational challenges instead of adding unnecessary complexity. Each system is customizable to match your workflow, whether you run a single store or multiple branches."
+  },
+  {
+    "type": "list",
+    "title": "Why Businesses Choose DigIT-Hack",
+    "items": [
+      "Simple and easy-to-use interface",
+      "Cloud-based access from anywhere",
+      "Accurate billing and reporting",
+      "Custom features based on business needs",
+      "Training and ongoing technical support"
+    ]
+  },
+  {
+    "type": "cta",
+    "title": "Looking for a Reliable Retail Software?",
+    "description": "Talk to our team to find the right solution for your business operations.",
+    "button": {
+      "label": "Get Consultation",
+      "href": "/contact"
+    }
+  }
+],
     "FAQs": [
         {
             "question": "Is your retail software GST-compliant and suitable for Indian businesses?",

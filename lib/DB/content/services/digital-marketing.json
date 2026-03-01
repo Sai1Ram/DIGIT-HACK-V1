@@ -13,296 +13,90 @@
     "blocks": [
         {
             "type": "text",
-            "title": "Leading Digital Marketing Agency & Custom Software Development Company in India",
-            "content": "DigIT-Hack combines deep technical expertise with proven digital marketing strategies to help Indian businesses dominate their markets online. As both a custom software development company and full-service digital marketing agency, we offer a unique advantage—we not only build exceptional websites and platforms but also drive massive traffic to them. From startups in Bangalore to established enterprises in Mumbai, we've helped 200+ businesses increase organic traffic by 300%, rank in Google's top 3 positions, and generate qualified leads that convert into revenue."
+            "title": "Digital Marketing Services for Business Growth",
+            "content": "DigIT-Hack helps businesses improve their online presence through practical digital marketing strategies. We focus on generating visibility, enquiries and consistent growth using SEO, social media and paid advertising based on your business goals."
         },
         {
-            "type": "stats",
-            "title": "Proven Digital Marketing Results",
+            "type": "list",
+            "title": "What We Help You Achieve",
             "items": [
-                {
-                    "value": "200+",
-                    "label": "Businesses Grown Online"
-                },
-                {
-                    "value": "300%",
-                    "label": "Average Traffic Increase"
-                },
-                {
-                    "value": "Top 3",
-                    "label": "Google Rankings Achieved"
-                },
-                {
-                    "value": "5X",
-                    "label": "Average ROI on Ad Spend"
-                }
+                "Improve Google search visibility",
+                "Generate quality leads and enquiries",
+                "Build brand presence on social media",
+                "Increase website traffic",
+                "Run targeted advertising campaigns"
             ]
         },
         {
             "type": "features",
-            "title": "Comprehensive Digital Marketing Services",
+            "title": "Digital Marketing Services",
             "items": [
                 {
                     "title": "Search Engine Optimization (SEO)",
-                    "description": "Rank higher on Google with strategic SEO. Comprehensive keyword research, on-page optimization, technical SEO fixes, quality link building, local SEO for multi-location businesses, and monthly reporting. We follow white-hat practices that deliver sustainable, long-term rankings and qualified organic traffic.",
+                    "description": "Optimize your website to rank better on Google through keyword research, on-page improvements and technical SEO practices that bring long-term organic traffic.",
                     "icon": "search"
                 },
                 {
-                    "title": "Social Media Marketing (SMM)",
-                    "description": "Build engaged communities and drive conversions on Facebook, Instagram, LinkedIn, Twitter, and YouTube. Strategic content creation, daily posting schedules, influencer collaborations, paid social campaigns, community management, and performance analytics. Grow your followers and turn them into customers.",
+                    "title": "Social Media Marketing",
+                    "description": "Create and manage content across platforms like Instagram, Facebook and LinkedIn to build engagement and brand awareness.",
                     "icon": "share-2"
                 },
                 {
                     "title": "Content Marketing",
-                    "description": "Attract and engage your target audience with valuable content. Blog writing, infographics, videos, case studies, whitepapers, email newsletters, and ebooks. SEO-optimized content that ranks on Google, positions you as an industry authority, and guides prospects through the buyer journey.",
+                    "description": "Develop meaningful content such as blogs, posts and creatives that attract your audience and improve online credibility.",
                     "icon": "file-text"
                 },
                 {
-                    "title": "Pay-Per-Click (PPC) Advertising",
-                    "description": "Get instant visibility and qualified leads with Google Ads, Facebook Ads, LinkedIn Ads, and display advertising. Campaign strategy, keyword research, ad copywriting, landing page optimization, bid management, A/B testing, and ROI tracking. Maximize conversions while minimizing cost per acquisition.",
-                    "icon": "mouse-pointer-click"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Why Choose DigIT-Hack for Digital Marketing",
-            "content": "Unlike typical marketing agencies that use cookie-cutter approaches, we create customized strategies based on your industry, competition, target audience, and business goals. Our team includes SEO specialists who've ranked 500+ keywords in top positions, content writers with journalism backgrounds, certified Google Ads experts, and social media managers who understand Indian consumer behavior. We've worked with B2B companies in Delhi, e-commerce stores in Pune, SaaS startups in Bangalore, healthcare providers in Mumbai, and service businesses across India—delivering measurable results, not vanity metrics."
-        },
-        {
-            "type": "features",
-            "title": "SEO Services - Detailed Breakdown",
-            "items": [
-                {
-                    "title": "Keyword Research & Strategy",
-                    "description": "Deep analysis to identify high-intent keywords your customers actually search for. We target commercial keywords (ready to buy), informational queries (research phase), and long-tail variations with lower competition. Competitor keyword gap analysis reveals opportunities they're missing. Monthly search volume, difficulty scores, and ROI potential guide our prioritization.",
-                    "icon": "key"
-                },
-                {
-                    "title": "On-Page SEO Optimization",
-                    "description": "Optimize every element: title tags with primary keywords, compelling meta descriptions that improve click-through rates, header tag hierarchy (H1-H6), keyword-rich URLs, image alt text, internal linking structure, schema markup for rich snippets, content optimization for search intent, and page speed improvements for better user experience and rankings.",
-                    "icon": "file-code"
-                },
-                {
-                    "title": "Technical SEO Audit & Fixes",
-                    "description": "Identify and resolve issues blocking Google from crawling and indexing your site. Fix broken links, duplicate content, crawl errors, mobile responsiveness problems, slow page load times, XML sitemap errors, robots.txt issues, canonical tag implementation, HTTPS migration, and structured data validation. Clean technical foundation is essential for rankings.",
-                    "icon": "wrench"
-                },
-                {
-                    "title": "Link Building & Off-Page SEO",
-                    "description": "Earn high-quality backlinks from authoritative Indian websites through guest posting on industry blogs, digital PR and press releases, HARO (Help A Reporter Out) expert quotes, business directory listings (Clutch, GoodFirms, JustDial), resource page link building, broken link reclamation, and strategic partnerships. Quality over quantity approach for sustainable rankings.",
-                    "icon": "link"
-                }
-            ]
-        },
-        {
-            "type": "list",
-            "title": "Our SEO Process - 12-Month Roadmap",
-            "items": [
-                "Month 1-2: Complete SEO audit, keyword research, competitor analysis, strategy document",
-                "Month 3-4: Technical SEO fixes, on-page optimization, content gap analysis",
-                "Month 5-6: Launch content marketing campaign, build initial backlinks, local SEO setup",
-                "Month 7-8: Scale content production, advanced link building, conversion optimization",
-                "Month 9-10: Target featured snippets, expand to additional keywords, authority building",
-                "Month 11-12: Performance review, strategy refinement, scaling successful tactics",
-                "Ongoing: Monthly reporting, continuous optimization, adapting to algorithm updates"
-            ]
-        },
-        {
-            "type": "features",
-            "title": "Social Media Marketing - Platform Expertise",
-            "items": [
-                {
-                    "title": "Facebook & Instagram Marketing",
-                    "description": "Build brand awareness and drive sales on Meta platforms. Strategic content calendar with mix of posts (educational, entertaining, promotional), Instagram Reels and Stories for engagement, Facebook Ads campaigns targeting custom audiences, influencer partnerships, user-generated content campaigns, shopping features for e-commerce, and community building through groups.",
-                    "icon": "facebook"
-                },
-                {
-                    "title": "LinkedIn Marketing for B2B",
-                    "description": "Position your company as an industry leader and generate B2B leads. Thought leadership articles, company page optimization, employee advocacy programs, LinkedIn Ads for decision-makers, lead generation forms, webinar promotion, and networking with prospects. Perfect for SaaS, consulting, and professional services.",
-                    "icon": "linkedin"
-                },
-                {
-                    "title": "YouTube Video Marketing",
-                    "description": "Leverage video to educate, engage, and convert. Channel optimization, content strategy (tutorials, product demos, customer testimonials), SEO-optimized titles and descriptions, thumbnail design, YouTube Ads campaigns, playlist creation, and analytics to understand viewer behavior. Video content has 5x higher engagement than text.",
-                    "icon": "youtube"
-                },
-                {
-                    "title": "Twitter & Emerging Platforms",
-                    "description": "Stay relevant where your audience is active. Twitter for real-time engagement, trending hashtag participation, customer service, and thought leadership. Pinterest for visual discovery marketing. Threads for authentic community building. We monitor emerging platforms and help you establish early presence when it makes strategic sense.",
-                    "icon": "twitter"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Content Marketing That Drives Business Growth",
-            "content": "Content marketing generates 3x more leads than traditional marketing while costing 62% less. Our content strategy isn't about churning out random blog posts—it's about creating valuable, SEO-optimized content that answers your customers' questions, solves their problems, and guides them toward choosing your solution. We research what your target audience actually searches for, create comprehensive content that outranks competitors, optimize for featured snippets, and promote it across channels. Every piece of content serves a purpose in your marketing funnel—from awareness to consideration to conversion."
-        },
-        {
-            "type": "list",
-            "title": "Content Marketing Deliverables",
-            "items": [
-                "Long-form blog posts (1,500-3,000 words) optimized for target keywords and featured snippets",
-                "In-depth guides and how-to articles that establish thought leadership",
-                "Case studies showcasing client success stories with measurable results",
-                "Infographics visualizing complex data and processes for social sharing",
-                "Video scripts and production coordination for YouTube and social media",
-                "Email newsletter content with segmentation for different audience groups",
-                "Whitepapers and ebooks as lead magnets for email list building",
-                "Landing page copy optimized for conversions and search engines",
-                "Social media content calendar with platform-specific posts",
-                "Guest posts on high-authority industry websites for backlinks and exposure"
-            ]
-        },
-        {
-            "type": "features",
-            "title": "PPC Advertising - Paid Campaigns That Convert",
-            "items": [
-                {
-                    "title": "Google Ads (Search & Display)",
-                    "description": "Appear at the top of Google when prospects search for your services. Search campaigns targeting high-intent keywords, responsive search ads with multiple headlines, ad extensions (callouts, sitelinks, call buttons), remarketing campaigns to re-engage website visitors, Google Display Network for brand awareness, and Google Shopping for e-commerce. Continuous optimization for lower CPC and higher Quality Score.",
-                    "icon": "google"
-                },
-                {
-                    "title": "Facebook & Instagram Ads",
-                    "description": "Reach your ideal customers on social media with laser-targeted campaigns. Custom audience creation based on demographics, interests, and behaviors, lookalike audiences to find similar prospects, dynamic product ads for e-commerce retargeting, lead generation campaigns with in-app forms, video ads for engagement, and conversion tracking to measure ROI. Average 3-5x ROAS for our clients.",
+                    "title": "Paid Advertising (PPC)",
+                    "description": "Run targeted Google Ads and social media campaigns to reach potential customers and generate faster results.",
                     "icon": "target"
-                },
-                {
-                    "title": "LinkedIn Ads for B2B",
-                    "description": "Target decision-makers by job title, industry, company size, and seniority. Sponsored content in news feed, sponsored InMail for direct outreach, text ads, and dynamic ads. Lead gen forms capture contact information without leaving LinkedIn. Perfect for high-value B2B services, enterprise software, and professional services. Higher CPC but superior lead quality.",
-                    "icon": "briefcase"
-                },
-                {
-                    "title": "Remarketing & Retargeting",
-                    "description": "Re-engage website visitors who didn't convert. Pixel-based retargeting showing ads across Google Display Network and social media, dynamic remarketing with specific products viewed, abandoned cart campaigns for e-commerce, sequential messaging (different ads based on user journey stage), and exclusion lists to avoid wasting budget on existing customers. Remarketing generates 2-3x higher conversion rates.",
-                    "icon": "repeat"
                 }
             ]
+        },
+        {
+            "type": "text",
+            "title": "Our Approach",
+            "content": "We don’t use one-size-fits-all strategies. Every campaign is planned based on your industry, competition and audience behaviour. We focus on steady improvement rather than unrealistic promises."
         },
         {
             "type": "stats",
-            "title": "Digital Marketing Performance Benchmarks",
+            "title": "Results Our Clients Typically See",
             "items": [
                 {
-                    "value": "250%",
-                    "label": "Average Organic Traffic Growth in 12 Months"
+                    "value": "2-4 Months",
+                    "label": "Initial SEO Improvements"
                 },
                 {
-                    "value": "4.2%",
-                    "label": "Average Conversion Rate (vs 2.5% Industry Avg)"
+                    "value": "20-40%",
+                    "label": "Increase in Website Enquiries"
                 },
                 {
-                    "value": "₹8",
-                    "label": "Revenue for Every ₹1 Spent on Ads"
+                    "value": "30%+",
+                    "label": "Better Social Engagement"
                 },
                 {
-                    "value": "65%",
-                    "label": "Reduction in Cost Per Acquisition"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Local SEO for Multi-Location Businesses",
-            "content": "Dominate local search results in your service areas. We optimize your Google Business Profile across all locations, ensure NAP (Name, Address, Phone) consistency across directories, build location-specific landing pages, earn local citations and backlinks, manage and respond to customer reviews, implement local schema markup, and track rankings for 'near me' searches. Perfect for restaurant chains, healthcare providers, retail stores, service businesses, and any company with physical locations across India. Local SEO drives foot traffic and phone calls from high-intent local searchers."
-        },
-        {
-            "type": "features",
-            "title": "Advanced Digital Marketing Strategies",
-            "items": [
-                {
-                    "title": "Conversion Rate Optimization (CRO)",
-                    "description": "Increase the percentage of visitors who become customers. Landing page optimization, A/B testing headlines and CTAs, heatmap analysis to understand user behavior, form optimization to reduce abandonment, trust signals (testimonials, security badges), page speed improvements, mobile experience enhancement, and checkout flow optimization for e-commerce.",
-                    "icon": "zap"
-                },
-                {
-                    "title": "Marketing Automation",
-                    "description": "Nurture leads automatically with personalized journeys. Email drip campaigns based on user actions, lead scoring to prioritize hot prospects, abandoned cart recovery sequences, welcome series for new subscribers, behavior-triggered campaigns, CRM integration for sales alignment, and automated reporting dashboards. Save time while improving conversion rates.",
-                    "icon": "cpu"
-                },
-                {
-                    "title": "Influencer Marketing",
-                    "description": "Leverage trusted voices in your industry. Identify relevant micro and macro influencers, negotiate partnerships, coordinate sponsored content, track performance and ROI, manage product seeding campaigns, and build long-term brand ambassador relationships. Authentic influencer endorsements drive awareness and sales, especially for consumer brands.",
-                    "icon": "users"
-                },
-                {
-                    "title": "Analytics & Attribution",
-                    "description": "Understand what's actually driving results. Google Analytics 4 setup and configuration, conversion tracking across all channels, multi-touch attribution modeling, customer journey mapping, cohort analysis, predictive analytics, custom dashboard creation, and data-driven insights. Make informed decisions backed by real data, not guesses.",
-                    "icon": "bar-chart"
+                    "value": "Monthly",
+                    "label": "Performance Reporting"
                 }
             ]
         },
         {
             "type": "list",
-            "title": "Industries We Serve",
+            "title": "Why Businesses Work With Us",
             "items": [
-                "Software & SaaS companies: Lead generation, demo bookings, free trial signups",
-                "E-commerce & retail: Product visibility, shopping campaigns, conversion optimization",
-                "Healthcare & wellness: Patient acquisition, local SEO, reputation management",
-                "Real estate & construction: Property inquiries, project awareness, developer branding",
-                "Education & e-learning: Student enrollments, course promotion, webinar marketing",
-                "Professional services: Lead generation for law firms, CA firms, consultants",
-                "Hospitality & travel: Booking generation, seasonal campaigns, review management",
-                "Manufacturing & B2B: Dealer inquiries, enterprise lead generation, thought leadership"
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Transparent Reporting & Communication",
-            "content": "You'll always know exactly how your campaigns are performing. Monthly detailed reports show rankings movement, traffic growth, lead generation, conversion rates, ad spend ROI, and progress toward goals. Real-time dashboard access lets you monitor performance anytime. We explain metrics in plain language—not marketing jargon. Bi-weekly strategy calls keep you in the loop, and you have direct access to your dedicated account manager. We're partners in your growth, not a black box vendor. Our success is measured by your business results—increased revenue, qualified leads, and sustainable competitive advantage."
-        },
-        {
-            "type": "features",
-            "title": "Full-Service Digital Marketing Packages",
-            "items": [
-                {
-                    "title": "Startup Growth Package",
-                    "description": "Perfect for new businesses establishing online presence. Basic SEO (15 keywords), social media management (2 platforms), 4 blog posts/month, Google My Business optimization, and monthly reporting. Ideal for local businesses, small e-commerce stores, and service providers getting started. ₹25,000-40,000/month.",
-                    "icon": "rocket"
-                },
-                {
-                    "title": "Business Expansion Package",
-                    "description": "For growing companies ready to scale. Advanced SEO (30 keywords), social media on 3 platforms, 8 blog posts/month, Google Ads management (₹50K-1L budget), email marketing, and conversion optimization. Suitable for established businesses, multi-location companies, and competitive markets. ₹60,000-1,00,000/month.",
-                    "icon": "trending-up"
-                },
-                {
-                    "title": "Enterprise Domination Package",
-                    "description": "Comprehensive strategy for market leaders. Enterprise SEO (50+ keywords), omnichannel social media, 12+ content pieces/month, multi-platform PPC (Google, Facebook, LinkedIn), influencer campaigns, marketing automation, dedicated team, and custom reporting. For large companies, funded startups, and businesses serious about digital dominance. ₹1,50,000-3,00,000+/month.",
-                    "icon": "crown"
-                },
-                {
-                    "title": "Custom Solutions",
-                    "description": "Tailored packages for unique needs. Whether you need only SEO, only paid ads, one-time website audit, content writing services, or specialized campaigns—we create custom proposals matching your goals and budget. Project-based work available for specific initiatives like product launches, rebranding, or seasonal campaigns.",
-                    "icon": "settings"
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Integrated Approach: Website Development + Digital Marketing",
-            "content": "As both a custom software development company and digital marketing agency, we offer a unique integrated advantage. We build SEO-friendly websites from the ground up—fast loading speeds, mobile responsiveness, clean code, proper schema markup, and conversion-optimized design. Then we drive qualified traffic through strategic marketing campaigns. This end-to-end approach ensures your website and marketing work together seamlessly, unlike agencies that inherit poorly-built websites and struggle to drive results. When we control both the platform and the marketing, you get exponentially better outcomes."
-        },
-        {
-            "type": "list",
-            "title": "Our Digital Marketing Process",
-            "items": [
-                "Discovery & audit: Analyze current performance, competitors, and opportunities (Week 1-2)",
-                "Strategy development: Create customized roadmap aligned with business goals (Week 2-3)",
-                "Campaign setup: Implement tracking, create content, launch campaigns (Week 3-6)",
-                "Optimization phase: Test, refine, and improve based on data (Month 2-3)",
-                "Scaling phase: Double down on what's working, expand reach (Month 4-6)",
-                "Continuous improvement: Ongoing optimization, new tactics, adapting to changes (Month 7+)",
-                "Monthly reporting: Transparent communication on results and next steps (Ongoing)"
+                "Clear and practical marketing strategies",
+                "Transparent reporting and communication",
+                "Custom plans based on business goals",
+                "Support for websites built by us or others",
+                "Continuous optimization and guidance"
             ]
         },
         {
             "type": "cta",
-            "title": "Ready to Dominate Your Market Online?",
-            "description": "Join 200+ businesses growing with DigIT-Hack's proven digital marketing strategies. Get a free marketing audit and customized growth roadmap.",
+            "title": "Grow Your Business Online",
+            "description": "Let’s discuss how digital marketing can help your business attract more customers and improve online visibility.",
             "button": {
-                "label": "Get Free Marketing Audit",
+                "label": "Contact Us",
                 "href": "/contact"
             }
         }

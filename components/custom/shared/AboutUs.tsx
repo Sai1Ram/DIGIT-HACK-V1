@@ -8,11 +8,11 @@ export default function AboutUs() {
     <Section>
       <div className="flex flex-col xl:flex-row gap-12 w-full">
         {/* LEFT */}
-        <div className="w-full flex flex-col gap-6 xl:justify-between">
+        <div className="w-full flex flex-col gap-6 xl:justify-top">
           <p className="text-primary uppercase font-semibold text-sm sm:text-base">
             .About Us
           </p>
-          <div className="xl:h-full sm:h-110 h-96">
+          <div className="hidden lg:block lg:h-150 ">
             <TopProductsSlider />
             <h2 className="text-xl sm:text-2xl font-semibold mt-4 text-center">
               Top Products
@@ -44,7 +44,9 @@ export default function AboutUs() {
             <p className="text-sm sm:text-base leading-relaxed">
               Since 2024, <span className="text-primary">DigIT-Hack</span> has been helping businesses transform their ideas into powerful digital solutions. Through smart technology and innovative thinking, we build websites, mobile apps, and complete management systems that simplify operations, enhance customer experiences, and support sustainable business growth. By combining creativity, technical expertise, and a collaborative approach, we deliver solutions that create real impact and long-term success.
             </p>
-
+<div className="lg:hidden sm:h-110 h-96">
+  <TopProductsSlider />
+</div>
             {/* STATS */}
             <div
               className="

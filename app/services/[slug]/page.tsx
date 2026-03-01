@@ -59,21 +59,55 @@ export default async function ServicePage({ params }: PageProps) {
       <Section>
         <div className="flex flex-col lg:flex-row gap-10">
           <div className="left flex-1">
-            <div className="w-full">
-              <Image
-                src={service.image}
-                alt={service.title}
-                width={1600}
-                height={900}
-                className="rounded-xl w-full h-auto"
-                sizes="100vw"
-                priority
-              />
+            <div className="w-full flex justify-center">
+              <div
+                className="w-full relative overflow-hidden rounded-xl
+                h-64
+                sm:h-75
+                md:h-80
+                lg:h-96
+                xl:h-110"
+              >
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  fill
+                  className="rounded-xl"
+                />
+              </div>
             </div>
 
             <div className="mt-10 sm:mt-14">
-              <div className="my-10">
+              <div className="lg:my-10 my-4 space-y-4">
                 <RevealText text={service.title} />
+                {service.products.length > 0 && (
+                  <div className="lg:hidden w-full rounded-xl bg-[#EDE1FF] p-3 sm:p-4 h-fit">
+                    <h1 className="text-lg font-bold mb-2">Products</h1>
+                    <ul className="space-y-3 sm:space-y-4">
+                      {service.products.map((product, index) => (
+                        <li key={index}>
+                          <Link
+                            href={`/services/${service.slug}/${product.slug}`}
+                            className="
+            p-3 sm:p-4 
+            flex items-center justify-between gap-3
+            bg-white rounded-xl
+            transition
+            hover:shadow-md hover:scale-[1.01]
+            active:scale-[0.99]
+          "
+                          >
+                            <h3 className="text-sm sm:text-base font-medium flex-1 truncate">
+                              {product.name}
+                            </h3>
+
+                            <ChevronRight className="shrink-0 size-4 sm:size-5 text-gray-600" />
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
               <BlockRenderer blocks={service.blocks} />
             </div>
@@ -84,7 +118,7 @@ export default async function ServicePage({ params }: PageProps) {
           </div>
 
           {service.products.length > 0 && (
-            <div className="w-full lg:w-1/3 rounded-xl bg-[#EDE1FF] p-3 sm:p-4 h-fit">
+            <div className="lg:block hidden lg:w-1/3 rounded-xl bg-[#EDE1FF] p-3 sm:p-4 h-fit">
               <ul className="space-y-3 sm:space-y-4">
                 {service.products.map((product, index) => (
                   <li key={index}>

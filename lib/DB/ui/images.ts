@@ -25,6 +25,7 @@ import delhiPublic from "@/public/images/brandLogo/delhiPublic.png";
 import BillingSoftware2 from "@/public/images/BillingSoftware2.jpg";
 import CAOffice from "@/public/images/CAOffice.jpg";
 import JewelleryManagement from "@/public/images/jewellery-management.png";
+import webApp from "@/public/images/webapp2.png";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -33,8 +34,8 @@ export const PRODUCT_IMAGES = {
   "transport-management": transportManagement,
   "school-management": schoolManagement,
   "billing-software": billingSoftware,
-  "web-app": digitalMarketing,
-  "hotel-management": restaurantManagement,
+  "web-app": webApp,
+  "hotel-management": hospitalityManagement,
   "ca-office": CAOffice,
   "jewellery-management": JewelleryManagement,
 } as const;
@@ -47,7 +48,7 @@ export const SERVICE_IMAGES = {
   "retail": retailSoftware,
   "hospitality": hospitalityManagement,
   "institutional": schoolManagement,
-  "web-app": digitalMarketing,
+  "web-app": webApp,
   "digital-marketing": digitalMarketing,
 } as const;
 
