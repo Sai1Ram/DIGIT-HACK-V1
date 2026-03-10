@@ -52,7 +52,7 @@ export default function ServicesSection() {
 
   return (
     <div
-      className="relative px-4 min-h-[150vh] bg-primary-dark rounded-xl mx-4"
+      className="relative px-4 min-h-[120vh] bg-primary-dark rounded-xl mx-4"
       ref={sectionRef}
     >
       <Section>
