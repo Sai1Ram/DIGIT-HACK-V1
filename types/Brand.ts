@@ -16,7 +16,7 @@ export interface Testimonial {
   quote: string;
   name: string;
   role: string;
-  avatar: StaticImageData;
+  avatar: StaticImageData | null;
 }
 export interface TestimonialJson {
   quote: string;

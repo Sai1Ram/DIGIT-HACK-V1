@@ -7,13 +7,13 @@
   },
   {
     "title": "Call Us",
-    "description": "+91 7657024042\n+91 7653011501",
+    "description": "+91 7657024042",
     "icon": "Phone",
     "link": "tel:+917657024042"
   },
   {
     "title": "Our Location",
-    "description": "Hbr layout, hennur cross, bangalore, Karnataka, 560043",
+    "description": "Hbr layout, hennur cross, bangalore, Karnataka, 560043\nSashtri nagar 2nd lane, near Utkal Hall, Berhampur, Odisha, 760002",
     "icon": "MapPin",
     "link": "/"
   }

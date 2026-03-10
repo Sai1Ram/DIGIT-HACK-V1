@@ -26,6 +26,7 @@ import BillingSoftware2 from "@/public/images/BillingSoftware2.jpg";
 import CAOffice from "@/public/images/CAOffice.jpg";
 import JewelleryManagement from "@/public/images/jewellery-management.png";
 import webApp from "@/public/images/webapp2.png";
+import kingdomCafe from "@/public/images/brandLogo/7kingdom.jpg";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -63,6 +64,7 @@ export const BRAND_IMAGES = {
   studio,
   onebite,
   barc,
+  kingdomCafe
 } as const;
 
 export const TESTIMONIAL_IMAGES = {
@@ -71,6 +73,7 @@ export const TESTIMONIAL_IMAGES = {
   prestige,
   orchid,
   delhiPublic,
+  kingdomCafe
 } as const; 
 export type BrandImageKey = keyof typeof BRAND_IMAGES;
 export type ProductImageKey = keyof typeof PRODUCT_IMAGES;

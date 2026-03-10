@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Quote } from "lucide-react";
-import {TESTIMONIALS} from "@/lib/DB/ui/mapper";
+import { TESTIMONIALS } from "@/lib/DB/ui/mapper";
 import Image from "next/image";
 const AUTO_DELAY = 2000; // ms
 
@@ -96,14 +96,28 @@ export default function TestimonialSlider() {
             <hr className="border-gray-300" />
 
             <div className="flex items-center gap-4">
-              <Image
-                src={t.avatar}
-                alt={t.name}
-                className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover"
-              />
+              {t.avatar ? (
+                <Image
+                  src={t.avatar}
+                  alt={t.name}
+                  width={64}
+                  height={64}
+                  className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover"
+                />
+              ) : (
+                <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gray-200 flex items-center justify-center font-semibold text-gray-700 text-sm sm:text-lg">
+                  {t.name
+                    .split(" ")
+                    .map((word) => word[0])
+                    .slice(0, 2)
+                    .join("")}
+                </div>
+              )}
+
               <h4 className="font-semibold text-lg sm:text-xl lg:text-2xl">
                 {t.name}
               </h4>
+
               {/* <p className="text-sm sm:text-base lg:text-lg text-gray-500">
                 {t.role}
               </p> */}

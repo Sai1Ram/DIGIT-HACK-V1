@@ -5,7 +5,6 @@ import {
   Factory,
   Globe,
   GraduationCap,
-  Headset,
   Hospital,
   Lightbulb,
   Mail,
@@ -14,11 +13,12 @@ import {
   Store,
   Truck,
   Tv,
+  Users,
   Utensils,
 } from "lucide-react";
 
 export const ABOUT_CARDS_ICONS = {
-    Lightbulb, Award, Headset
+    Lightbulb, Award, Users
 }
 export type AboutCardIconKey = keyof typeof ABOUT_CARDS_ICONS;
 

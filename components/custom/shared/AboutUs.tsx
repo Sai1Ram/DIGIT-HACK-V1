@@ -42,11 +42,18 @@ export default function AboutUs() {
 
           <div className="ml-0 xl:ml-20 space-y-6">
             <p className="text-sm sm:text-base leading-relaxed">
-              Since 2024, <span className="text-primary">DigIT-Hack</span> has been helping businesses transform their ideas into powerful digital solutions. Through smart technology and innovative thinking, we build websites, mobile apps, and complete management systems that simplify operations, enhance customer experiences, and support sustainable business growth. By combining creativity, technical expertise, and a collaborative approach, we deliver solutions that create real impact and long-term success.
+              Since 2024, <span className="text-primary">DigIT-Hack</span> has
+              been helping businesses transform their ideas into powerful
+              digital solutions. Through smart technology and innovative
+              thinking, we build websites, mobile apps, and complete management
+              systems that simplify operations, enhance customer experiences,
+              and support sustainable business growth. By combining creativity,
+              technical expertise, and a collaborative approach, we deliver
+              solutions that create real impact and long-term success.
             </p>
-<div className="lg:hidden sm:h-110 h-96">
-  <TopProductsSlider />
-</div>
+            <div className="lg:hidden sm:h-110 h-96">
+              <TopProductsSlider />
+            </div>
             {/* STATS */}
             <div
               className="
@@ -61,10 +68,10 @@ export default function AboutUs() {
             >
               <div className="w-1/2">
                 <h2 className="text-4xl sm:text-6xl lg:text-7xl font-semibold">
-                  200+
+                  300+
                 </h2>
                 <p className="text-sm sm:text-base">
-                  Projects delivered with excellence and innovation.
+                  Clients served with innovative solutions.
                 </p>
               </div>
 
@@ -73,10 +80,10 @@ export default function AboutUs() {
               sm:border-l sm:border-dashed sm:border-gray-400"
               >
                 <h2 className="text-4xl sm:text-6xl lg:text-7xl font-semibold">
-                  8.5X
+                  25%
                 </h2>
                 <p className="text-sm sm:text-base">
-                  Faster Growth starts smart solutions today.
+                  Average annual client growth.
                 </p>
               </div>
             </div>

@@ -28,5 +28,23 @@
     "name": "Cult Fit Odisha",
     "role": "Founder",
     "avatar": "cultfit"
+  },
+  {
+    "quote": "Managing daily school activities has become much easier with this system. Features like student management, attendance tracking, and fee handling have helped us maintain everything digitally and efficiently.",
+    "name": "Saraswati Shishu Vidya Mandir",
+    "role": "Administrator",
+    "avatar": null
+  },
+  {
+    "quote": "The software helped us manage our hotel operations more efficiently. From order management to billing and inventory tracking, everything is now streamlined and easy for our staff to handle.",
+    "name": "Sukanya Elite Hotel, Puri",
+    "role": "Manager",
+    "avatar": null
+  },
+  {
+    "quote": "This system has improved our cafe operations significantly. Managing orders, tracking inventory, and handling billing is now quick and simple, allowing us to focus more on delivering a great customer experience.",
+    "name": "7 Kingdom Cafe",
+    "role": "Owner",
+    "avatar": "kingdomCafe"
   }
 ]

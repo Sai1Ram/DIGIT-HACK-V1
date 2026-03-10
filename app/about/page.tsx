@@ -184,7 +184,7 @@ xl:w-56 xl:h-56
     flex justify-center items-center
   "
         >
-          <div className="md:flex hidden flex-col items-center justify-center h-full font-bold text-center px-6 sm:px-10">
+          <div className="lg:flex hidden flex-col items-center justify-center h-full font-bold text-center px-6 sm:px-10">
             Empowering{" "}
             <span className="px-2 bg-primary text-white rounded-full">
               100+
@@ -193,7 +193,7 @@ xl:w-56 xl:h-56
             <span className="text-primary font-bold">DigIT-Hack</span>
             Solutions
           </div>
-          <div className="md:hidden flex justify-center items-center text-center px-4 text-sm font-bold">
+          <div className="lg:hidden flex justify-center items-center text-center px-4 text-sm font-bold">
             Brand Tie-Ups
           </div>
         </div>

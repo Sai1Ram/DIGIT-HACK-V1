@@ -22,7 +22,7 @@ export const TESTIMONIALS: Testimonial[] = typedTestimonials.map((t) => ({
   quote: t.quote,
   name: t.name,
   role: t.role,
-  avatar: TESTIMONIAL_IMAGES[t.avatar],
+  avatar: t.avatar ? TESTIMONIAL_IMAGES[t.avatar] : null,
 }));
 
 const typedAboutCards = aboutCards as AboutCardJson[];
