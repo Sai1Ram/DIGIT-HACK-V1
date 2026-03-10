@@ -36,7 +36,7 @@ export default function Home() {
             Solutions
           </div>
           <div className="lg:hidden flex justify-center items-center text-center px-4 text-sm font-bold">
-            Brand Tie-Ups
+            <span className="text-primary font-bold">Brand</span> Tie-Ups
           </div>
         </div>
 

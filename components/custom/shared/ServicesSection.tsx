@@ -77,7 +77,7 @@ export default function ServicesSection() {
             >
               <motion.div
                 style={{ height: shieldHeight, opacity: shieldOpacity }}
-                className="w-full bg-primary-dark pointer-events-none"
+                className="w-full bg-red-600 pointer-events-none"
               />
               <div className="flex gap-2 bg-linear-to-b from-[#402C68] to-transparent from-30% h-16 items-start">
                 {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((_, idx) => {
