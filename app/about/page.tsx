@@ -169,8 +169,7 @@ export default function About() {
         <div
           className="
     absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-w-28 h-28
-sm:w-32 sm:h-32
+w-32 h-32
 md:w-40 md:h-40
 lg:w-48 lg:h-48
 xl:w-56 xl:h-56
@@ -193,8 +192,8 @@ xl:w-56 xl:h-56
             <span className="text-primary font-bold">DigIT-Hack</span>
             Solutions
           </div>
-          <div className="lg:hidden flex justify-center items-center text-center px-4 text-sm font-bold">
-            <span className="text-primary font-bold">Brand</span>{" "}Tie-Ups
+          <div className="lg:hidden flex justify-center items-center text-center px-4 text-xs font-bold">
+            <span className="text-primary font-bold">Brand</span>&nbsp;Tie-Ups
           </div>
         </div>
 
