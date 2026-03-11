@@ -42,11 +42,6 @@
     "title": "Institution Management Solutions",
     "items": [
       {
-        "title": "School & College Management",
-        "description": "Manage admissions, student database, attendance, fees, exams and communication between staff, students and parents.",
-        "icon": "school"
-      },
-      {
         "title": "Institute Management System",
         "description": "Handle batches, courses, daily activities, assignments, notices and performance tracking for coaching and training institutes.",
         "icon": "book-open"

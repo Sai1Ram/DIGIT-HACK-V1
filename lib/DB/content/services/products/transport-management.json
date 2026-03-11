@@ -65,6 +65,11 @@
             "type": "text",
             "title": "Industries We Serve",
             "content": "DigIT-Hack caters to a wide array of industries, including e-commerce, manufacturing, retail, and more. Our customizable solutions adapt to the unique needs of each sector, ensuring tailored solutions for maximum efficiency."
-        }
+        },
+        {
+  "type": "text",
+  "title": "Ready to Simplify Your Transport Management?",
+  "content": "DigIT-Hack Transport Management Software is designed to streamline your transport operations and improve efficiency. Manage vehicles, drivers, routes, trips, expenses, and reports from one powerful system. Whether you operate a small fleet or a large transport business, our software helps you stay organized, reduce manual work, and run your operations smoothly."
+}
     ]
 }

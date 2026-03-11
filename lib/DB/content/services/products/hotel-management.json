@@ -2,7 +2,7 @@
   "slug": "hotel-management",
   "title": "Hotel Management System",
   "meta": {
-    "title": "Hotel Management System | Room Booking & Cloud PMS | Digithack",
+    "title": "Hotel Management System | Room Booking & Cloud PMS | DigIT-Hack",
     "description": "Complete hotel management software for room booking, check-in, housekeeping, accounts and channel manager. Built for modern hotels and resorts."
   },
   "hero": {
@@ -107,8 +107,9 @@
       ]
     },
     {
-      "type": "text",
-      "content": "Digithack hotel management software is fully customizable for your property workflow. Whether you run a small lodge or a large hotel, manage bookings, rooms, staff and reports from one powerful system."
-    }
+  "type": "text",
+  "title": "Ready to Simplify Your Hotel Management?",
+  "content": "DigIT-Hack hotel management software is fully customizable for your property workflow. Whether you run a small lodge or a large hotel, manage bookings, rooms, staff, and reports from one powerful system."
+}
   ]
 }

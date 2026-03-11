@@ -2,7 +2,7 @@
   "slug": "school-management",
   "title": "School Management System",
   "meta": {
-    "title": "School Management System | Complete School ERP | Digithack",
+    "title": "School Management System | Complete School ERP | DigIT-Hack",
     "description": "Comprehensive school ERP to manage admissions, attendance, fees, communication, academics and online learning from one cloud platform."
   },
   "isTopProduct": false,
@@ -102,8 +102,9 @@
       "content": "Generate detailed reports for attendance, fees, academic performance and daily activities. Access real-time dashboards to make better administrative decisions and track overall institution performance."
     },
     {
-      "type": "text",
-      "content": "Digithack School Management Software is fully customizable to match your institution workflow. Whether you run a single school or multiple campuses, manage everything efficiently from one secure and scalable cloud platform."
-    }
+  "type": "text",
+  "title": "Ready to Simplify Your School Management?",
+  "content": "DigIT-Hack School Management Software is fully customizable to match your institution’s workflow. Whether you run a single school or multiple campuses, you can manage admissions, student records, attendance, fees, staff, and reports efficiently from one secure and scalable cloud platform."
+}
   ]
 }
