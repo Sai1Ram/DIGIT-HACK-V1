@@ -27,6 +27,10 @@ import CAOffice from "@/public/images/CAOffice.jpg";
 import JewelleryManagement from "@/public/images/jewellery-management.png";
 import webApp from "@/public/images/webapp2.png";
 import kingdomCafe from "@/public/images/brandLogo/7kingdom.jpg";
+import gymImg from "@/public/images/GymManagement2.jpg";
+import salonImg from "@/public/images/salon.png";
+import restaurantImg from "@/public/images/restaurant.jpg";
+import schoolImg from "@/public/images/school.webp"
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -38,11 +42,15 @@ export const PRODUCT_IMAGES = {
   "web-app": webApp,
   "hotel-management": hospitalityManagement,
   "ca-office": CAOffice,
-  "jewellery-management": JewelleryManagement,
+  "jewellery-management": JewelleryManagement
 } as const;
 export const BLOCK_IMAGES = {
   transportManagement1,
   BillingSoftware2,
+  gymImg,
+  salonImg,
+  restaurantImg,
+  schoolImg
 } as const;
 
 export const SERVICE_IMAGES = {

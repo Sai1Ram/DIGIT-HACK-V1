@@ -63,6 +63,11 @@
       ]
     },
     {
+      "type": "image",
+      "src": "gymImg",
+      "alt": "Gym Management Software"
+    },
+    {
       "type": "text",
       "content": "*Biometric Device Integration can be availed by us as per the requirement."
     },

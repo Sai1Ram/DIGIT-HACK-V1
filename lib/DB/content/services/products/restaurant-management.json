@@ -35,7 +35,7 @@
         "Integration with Online Orders"
       ]
     },
-{
+    {
       "type": "features",
       "title": "Billing System",
       "items": [
@@ -138,8 +138,13 @@
       ]
     },
     {
+      "type": "image",
+      "src": "restaurantImg",
+      "alt": "Restaurant Management Software"
+    },
+    {
       "type": "features",
-      "title":"Real-time insightful reports of your restaurant (Analytics)",
+      "title": "Real-time insightful reports of your restaurant (Analytics)",
       "items": [
         {
           "title": "Single dashboard monitoring",
@@ -164,9 +169,9 @@
       ]
     },
     {
-  "type": "text",
-  "title": "Ready to Simplify Your Restaurant Management?",
-  "content": "Our restaurant management software is designed to fit your restaurant’s workflow and operational needs. From managing orders and billing to tracking inventory and staff activities, everything can be handled in one system. Streamline daily operations, improve customer service, and run your restaurant efficiently with tools built specifically for the food business."
-}
+      "type": "text",
+      "title": "Ready to Simplify Your Restaurant Management?",
+      "content": "Our restaurant management software is designed to fit your restaurant’s workflow and operational needs. From managing orders and billing to tracking inventory and staff activities, everything can be handled in one system. Streamline daily operations, improve customer service, and run your restaurant efficiently with tools built specifically for the food business."
+    }
   ]
 }

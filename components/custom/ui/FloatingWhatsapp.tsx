@@ -2,7 +2,7 @@
 
 export default function FloatingWhatsapp() {
 
-  const phone = "917657024042";
+  const phone = "918144210272";
 
   const message = `Hi DigIT-Hack Team,
 I'm interested in your services.

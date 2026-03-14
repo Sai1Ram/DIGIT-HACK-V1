@@ -12,11 +12,6 @@
   },
   "blocks": [
     {
-      "type": "text",
-      "title": "II. Software Features:",
-      "content": "DigIT-Hack CA Office Management Software will include the following key features:"
-    },
-    {
       "type": "list",
       "title": "Key Features",
       "items": [

@@ -55,6 +55,11 @@
       "content": "Manage advance bookings, walk-ins and staff schedules with a clear calendar view. Avoid double bookings and keep your salon organized."
     },
     {
+      "type": "image",
+      "src": "salonImg",
+      "alt": "Salon Management Software"
+    },
+    {
       "type": "list",
       "title": "Customer Engagement",
       "items": [
@@ -81,9 +86,9 @@
       ]
     },
     {
-  "type": "text",
-  "title": "Ready to Simplify Your Salon Management?",
-  "content": "DigIT-Hack Salon Management Software is simple, secure, and customizable to fit your salon's workflow. Whether you run a single salon or manage multiple branches, you can handle appointments, billing, staff, and customer records from one powerful system while delivering a better experience for your clients."
-}
+      "type": "text",
+      "title": "Ready to Simplify Your Salon Management?",
+      "content": "DigIT-Hack Salon Management Software is simple, secure, and customizable to fit your salon's workflow. Whether you run a single salon or manage multiple branches, you can handle appointments, billing, staff, and customer records from one powerful system while delivering a better experience for your clients."
+    }
   ]
 }

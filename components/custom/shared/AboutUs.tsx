@@ -83,7 +83,7 @@ export default function AboutUs() {
                   25%
                 </h2>
                 <p className="text-sm sm:text-base">
-                  Average annual client growth.
+                  Average company growth.
                 </p>
               </div>
             </div>

@@ -7,7 +7,7 @@ export default function Header({ children }: { children: ReactNode }) {
     <div
       className="
     relative w-full
-    min-h-[40vh] sm:min-h-[45vh] lg:min-h-[50vh]
+    min-h-[30vh] sm:min-h-[40vh] lg:min-h-[50vh]
     rounded-xl
     flex flex-col items-center justify-center
     px-4 sm:px-6 lg:px-10

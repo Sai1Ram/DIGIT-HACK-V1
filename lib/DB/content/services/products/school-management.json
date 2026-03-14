@@ -87,6 +87,11 @@
       ]
     },
     {
+      "type": "image",
+      "src": "schoolImg",
+      "alt": "School Management Software"
+    },
+    {
       "type": "list",
       "title": "Accounts & Communication",
       "items": [
@@ -102,9 +107,9 @@
       "content": "Generate detailed reports for attendance, fees, academic performance and daily activities. Access real-time dashboards to make better administrative decisions and track overall institution performance."
     },
     {
-  "type": "text",
-  "title": "Ready to Simplify Your School Management?",
-  "content": "DigIT-Hack School Management Software is fully customizable to match your institution’s workflow. Whether you run a single school or multiple campuses, you can manage admissions, student records, attendance, fees, staff, and reports efficiently from one secure and scalable cloud platform."
-}
+      "type": "text",
+      "title": "Ready to Simplify Your School Management?",
+      "content": "DigIT-Hack School Management Software is fully customizable to match your institution’s workflow. Whether you run a single school or multiple campuses, you can manage admissions, student records, attendance, fees, staff, and reports efficiently from one secure and scalable cloud platform."
+    }
   ]
 }

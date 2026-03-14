@@ -121,7 +121,7 @@ export default function NavContent() {
           })}
         </div>
         <div className="hidden lg:block">
-          <AnimatedButton label="Lets Talk" href="/contact" />
+          <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
         </div>
         {/* HAMBURGER (MOBILE) */}
         <button className="lg:hidden" onClick={() => setMobileOpen((p) => !p)}>
@@ -194,7 +194,7 @@ export default function NavContent() {
             );
           })}
 
-          <AnimatedButton label="Lets Talk" href="/contact" />
+          <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
         </div>
       </motion.div>
     </div>

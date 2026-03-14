@@ -6,6 +6,12 @@ import Section from "../ui/Section";
 import Link from "next/link";
 import { loadAllProducts } from "@/lib/loadAllProducts";
 import DemoForm from "../shared/DemoForm";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaXTwitter,
+} from "react-icons/fa6";
 
 interface ProductShortDetails {
   slug: string;
@@ -130,32 +136,75 @@ export default async function Footer() {
             {/* Newsletter */}
             <DemoForm products={products} />
           </div>
-          <div className="text-sm text-gray-600 space-y-1 relative z-5 mt-10">
-            <p className="font-semibold text-gray-800">Official Partners</p>
+          <div className="flex relative z-5 mt-10 w-full flex-col md:flex-row items-center justify-between gap-6 border-t pt-6 border-gray-300">
+            <div className="text-sm text-gray-600 space-y-1">
+              <p className="font-semibold text-gray-800">Official Partners</p>
 
-            <p>
-              Dectwin Services –{" "}
-              <a
-                href="https://www.dectwinservices.com"
+              <p>
+                Dectwin Services –{" "}
+                <a
+                  href="https://www.dectwinservices.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  www.dectwinservices.com
+                </a>
+              </p>
+
+              <p>
+                Foxtroit –{" "}
+                <a
+                  href="https://www.foxtroit.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  www.foxtroit.in
+                </a>
+              </p>
+            </div>
+            <div className="flex gap-4 justify-center">
+              <Link
+                href="https://www.instagram.com/digithack_"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:underline"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 
+    hover:bg-primary hover:text-white hover:scale-110 transition-all duration-300 shadow-sm"
               >
-                www.dectwinservices.com
-              </a>
-            </p>
+                <FaInstagram size={18} />
+              </Link>
 
-            <p>
-              Foxtroit –{" "}
-              <a
-                href="https://www.foxtroit.in"
+              <Link
+                href="https://www.linkedin.com/company/digithack7/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary hover:underline"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 
+    hover:bg-primary hover:text-white hover:scale-110 transition-all duration-300 shadow-sm"
               >
-                www.foxtroit.in
-              </a>
-            </p>
+                <FaLinkedin size={18} />
+              </Link>
+
+              <Link
+                href="https://x.com/DigitiHack"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 
+    hover:bg-primary hover:text-white hover:scale-110 transition-all duration-300 shadow-sm"
+              >
+                <FaXTwitter size={18} />
+              </Link>
+
+              <Link
+                href="https://www.facebook.com/people/DigitHack/61554771653104/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-700 
+    hover:bg-primary hover:text-white hover:scale-110 transition-all duration-300 shadow-sm"
+              >
+                <FaFacebookF size={18} />
+              </Link>
+            </div>
           </div>
         </Section>
       </footer>

@@ -28,7 +28,7 @@ Product: ${product}
 
     const encoded = encodeURIComponent(message);
 
-    const whatsappURL = `https://wa.me/917657024042?text=${encoded}`;
+    const whatsappURL = `https://wa.me/918144210272?text=${encoded}`;
     window.open(whatsappURL, "_blank");
   };
 

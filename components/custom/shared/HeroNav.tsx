@@ -137,7 +137,7 @@ export function HeroNavbar() {
 
         {/* DESKTOP CTA */}
         <div className="hidden lg:block">
-          <AnimatedButton label="Lets Talk" href="/contact" />
+          <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
         </div>
 
         {/* ================= MOBILE BUTTON ================= */}
@@ -221,7 +221,7 @@ export function HeroNavbar() {
                   );
                 })}
 
-                <AnimatedButton label="Lets Talk" href="/contact" />
+                <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
               </div>
             </motion.div>
           )}

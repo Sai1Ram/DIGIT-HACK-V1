@@ -117,7 +117,7 @@ export default function ServicesSection() {
               {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map(
                 (service, idx) => {
                   const message = `Hii DigIT-Hack Team, I'm interested in your *${service.title}* service. Please share more details.`;
-                  const whatsappUrl = `https://wa.me/917657024042?text=${encodeURIComponent(message)}`;
+                  const whatsappUrl = `https://wa.me/918144210272?text=${encodeURIComponent(message)}`;
                   return (
                     <motion.div
                       key={idx}

@@ -36,9 +36,11 @@ export default function About() {
             <AnimatedButton label="Request a Call" href="/contact" />
           </div>
         </div>
-
+<p className="mt-7 md:mt-8 lg:mt-10">
+At DigIT-Hack, we empower businesses with innovative technology solutions designed to drive growth and efficiency. Our team delivers reliable web applications, custom software, and digital solutions tailored to meet the unique needs of modern businesses. By combining technical expertise with a deep understanding of industry challenges, we help organizations streamline operations, enhance customer experiences, and succeed in the digital era.
+</p>
         {/* ABOUT CARDS */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-6 lg:gap-8 mt-14 md:mt-16 lg:mt-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 md:gap-6 lg:gap-8 mt-7 md:mt-8 lg:mt-10">
           {ABOUT_CARDS.map((card, idx) => (
             <RevealCard key={idx} delay={idx * 0.2}>
               <AnimatedCard
