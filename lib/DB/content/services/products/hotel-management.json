@@ -55,6 +55,11 @@
       ]
     },
     {
+      "type": "image",
+      "src": "hotelImg",
+      "alt": "Hotel Management Software"
+    },
+    {
       "type": "text",
       "title": "Housekeeping & Operations",
       "content": "Track room cleaning status, assign housekeeping tasks and ensure rooms are always ready for guests. Improve efficiency and maintain service quality with real-time updates."
@@ -107,9 +112,9 @@
       ]
     },
     {
-  "type": "text",
-  "title": "Ready to Simplify Your Hotel Management?",
-  "content": "DigIT-Hack hotel management software is fully customizable for your property workflow. Whether you run a small lodge or a large hotel, manage bookings, rooms, staff, and reports from one powerful system."
-}
+      "type": "text",
+      "title": "Ready to Simplify Your Hotel Management?",
+      "content": "DigIT-Hack hotel management software is fully customizable for your property workflow. Whether you run a small lodge or a large hotel, manage bookings, rooms, staff, and reports from one powerful system."
+    }
   ]
 }

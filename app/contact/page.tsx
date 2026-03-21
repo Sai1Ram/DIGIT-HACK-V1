@@ -65,7 +65,7 @@ export default function ContactUs() {
 
             <Link
               href={info.link}
-              className="block mt-1 text-sm sm:text-base wrap-break-word"
+              className="block mt-1 text-sm sm:text-base wrap-break-word whitespace-pre-line"
             >
               {info.description}
             </Link>

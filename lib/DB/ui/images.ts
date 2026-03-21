@@ -30,7 +30,8 @@ import kingdomCafe from "@/public/images/brandLogo/7kingdom.jpg";
 import gymImg from "@/public/images/GymManagement2.jpg";
 import salonImg from "@/public/images/salon.png";
 import restaurantImg from "@/public/images/restaurant.jpg";
-import schoolImg from "@/public/images/school.webp"
+import schoolImg from "@/public/images/school.jpeg";
+import hotelImg from "@/public/images/hotel.jpg";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -50,7 +51,8 @@ export const BLOCK_IMAGES = {
   gymImg,
   salonImg,
   restaurantImg,
-  schoolImg
+  schoolImg,
+  hotelImg
 } as const;
 
 export const SERVICE_IMAGES = {

@@ -59,13 +59,13 @@ At DigIT-Hack, we empower businesses with innovative technology solutions design
       </Section>
 
       {/* ===== PARALLAX + CONTENT ===== */}
-      <div className="relative mb-20">
+      <div className="relative lg:mb-20">
         <div className="absolute inset-0 rounded-xl z-0 bg-linear-to-b from-[#EDE1FF] to-[#F6F0FF]" />
 
         <Section>
-          <div className="relative z-5 flex flex-col md:flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 xl:gap-20 w-full">
+          <div className="relative z-5 flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-14 xl:gap-20 w-full">
             {/* Left */}
-            <div className="w-full">
+            <div className="w-[80%]">
               <ParallaxCard img="./images/person.webp" direction="down" />
             </div>
 
@@ -148,7 +148,7 @@ At DigIT-Hack, we empower businesses with innovative technology solutions design
                   </div>
                 </Reveal>
               </div>
-              <Reveal
+              {/* <Reveal
                 direction="up"
                 distance={30}
                 duration={0.5}
@@ -160,14 +160,14 @@ At DigIT-Hack, we empower businesses with innovative technology solutions design
                   href="/contact"
                   className="rounded-lg text-white bg-primary w-full flex justify-center"
                 />
-              </Reveal>
+              </Reveal> */}
             </div>
           </div>
         </Section>
       </div>
 
       {/* ===== BRAND SECTION ===== */}
-      <div className="my-16 sm:my-24 relative flex justify-center items-center">
+      <div className=" relative flex justify-center items-center">
         <div
           className="
     absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
