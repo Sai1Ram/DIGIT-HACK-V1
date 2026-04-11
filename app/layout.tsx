@@ -8,6 +8,7 @@ import Footer from "@/components/custom/layout/Footer";
 import Script from "next/script";
 import FloatingWhatsapp from "@/components/custom/ui/FloatingWhatsapp";
 import GoogleAnalyticsTracker from "@/components/GoogleAnalyticsTracker";
+import { Suspense } from "react";
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
@@ -42,7 +43,9 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={` ${geistMono.className} antialiased bg-[#FAF8FF]`}>
-        <GoogleAnalyticsTracker />
+        <Suspense fallback={null}>
+          <GoogleAnalyticsTracker />
+        </Suspense>
         <Navbar />
         {children}
         <FloatingWhatsapp />
