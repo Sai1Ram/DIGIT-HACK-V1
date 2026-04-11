@@ -5,14 +5,13 @@ import "./globals.css";
 import BackToTop from "@/components/custom/ui/BackToTop";
 import Navbar from "@/components/custom/layout/Navbar";
 import Footer from "@/components/custom/layout/Footer";
-import SecondaryNavbar from "@/components/custom/layout/SecondaryNavbar";
+import Script from "next/script";
 import FloatingWhatsapp from "@/components/custom/ui/FloatingWhatsapp";
-
+import GoogleAnalyticsTracker from "@/components/GoogleAnalyticsTracker";
 
 const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
- 
 
 export const metadata: Metadata = {
   title: "DigIT-Hack",
@@ -26,14 +25,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={` ${geistMono.className} antialiased bg-[#FAF8FF]`}
-      >
+      <head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18052182389"
+        ></Script>
+        <Script>
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18052182389');
+  `}
+        </Script>
+      </head>
+      <body className={` ${geistMono.className} antialiased bg-[#FAF8FF]`}>
+        <GoogleAnalyticsTracker />
         <Navbar />
         {children}
         <FloatingWhatsapp />
-         <BackToTop />
-         <Footer />
+        <BackToTop />
+        <Footer />
       </body>
     </html>
   );
