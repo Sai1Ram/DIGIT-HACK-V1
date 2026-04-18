@@ -7,6 +7,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, easeInOut } from "motion/react";
 import AnimatedButton from "../ui/AnimatedBtn";
 import { NAV_LINKS } from "@/lib/DB/ui/NavMapper";
+import { trackConversion } from "@/lib/gtag";
 
 /* ------------------ VARIANTS ------------------ */
 
@@ -74,7 +75,7 @@ export default function NavContent() {
                     ${isActive ? "text-primary" : "text-foreground/80"}
                     ${aiLink ? "border border-primary p-2 rounded-2xl" : ""}
                     `}
-                    target={aiLink ? "_blank" : ""}
+                  target={aiLink ? "_blank" : ""}
                 >
                   {hasDropdown ? (
                     <span className="flex gap-1 items-center">
@@ -121,7 +122,14 @@ export default function NavContent() {
           })}
         </div>
         <div className="hidden lg:block">
-          <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
+          <AnimatedButton
+            label="Schedule a Demo"
+            href="/schedule-demo"
+            onClick={(e) => {
+              e.preventDefault();
+              trackConversion("/schedule-demo");
+            }}
+          />
         </div>
         {/* HAMBURGER (MOBILE) */}
         <button className="lg:hidden" onClick={() => setMobileOpen((p) => !p)}>
@@ -156,7 +164,9 @@ export default function NavContent() {
                     }
                   }}
                 >
-                  <Link href={link.href} target={aiLink ? "_blank" : ""}>{link.label}</Link>
+                  <Link href={link.href} target={aiLink ? "_blank" : ""}>
+                    {link.label}
+                  </Link>
 
                   {hasDropdown && (
                     <ChevronDown
@@ -194,7 +204,14 @@ export default function NavContent() {
             );
           })}
 
-          <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
+          <AnimatedButton
+            label="Schedule a Demo"
+            href="/schedule-demo"
+            onClick={(e) => {
+              e.preventDefault();
+              trackConversion("/schedule-demo");
+            }}
+          />
         </div>
       </motion.div>
     </div>

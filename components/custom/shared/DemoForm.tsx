@@ -1,4 +1,5 @@
 "use client";
+import { trackConversion } from "@/lib/gtag";
 import { useState } from "react";
 
 interface ProductShortDetails {
@@ -30,6 +31,7 @@ Product: ${product}
 
     const whatsappURL = `https://wa.me/918144210272?text=${encoded}`;
     window.open(whatsappURL, "_blank");
+    trackConversion();
   };
 
   return (

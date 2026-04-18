@@ -9,6 +9,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { FEATURED_SERVICES_LIMIT } from "@/lib/DB/CONST";
 import { loadServices } from "@/lib/loadServices";
 import Link from "next/link";
+import { trackConversion } from "@/lib/gtag";
 
 export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -136,6 +137,7 @@ export default function ServicesSection() {
                           <Link
                             href={whatsappUrl}
                             target="_blank"
+                            onClick={() => trackConversion()}
                             rel="noopener noreferrer"
                             className="p-2 rounded-full bg-green-500 hover:bg-green-600 transition-all duration-200 hover:scale-105 active:scale-95"
                           >

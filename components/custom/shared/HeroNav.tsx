@@ -9,6 +9,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { AnimatePresence, easeInOut, motion } from "motion/react";
 import AnimatedButton from "../ui/AnimatedBtn";
+import { trackConversion } from "@/lib/gtag";
 export function HeroNavbar() {
   const pathname = usePathname();
   const scrollDir = useScrollDirection();
@@ -137,7 +138,14 @@ export function HeroNavbar() {
 
         {/* DESKTOP CTA */}
         <div className="hidden lg:block">
-          <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
+          <AnimatedButton
+            label="Schedule a Demo"
+            href="/schedule-demo"
+            onClick={(e) => {
+              e.preventDefault();
+              trackConversion("/schedule-demo");
+            }}
+          />
         </div>
 
         {/* ================= MOBILE BUTTON ================= */}
@@ -221,7 +229,14 @@ export function HeroNavbar() {
                   );
                 })}
 
-                <AnimatedButton label="Schedule a Demo" href="/schedule-demo" />
+                <AnimatedButton
+                  label="Schedule a Demo"
+                  href="/schedule-demo"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    trackConversion("/schedule-demo");
+                  }}
+                />
               </div>
             </motion.div>
           )}

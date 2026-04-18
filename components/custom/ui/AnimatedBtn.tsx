@@ -1,5 +1,6 @@
 "use client";
 
+import { trackConversion } from "@/lib/gtag";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
@@ -7,16 +8,19 @@ interface AnimatedButtonProps {
   label: string;
   href?: string;
   className?: string;
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
 }
 
 export default function AnimatedButton({
   label,
   href = "#",
   className = "bg-primary text-white",
+  onClick,
 }: AnimatedButtonProps) {
   return (
     <Link
       href={href}
+      onClick={onClick}
       className={`
         relative inline-flex items-center justify-center
         overflow-hidden rounded-full font-medium group transition
