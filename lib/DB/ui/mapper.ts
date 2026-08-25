@@ -13,6 +13,7 @@ import testimonials from "../content/Testimonials.json";
 const typedBrands = brands as BrandJson[];
 export const BRANDS: Brand[] = typedBrands.map((b) => ({
   id: b.id,
+  name: b.name,
   src: BRAND_IMAGES[b.src],
   link: b.link,
 }));

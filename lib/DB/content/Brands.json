@@ -1,52 +1,146 @@
 [
   {
     "id": 1,
+    "name": "Samosa Express",
     "src": "samosa",
     "link": "https://samosaexpresspvtltd.com/"
   },
   {
     "id": 2,
+    "name": "Indulge The Salon",
     "src": "indulge",
     "link": "https://www.indulge.salon/"
   },
   {
     "id": 3,
+    "name": "KFC",
     "src": "kfc",
     "link": "https://online.kfc.co.in/"
   },
   {
     "id": 4,
+    "name": "Pizza Hut",
     "src": "pizzaHut",
     "link": "https://www.pizzahut.co.in/"
   },
   {
     "id": 5,
+    "name": "Arsalan",
     "src": "arsalan",
-    "link": "https://www.arsalanrestaurants.com"
+    "link": "https://www.arsalanrestaurants.com/"
   },
   {
     "id": 6,
+    "name": "Baskin Robbins",
     "src": "baskinRobbins",
     "link": "https://baskinrobbinsindia.com/"
   },
   {
     "id": 7,
+    "name": "Khadi India",
     "src": "khadiIndia",
     "link": "https://www.ekhadiindia.com/"
   },
   {
     "id": 8,
+    "name": "Studio11 Salon & Spa",
     "src": "studio",
     "link": "https://www.studio11.co/"
   },
   {
     "id": 9,
+    "name": "One Bite",
     "src": "onebite",
     "link": "https://www.onebite.co.in/"
   },
   {
-    "id":10,
+    "id": 10,
+    "name": "BARC India",
     "src": "barc",
-    "link": "https://www.barc.gov.in/"
+    "link": "https://www.barcindia.co.in/"
+  },
+  {
+    "id": 11,
+    "name": "Bhanwar Singh Palace Group of Hotels",
+    "src": "bsg",
+    "link": "https://bhanwarsinghpalace.com/"
+  },
+  {
+    "id": 12,
+    "name": "The Byke Hospitality",
+    "src": "byke",
+    "link": "https://thebyke.com/"
+  },
+  {
+    "id": 13,
+    "name": "Costa Coffee",
+    "src": "costaCoffee",
+    "link": "https://www.costacoffee.in/"
+  },
+  {
+    "id": 14,
+    "name": "Cult.fit",
+    "src": "cultfit",
+    "link": "https://www.cult.fit/"
+  },
+  {
+    "id": 15,
+    "name": "Delhi Public School",
+    "src": "delhiPublic",
+    "link": "https://dpsfamily.org/"
+  },
+  {
+    "id": 16,
+    "name": "Estherea Resort & Spa",
+    "src": "estherea",
+    "link": "https://www.esthereahotels.com/"
+  },
+  {
+    "id": 17,
+    "name": "Hardee's",
+    "src": "hardees",
+    "link": "https://www.hardees.com/"
+  },
+  {
+    "id": 18,
+    "name": "Kavish Hotels & Resorts",
+    "src": "kavish",
+    "link": "https://kavishhotels.com/"
+  },
+  {
+    "id": 19,
+    "name": "Orchid Salon & Studio",
+    "src": "orchid",
+    "link": "https://orchidsalonandstudio.com/"
+  },
+  {
+    "id": 20,
+    "name": "Prestige Group Hotels",
+    "src": "prestige",
+    "link": "https://www.prestigehospitalityventures.com/"
+  },
+  {
+    "id": 21,
+    "name": "Sagar Ratna",
+    "src": "sagarRatna",
+    "link": "https://sagarratna.in/"
+  },
+  {
+    "id": 22,
+    "name": "Suba Group of Hotels",
+    "src": "suba",
+    "link": "https://subahotels.com/"
+  },
+  {
+    "id": 23,
+    "name": "TeaMax Cafe",
+    "src": "teamax",
+    "link": "https://teamaxcafe.com/"
+  },
+  {
+    "id": 24,
+    "name": "Zorko Brand",
+    "src": "zorko",
+    "link": "https://zorko.in/"
   }
 ]
