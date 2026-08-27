@@ -5,7 +5,7 @@ import AnimatedButton from "../ui/AnimatedBtn";
 import Section from "../ui/Section";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion } from "motion/react";
 import { FEATURED_SERVICES_LIMIT } from "@/lib/DB/CONST";
 import { loadServices } from "@/lib/loadServices";
 import Link from "next/link";
@@ -15,39 +15,26 @@ export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
   const sectionRef = useRef<HTMLDivElement>(null);
   const SERVICES = loadServices();
-  // Track scroll within the section
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start start", "end start"], // Starts tracking at the top of the section
-  });
-
-  // Transform scroll progress into opacity (0 at start, 1 after slight scroll)
-  const shieldHeight = useTransform(scrollYProgress, [0, 0.05], [0, 80]);
-  const shieldOpacity = useTransform(scrollYProgress, [0, 0.05], [0, 1]);
   useEffect(() => {
-    const observerOptions = {
-      root: null, // use the viewport
-      // This creates a narrow horizontal "strip" in the middle of the screen
-      rootMargin: "-40% 0px 0px 0px",
-      threshold: 0,
-    };
+    const section = sectionRef.current;
+    if (!section) return;
 
-    const handleIntersect = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Find the index of the card from a data attribute
-          const index = Number(entry.target.getAttribute("data-index"));
-          setActiveIndex(index);
+    const cards = section.querySelectorAll<HTMLElement>(".service-card");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (visible) {
+          const nextIndex = Number(visible.target.getAttribute("data-index"));
+          setActiveIndex(Math.min(Math.max(nextIndex, 0), cards.length - 1));
         }
-      });
-    };
+      },
+      { root: null, rootMargin: "-44% 0px -44% 0px", threshold: [0, 0.2, 0.5] },
+    );
 
-    const observer = new IntersectionObserver(handleIntersect, observerOptions);
-
-    // Grab all elements with the class 'service-card'
-    const cards = document.querySelectorAll(".service-card");
     cards.forEach((card) => observer.observe(card));
-
     return () => observer.disconnect();
   }, []);
 
@@ -73,37 +60,30 @@ export default function ServicesSection() {
           </div>
           {/* 3. Right side - Regular scrolling content */}
           <div className="right lg:w-2/3 w-full relative">
-            <div
-              className={`z-5 sticky top-0 bg-transparent ${activeIndex === 0 ? "h-auto" : "lg:h-[70vh]"}`}
-            >
-              <motion.div
-                style={{ height: shieldHeight, opacity: shieldOpacity }}
-                className="w-full bg-primary-dark pointer-events-none"
-              />
-              <div className="flex gap-2 bg-linear-to-b from-[#402C68] to-transparent from-30% h-16 items-start">
+            <div className="sticky top-0 z-10 -mx-1 bg-primary-dark px-1 pb-5 pt-2">
+              <div className="flex min-h-12 items-center gap-3 border-b border-white/10">
                 {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((_, idx) => {
                   const isActive = idx === activeIndex;
                   return (
                     <div key={idx} className="flex items-center gap-2">
-                      <span
-                        className={`${
-                          isActive ? "text-primary" : "text-gray-400"
-                        } text-lg font-semibold`}
+                      <motion.span
+                        animate={{
+                          color: isActive ? "var(--primary)" : "#9ca3af",
+                          y: isActive ? 0 : 2,
+                          scale: isActive ? 1 : 0.94,
+                        }}
+                        transition={{ type: "spring", stiffness: 360, damping: 28 }}
+                        className="text-lg font-semibold tabular-nums"
                       >
                         {String(idx + 1).padStart(2, "0")}.
-                      </span>
-                      {/* ANIMATED ACTIVE BAR */}
-                      {isActive && idx !== FEATURED_SERVICES_LIMIT - 1 && (
-                        <div className="h-1 w-16 bg-gray-600 rounded-full relative overflow-hidden">
+                      </motion.span>
+                      {idx < FEATURED_SERVICES_LIMIT - 1 && (
+                        <div className="relative h-px w-10 overflow-hidden rounded-full bg-white/15 sm:w-16">
                           <motion.div
-                            layoutId="activeServiceBar"
-                            className="absolute inset-0 bg-primary"
-                            transition={{
-                              type: "spring",
-                              stiffness: 300,
-                              damping: 30,
-                              duration: 0.3,
-                            }}
+                            className="absolute inset-y-0 left-0 bg-primary"
+                            initial={false}
+                            animate={{ width: isActive ? "100%" : "0%", opacity: isActive ? 1 : 0.25 }}
+                            transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
                           />
                         </div>
                       )}
@@ -123,9 +103,11 @@ export default function ServicesSection() {
                     <motion.div
                       key={idx}
                       data-index={idx}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      className="w-full p-4 rounded-xl bg-black/20 space-y-4 mb-10 service-card"
+                      initial={{ opacity: 0, y: 28, scale: 0.985 }}
+                      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                      viewport={{ once: true, margin: "-12% 0px -12%" }}
+                      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                      className="service-card mb-16 w-full space-y-4 rounded-xl bg-black/20 p-4 last:mb-4"
                     >
                       <div className="flex justify-between items-start gap-3">
                         <h2 className="text-2xl text-white capitalize">
