@@ -13,7 +13,6 @@ import { trackConversion } from "@/lib/gtag";
 
 export default function ServicesSection() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isRailPinned, setIsRailPinned] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
   const SERVICES = loadServices();
   useEffect(() => {
@@ -39,26 +38,6 @@ export default function ServicesSection() {
     return () => observer.disconnect();
   }, []);
 
-  useEffect(() => {
-    const section = sectionRef.current;
-    if (!section) return;
-
-    let frame = 0;
-    const updatePinnedState = () => {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        setIsRailPinned(section.getBoundingClientRect().top <= 96);
-      });
-    };
-
-    updatePinnedState();
-    window.addEventListener("scroll", updatePinnedState, { passive: true });
-    return () => {
-      cancelAnimationFrame(frame);
-      window.removeEventListener("scroll", updatePinnedState);
-    };
-  }, []);
-
   return (
     <div
       className="relative px-4 min-h-[120vh] bg-primary-dark rounded-xl mx-4"
@@ -81,11 +60,7 @@ export default function ServicesSection() {
           </div>
           {/* 3. Right side - Regular scrolling content */}
           <div className="right lg:w-2/3 w-full relative">
-            <div
-              className={`sticky top-32 z-20 -mx-1 bg-primary-dark px-1 pb-5 pt-2 transition-shadow duration-300 ${
-                isRailPinned ? "shadow-[0_14px_24px_-18px_rgba(0,0,0,0.9)]" : "shadow-none"
-              }`}
-            >
+            <div className="sticky top-0 z-10 -mx-1 bg-primary-dark px-1 pb-5 pt-2">
               <div className="flex min-h-12 items-center gap-3 border-b border-white/10">
                 {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((_, idx) => {
                   const isActive = idx === activeIndex;
@@ -94,12 +69,11 @@ export default function ServicesSection() {
                       <motion.span
                         animate={{
                           color: isActive ? "var(--primary)" : "#9ca3af",
-                          y: isActive ? 0 : 3,
-                          scale: isActive ? 1 : 0.86,
-                          opacity: isActive ? 1 : 0.42,
+                          y: isActive ? 0 : 2,
+                          scale: isActive ? 1 : 0.94,
                         }}
                         transition={{ type: "spring", stiffness: 360, damping: 28 }}
-                        className="text-lg font-semibold tabular-nums will-change-transform"
+                        className="text-lg font-semibold tabular-nums"
                       >
                         {String(idx + 1).padStart(2, "0")}.
                       </motion.span>
@@ -108,10 +82,7 @@ export default function ServicesSection() {
                           <motion.div
                             className="absolute inset-y-0 left-0 bg-primary"
                             initial={false}
-                            animate={{
-                              width: isActive ? "100%" : "0%",
-                              opacity: isActive ? 1 : 0,
-                            }}
+                            animate={{ width: isActive ? "100%" : "0%", opacity: isActive ? 1 : 0.25 }}
                             transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
                           />
                         </div>
