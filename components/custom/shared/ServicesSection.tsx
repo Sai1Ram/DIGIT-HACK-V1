@@ -28,7 +28,7 @@ export default function ServicesSection() {
     const observerOptions = {
       root: null, // use the viewport
       // This creates a narrow horizontal "strip" in the middle of the screen
-      rootMargin: "-40% 0px 0px 0px",
+      rootMargin: "-40% 0px -40% 0px",
       threshold: 0,
     };
 
