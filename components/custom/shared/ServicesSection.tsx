@@ -82,7 +82,7 @@ export default function ServicesSection() {
           {/* 3. Right side - Regular scrolling content */}
           <div className="right lg:w-2/3 w-full relative">
             <div
-              className={`sticky top-24 z-20 -mx-1 bg-primary-dark px-1 pb-5 pt-2 transition-shadow duration-300 ${
+              className={`sticky top-32 z-20 -mx-1 bg-primary-dark px-1 pb-5 pt-2 transition-shadow duration-300 ${
                 isRailPinned ? "shadow-[0_14px_24px_-18px_rgba(0,0,0,0.9)]" : "shadow-none"
               }`}
             >
