@@ -43,7 +43,38 @@ import salonImg from "@/public/images/salon.png";
 import restaurantImg from "@/public/images/restaurant.jpg";
 import schoolImg from "@/public/images/school.jpeg";
 import hotelImg from "@/public/images/hotel.jpg";
+// AI Project Images
+import vehicleSpeedDetection from "@/public/images/ai-projects/projects/vehicle-speed-detection.webp";
+import documentScanning from "@/public/images/ai-projects/projects/document-scanning.webp";
+import aiFashionModel from "@/public/images/ai-projects/projects/ai-fashion-model.webp";
+import aiNewsAnchor from "@/public/images/ai-projects/projects/ai-news-anchor.webp";
+import graphicDesignGenai from "@/public/images/ai-projects/projects/graphic-design-genai.webp";
+import volumeMapping from "@/public/images/ai-projects/projects/volume-mapping.webp";
+import parkingAllocation from "@/public/images/ai-projects/projects/parking-allocation.webp";
+import faceRecognition from "@/public/images/ai-projects/projects/face-recognition.webp";
+import qaDocumentAi from "@/public/images/ai-projects/projects/qa-document-ai.webp";
+import diseasePrediction from "@/public/images/ai-projects/projects/disease-prediction.webp";
+import aiImageGeneratorGan from "@/public/images/ai-projects/projects/ai-image-generator-gan.webp";
+import productRecommendation from "@/public/images/ai-projects/projects/product-recommendation.webp";
+import ppeDetection from "@/public/images/ai-projects/projects/ppe-detection.webp";
+import humanDetectionRestricted from "@/public/images/ai-projects/projects/human-detection-restricted.webp";
+import vehicleDetectionNonparking from "@/public/images/ai-projects/projects/vehicle-detection-nonparking.webp";
+import railContainerSurvey from "@/public/images/ai-projects/projects/rail-container-survey.webp";
+import portBerthSafety from "@/public/images/ai-projects/projects/port-berth-safety.webp";
+import hrCoilTracking from "@/public/images/ai-projects/projects/hr-coil-tracking.webp";
+import vehicle360Safety from "@/public/images/ai-projects/projects/vehicle-360-safety.webp";
+import documentAiSystem from "@/public/images/ai-projects/projects/document-ai-system.webp";
+import boundaryWallDetection from "@/public/images/ai-projects/projects/boundary-wall-detection.webp";
 
+// Client logos (Notable Clients strip) — same static-import pattern.
+import adaniLogo from "@/public/images/ai-projects/clients/adani.webp";
+import indianRailwaysLogo from "@/public/images/ai-projects/clients/indian-railways.webp";
+import techMahindraLogo from "@/public/images/ai-projects/clients/tech-mahindra.webp";
+import jmBaxiLogo from "@/public/images/ai-projects/clients/jm-baxi.webp";
+import portallLogo from "@/public/images/ai-projects/clients/portall.webp";
+import waareeLogo from "@/public/images/ai-projects/clients/waaree.webp";
+import tataSteelLogo from "@/public/images/ai-projects/clients/tata-steel.webp";
+import bioconLogo from "@/public/images/ai-projects/clients/biocon.webp";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -112,6 +143,44 @@ export const TESTIMONIAL_IMAGES = {
   delhiPublic,
   kingdomCafe
 } as const; 
+
+export const AI_PROJECT_IMAGES = {
+  "vehicle-speed-detection": vehicleSpeedDetection,
+  "document-scanning": documentScanning,
+  "ai-fashion-model": aiFashionModel,
+  "ai-news-anchor": aiNewsAnchor,
+  "graphic-design-genai": graphicDesignGenai,
+  "volume-mapping": volumeMapping,
+  "parking-allocation": parkingAllocation,
+  "face-recognition": faceRecognition,
+  "qa-document-ai": qaDocumentAi,
+  "disease-prediction": diseasePrediction,
+  "ai-image-generator-gan": aiImageGeneratorGan,
+  "product-recommendation": productRecommendation,
+  "ppe-detection": ppeDetection,
+  "human-detection-restricted": humanDetectionRestricted,
+  "vehicle-detection-nonparking": vehicleDetectionNonparking,
+  "rail-container-survey": railContainerSurvey,
+  "port-berth-safety": portBerthSafety,
+  "hr-coil-tracking": hrCoilTracking,
+  "vehicle-360-safety": vehicle360Safety,
+  "document-ai-system": documentAiSystem,
+  "boundary-wall-detection": boundaryWallDetection,
+} as const;
+
+export const AI_CLIENT_LOGOS = {
+  adani: adaniLogo,
+  "indian-railways": indianRailwaysLogo,
+  "tech-mahindra": techMahindraLogo,
+  "jm-baxi": jmBaxiLogo,
+  portall: portallLogo,
+  waaree: waareeLogo,
+  "tata-steel": tataSteelLogo,
+  biocon: bioconLogo,
+} as const;
+
+export type AIClientLogoKey = keyof typeof AI_CLIENT_LOGOS;
+export type AIProjectImageKey = keyof typeof AI_PROJECT_IMAGES;
 export type BrandImageKey = keyof typeof BRAND_IMAGES;
 export type ProductImageKey = keyof typeof PRODUCT_IMAGES;
 export type ServiceImageKey = keyof typeof SERVICE_IMAGES;

@@ -1,0 +1,39 @@
+{
+  "sysId": "09",
+  "slug": "qa-document-ai",
+  "title": "Question-Answering AI Model",
+  "category": "Document Intelligence",
+  "tagline": "Upload a PDF, ask it anything in plain language.",
+  "image": "qa-document-ai",
+  "icon": "MessageCircleQuestionMark",
+  "meta": {
+    "title": "Question-Answering AI Model | Foxtroit AI",
+    "description": "Upload a PDF, ask it anything in plain language."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Finding a specific answer inside a long report or manual means manually scanning through it, and details get missed along the way."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "NLP combined with OCR reads the uploaded PDF, and text summarization surfaces the relevant answer directly from the document's content."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "NLP",
+        "OCR",
+        "Text summarization"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Answers in seconds instead of a manual search through the full document."
+    }
+  ]
+}

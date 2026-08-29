@@ -1,0 +1,38 @@
+{
+  "sysId": "12",
+  "slug": "product-recommendation",
+  "title": "AI-Based Product Recommendation",
+  "category": "Applied ML",
+  "tagline": "Suggests what someone's actually likely to buy.",
+  "image": "product-recommendation",
+  "icon": "ShoppingCart",
+  "meta": {
+    "title": "AI-Based Product Recommendation | Foxtroit AI",
+    "description": "Suggests what someone's actually likely to buy."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Generic recommendations convert poorly — without real personalization, retailers leave sales on the table and customers see products that don't match their interests."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Collaborative and content-based filtering combine with reinforcement learning to keep recommendations improving as more behavior data comes in."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Collaborative filtering",
+        "Reinforcement learning"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Higher conversion and a shopping experience that feels tailored to the individual."
+    }
+  ]
+}

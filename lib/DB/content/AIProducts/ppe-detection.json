@@ -1,0 +1,39 @@
+{
+  "sysId": "13",
+  "slug": "ppe-detection",
+  "title": "PPE Detection System",
+  "category": "Safety & Surveillance",
+  "tagline": "Flags a missing helmet before it becomes an incident.",
+  "image": "ppe-detection",
+  "icon": "HardHat",
+  "meta": {
+    "title": "PPE Detection System | Foxtroit AI",
+    "description": "Flags a missing helmet before it becomes an incident."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Manually checking that every worker is wearing required protective equipment doesn't scale on a large site, and gaps in compliance often go unnoticed until an incident happens."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "A YOLO-based detection model monitors camera feeds continuously and triggers an alert the instant it spots a compliance gap."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "YOLO",
+        "Computer Vision",
+        "Edge AI"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Fewer preventable incidents, and inspection time freed up for other safety work."
+    }
+  ]
+}

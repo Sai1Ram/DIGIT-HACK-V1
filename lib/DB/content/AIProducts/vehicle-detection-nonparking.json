@@ -1,0 +1,39 @@
+{
+  "sysId": "15",
+  "slug": "vehicle-detection-nonparking",
+  "title": "Vehicle Detection in Non-Parking Zones",
+  "category": "Safety & Surveillance",
+  "tagline": "Catches unauthorized parking the moment it happens.",
+  "image": "vehicle-detection-nonparking",
+  "icon": "CarFront",
+  "meta": {
+    "title": "Vehicle Detection in Non-Parking Zones | Foxtroit AI",
+    "description": "Catches unauthorized parking the moment it happens."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Unauthorized parking causes congestion and safety risk, but manual enforcement is slow and inconsistent, so violations routinely slip through."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Geofencing combined with motion tracking tells stationary violations apart from vehicles just passing through, and fires an alert automatically."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "YOLO",
+        "Geofencing",
+        "Edge AI"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Faster enforcement and noticeably better traffic flow in monitored zones."
+    }
+  ]
+}

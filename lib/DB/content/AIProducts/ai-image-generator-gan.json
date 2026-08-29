@@ -1,0 +1,39 @@
+{
+  "sysId": "11",
+  "slug": "ai-image-generator-gan",
+  "title": "AI Image Generator (GAN)",
+  "category": "Generative AI",
+  "tagline": "Photorealistic images generated from a dataset, not a camera.",
+  "image": "ai-image-generator-gan",
+  "icon": "Sparkles",
+  "meta": {
+    "title": "AI Image Generator (GAN) | Foxtroit AI",
+    "description": "Photorealistic images generated from a dataset, not a camera."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Producing realistic custom imagery normally takes real photography or illustration work, which is slow and doesn't scale with how many variations a brand needs."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "A GAN trained in PyTorch learns from a dataset and generates new high-quality images that resemble it, refined through image processing."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "GANs",
+        "PyTorch",
+        "Image processing"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Rapid exploration of visual styles and variations without commissioning new shoots for each one."
+    }
+  ]
+}

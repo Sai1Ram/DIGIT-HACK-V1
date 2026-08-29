@@ -1,0 +1,39 @@
+{
+  "sysId": "01",
+  "slug": "vehicle-speed-detection",
+  "title": "Vehicle Speed Detection & Violation Enforcement",
+  "category": "Safety & Surveillance",
+  "tagline": "Clocks every vehicle, flags the ones breaking the limit.",
+  "image": "vehicle-speed-detection",
+  "icon": "Gauge",
+  "meta": {
+    "title": "Vehicle Speed Detection & Violation Enforcement | Foxtroit AI",
+    "description": "Clocks every vehicle, flags the ones breaking the limit."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Manual speed enforcement can't scale — most violations go undetected, and the ones that are caught take time to verify and process into a penalty."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Continuous AI monitoring clocks vehicle speed in real time, captures an image of the violator and their plate, and logs the violation automatically — no manual review step."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Computer Vision",
+        "ANPR",
+        "Real-time inference"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Consistent enforcement with far less manual monitoring, and penalties issued without delay."
+    }
+  ]
+}

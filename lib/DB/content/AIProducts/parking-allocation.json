@@ -1,0 +1,38 @@
+{
+  "sysId": "07",
+  "slug": "parking-allocation",
+  "title": "Parking Allocation System",
+  "category": "Logistics & Operations",
+  "tagline": "Knows which spots are open before you circle the lot.",
+  "image": "parking-allocation",
+  "icon": "SquareParking",
+  "meta": {
+    "title": "Parking Allocation System | Foxtroit AI",
+    "description": "Knows which spots are open before you circle the lot."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Drivers waste time and fuel searching for parking, and manually managing space allocation doesn't scale with a busy lot."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Real-time object detection identifies vacant and occupied spots continuously and surfaces accurate availability to drivers."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Object detection",
+        "Real-time monitoring"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Less circling, less congestion, and fewer manual errors in space management."
+    }
+  ]
+}

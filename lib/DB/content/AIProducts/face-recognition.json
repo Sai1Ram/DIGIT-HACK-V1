@@ -1,0 +1,38 @@
+{
+  "sysId": "08",
+  "slug": "face-recognition",
+  "title": "Face Recognition System",
+  "category": "Applied ML",
+  "tagline": "A face scan instead of a password or a card.",
+  "image": "face-recognition",
+  "icon": "ScanFace",
+  "meta": {
+    "title": "Face Recognition System | Foxtroit AI",
+    "description": "A face scan instead of a password or a card."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Passwords and ID cards are vulnerable to fraud and loss, and checking them is friction every single person has to go through."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Deep learning-trained facial recognition verifies identity from a live scan, adding a security layer that's difficult to replicate."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Deep learning",
+        "Facial recognition"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Faster, more secure authentication with less reliance on things people can lose or share."
+    }
+  ]
+}

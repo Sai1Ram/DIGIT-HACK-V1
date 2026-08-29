@@ -1,0 +1,39 @@
+{
+  "sysId": "19",
+  "slug": "vehicle-360-safety",
+  "title": "360° Vehicle Safety System",
+  "category": "Safety & Surveillance",
+  "tagline": "No blind spot goes unwatched, even offline.",
+  "image": "vehicle-360-safety",
+  "icon": "Radar",
+  "meta": {
+    "title": "360° Vehicle Safety System | Foxtroit AI",
+    "description": "No blind spot goes unwatched, even offline."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Forklifts and loaders move in tight spaces with real blind spots, and the driver often can't see a person standing right behind the vehicle."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Four wide-angle cameras feed an edge AI device running YOLOv8 detection; a dashboard shows all feeds live while a speaker escalates its alert as objects get closer."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "YOLOv8",
+        "NVIDIA Jetson",
+        "Edge inference"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Blind-spot accidents designed out, on a system that keeps working with zero internet dependency."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "sysId": "06",
+  "slug": "volume-mapping",
+  "title": "Volume Mapping System",
+  "category": "Logistics & Operations",
+  "tagline": "Estimates cargo volume the moment it's loaded.",
+  "image": "volume-mapping",
+  "icon": "Boxes",
+  "meta": {
+    "title": "Volume Mapping System | Foxtroit AI",
+    "description": "Estimates cargo volume the moment it's loaded."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Estimating how much cargo space is actually being used is normally a manual guess, which leads to trucks running under- or over-utilized and driving costs up."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "3D vision measures the cargo volume directly and reports it in real time, adaptable to irregular load shapes."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "3D Vision",
+        "Depth sensing",
+        "Volumetric analysis"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Better space utilization per trip, and fewer trips overall."
+    }
+  ]
+}

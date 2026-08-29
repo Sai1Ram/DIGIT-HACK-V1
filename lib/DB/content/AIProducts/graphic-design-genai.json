@@ -1,0 +1,39 @@
+{
+  "sysId": "05",
+  "slug": "graphic-design-genai",
+  "title": "Automated Graphic Design",
+  "category": "Generative AI",
+  "tagline": "Logos, banners, and social assets, generated on brief.",
+  "image": "graphic-design-genai",
+  "icon": "Palette",
+  "meta": {
+    "title": "Automated Graphic Design | Foxtroit AI",
+    "description": "Logos, banners, and social assets, generated on brief."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Custom visual content for every campaign is expensive to commission and slow to iterate on, especially at the pace marketing teams need."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "A GAN-based design model generates multiple on-brand asset variations quickly, from a description and existing brand guidelines."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "GANs",
+        "Image processing",
+        "Deep learning"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Marketing teams get design options in minutes instead of waiting on a full creative cycle."
+    }
+  ]
+}

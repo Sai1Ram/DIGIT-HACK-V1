@@ -1,0 +1,39 @@
+{
+  "sysId": "14",
+  "slug": "human-detection-restricted",
+  "title": "Human Detection in Restricted Zones",
+  "category": "Safety & Surveillance",
+  "tagline": "Notices the moment someone strays off the designated path.",
+  "image": "human-detection-restricted",
+  "icon": "Footprints",
+  "meta": {
+    "title": "Human Detection in Restricted Zones | Foxtroit AI",
+    "description": "Notices the moment someone strays off the designated path."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Unauthorized entry into restricted zones is a real risk in plants, airports, and secure sites, and manual monitoring is easy to defeat by accident or oversight."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Real-time human detection tracks movement patterns and flags anomalies, feeding straight into automated alerts or deterrents."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "YOLO",
+        "Motion tracking",
+        "Edge AI"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Fewer unauthorized entries and a clearer picture of movement patterns across the site."
+    }
+  ]
+}

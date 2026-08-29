@@ -1,0 +1,39 @@
+{
+  "sysId": "03",
+  "slug": "ai-fashion-model",
+  "title": "AI Fashion Model",
+  "category": "Generative AI",
+  "tagline": "Any dress, any pose — no photoshoot required.",
+  "image": "ai-fashion-model",
+  "icon": "Shirt",
+  "meta": {
+    "title": "AI Fashion Model | Foxtroit AI",
+    "description": "Any dress, any pose — no photoshoot required."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Product photoshoots are expensive to run for every SKU, and shoppers who can't picture the fit on themselves are more likely to abandon the purchase."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Generative AI synthesizes a photorealistic image of the uploaded garment on the chosen model pose, standing in for a full studio shoot."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Generative AI",
+        "Diffusion models",
+        "Image synthesis"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Sellers cut photoshoot and model costs while giving customers a clearer preview before they buy."
+    }
+  ]
+}

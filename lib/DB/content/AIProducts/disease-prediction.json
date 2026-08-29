@@ -1,0 +1,39 @@
+{
+  "sysId": "10",
+  "slug": "disease-prediction",
+  "title": "Disease Prediction from Multi-Angle Imaging",
+  "category": "Applied ML",
+  "tagline": "Eight angles in, a more confident read out.",
+  "image": "disease-prediction",
+  "icon": "Stethoscope",
+  "meta": {
+    "title": "Disease Prediction from Multi-Angle Imaging | Foxtroit AI",
+    "description": "Eight angles in, a more confident read out."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Diagnosing certain hair and skin conditions from manual examination alone is subjective and often needs multiple consultations to confirm."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "A CNN-based model processes the multi-angle image set and detects visual indicators of disease across all eight views together."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Computer Vision",
+        "CNNs",
+        "Medical imaging"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "More consistent diagnostic support, including for remote consultations without a specialist on-site."
+    }
+  ]
+}

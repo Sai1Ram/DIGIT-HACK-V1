@@ -1,0 +1,39 @@
+{
+  "sysId": "18",
+  "slug": "hr-coil-tracking",
+  "title": "HR Coil Tracking & Yard Visualization",
+  "category": "Logistics & Operations",
+  "tagline": "Every coil's position, mapped the moment it's placed.",
+  "image": "hr-coil-tracking",
+  "icon": "Layers2",
+  "meta": {
+    "title": "HR Coil Tracking & Yard Visualization | Foxtroit AI",
+    "description": "Every coil's position, mapped the moment it's placed."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Steel coils stacked in pyramid formations across a yard are hard to track by memory, and manually recording hundreds of daily moves is slow and error-prone."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Fixed cameras detect slot occupancy per section as cranes place coils, the operator confirms the coil ID, and a digital yard model updates in real time for every authorized user."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Computer Vision",
+        "Slot mapping",
+        "2D/3D visualization"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Instant, reliable coil lookup instead of retrieval that used to eat significant yard time."
+    }
+  ]
+}

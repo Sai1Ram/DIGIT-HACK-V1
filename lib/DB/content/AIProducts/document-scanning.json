@@ -1,0 +1,39 @@
+{
+  "sysId": "02",
+  "slug": "document-scanning",
+  "title": "Document Scanning & Information Extraction",
+  "category": "Document Intelligence",
+  "tagline": "Turns a photographed ID into structured data in seconds.",
+  "image": "document-scanning",
+  "icon": "ScanText",
+  "meta": {
+    "title": "Document Scanning & Information Extraction | Foxtroit AI",
+    "description": "Turns a photographed ID into structured data in seconds."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Manually keying details off physical documents is slow and error-prone, and it's a bottleneck anywhere paperwork drives the process — banking, insurance, government services."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Optical character recognition scans the document and extracts key fields directly, structuring them for immediate use downstream."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "OCR",
+        "Data extraction",
+        "Document parsing"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Digitization that used to take minutes per document now happens automatically."
+    }
+  ]
+}

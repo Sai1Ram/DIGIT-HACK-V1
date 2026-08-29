@@ -1,0 +1,39 @@
+{
+  "sysId": "04",
+  "slug": "ai-news-anchor",
+  "title": "AI News Anchor",
+  "category": "Generative AI",
+  "tagline": "Reads the script, delivers it like a person would.",
+  "image": "ai-news-anchor",
+  "icon": "Mic",
+  "meta": {
+    "title": "AI News Anchor | Foxtroit AI",
+    "description": "Reads the script, delivers it like a person would."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Staffing live anchors around the clock is expensive, and fully automated delivery usually reads flat — it struggles to hold attention."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "The anchor mimics human delivery: facial expression and gesture shift with the tone of the script instead of reading everything in the same register."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "NLP",
+        "Facial animation",
+        "Gesture synthesis"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "24/7 broadcast capability with a presenter that stays consistent and doesn't fatigue."
+    }
+  ]
+}

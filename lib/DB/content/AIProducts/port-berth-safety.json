@@ -1,0 +1,40 @@
+{
+  "sysId": "17",
+  "slug": "port-berth-safety",
+  "title": "Port Berth Safety Surveillance",
+  "category": "Safety & Surveillance",
+  "tagline": "A virtual line that alarms the second someone crosses it.",
+  "image": "port-berth-safety",
+  "icon": "Anchor",
+  "meta": {
+    "title": "Port Berth Safety Surveillance | Foxtroit AI",
+    "description": "A virtual line that alarms the second someone crosses it."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Workers can unconsciously cross the safety line near a berthed ship during loading, and manual supervision can't reliably cover a jetty that stretches hundreds of meters."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "High-resolution PTZ cameras feed a Jetson-based edge processor running human detection and virtual line-crossing logic, triggering a hooter through a Raspberry Pi relay layer — no internet dependency."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "NVIDIA Jetson Orin",
+        "YOLO / DeepStream",
+        "PTZ control",
+        "Edge AI"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Eliminates the specific risk of severe injury near berthed ships, with zero reliance on manual monitoring teams."
+    }
+  ]
+}

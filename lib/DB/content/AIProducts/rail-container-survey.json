@@ -1,0 +1,39 @@
+{
+  "sysId": "16",
+  "slug": "rail-container-survey",
+  "title": "Rail Container Survey System",
+  "category": "Logistics & Operations",
+  "tagline": "Reads every container number on a rake, automatically.",
+  "image": "rail-container-survey",
+  "icon": "TrainFront",
+  "meta": {
+    "title": "Rail Container Survey System | Foxtroit AI",
+    "description": "Reads every container number on a rake, automatically."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Manually verifying container position, count, and ISO codes on a rake is slow and error-prone, and mistakes here cascade into logistics delays."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "Computer vision tracks each container's position while OCR extracts its number and code, generating a report automatically at every entry and exit."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "OCR",
+        "Computer Vision",
+        "Automated reporting"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Accurate, auditable container records with far less manual survey work."
+    }
+  ]
+}

@@ -1,14 +1,15 @@
-import { BRAND_IMAGES, SERVICE_IMAGES, TESTIMONIAL_IMAGES } from "./images";
+import { AI_PROJECT_IMAGES, BRAND_IMAGES, SERVICE_IMAGES, TESTIMONIAL_IMAGES } from "./images";
 import brands from "../content/Brands.json";
 import aboutCards from "../content/AboutCards.json";
 import contactInfo from "../content/ContactInfo.json";
 import services from "../content/Services.json";
-import { ABOUT_CARDS_ICONS, CONTACT_INFO_ICONS, SERVICES_ICONS } from "./icon";
+import { ABOUT_CARDS_ICONS, AI_PROJECT_ICONS, CONTACT_INFO_ICONS, SERVICES_ICONS } from "./icon";
 import { ServiceItem, ServiceJson } from "@/types/Service";
 import { ContactInfo, ContactInfoJson } from "@/types/ContactInfo";
 import { Brand, BrandJson, Testimonial, TestimonialJson } from "@/types/Brand";
 import { AboutCard, AboutCardJson } from "@/types/About";
 import testimonials from "../content/Testimonials.json";
+import { AIProjectDetails, AIProjectJson } from "@/types/AIProject";
 
 const typedBrands = brands as BrandJson[];
 export const BRANDS: Brand[] = typedBrands.map((b) => ({
@@ -57,3 +58,11 @@ export const SERVICES: ServiceItem[] = typedServices.map((s) => ({
   })),
   link: `/services/${s.slug}`,
 }));
+
+export function mapAIProjectJson(json: AIProjectJson): AIProjectDetails {
+  return {
+    ...json,
+    image: AI_PROJECT_IMAGES[json.image],
+    icon: AI_PROJECT_ICONS[json.icon],
+  };
+}

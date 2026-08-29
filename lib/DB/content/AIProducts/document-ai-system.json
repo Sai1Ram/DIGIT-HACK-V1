@@ -1,0 +1,39 @@
+{
+  "sysId": "20",
+  "slug": "document-ai-system",
+  "title": "Document AI System",
+  "category": "Document Intelligence",
+  "tagline": "Structured, validated data out of any document format.",
+  "image": "document-ai-system",
+  "icon": "FileScan",
+  "meta": {
+    "title": "Document AI System | Foxtroit AI",
+    "description": "Structured, validated data out of any document format."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Extracting accurate structured data from unstructured business documents — invoices, KYC forms, contracts — still means manual review to catch errors."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "OCR feeds an LLM for contextual field extraction, validated against a JSON schema with strict datatypes, with workflows configurable per document type via an admin panel."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "OCR",
+        "LLMs",
+        "Schema validation"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Enterprise-scale document processing with output stable enough to feed straight into other systems."
+    }
+  ]
+}

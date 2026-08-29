@@ -1,0 +1,38 @@
+{
+  "sysId": "21",
+  "slug": "boundary-wall-detection",
+  "title": "Boundary Wall Throw Detection",
+  "category": "Safety & Surveillance",
+  "tagline": "Catches goods being thrown over the wall, on camera.",
+  "image": "boundary-wall-detection",
+  "icon": "TriangleAlert",
+  "meta": {
+    "title": "Boundary Wall Throw Detection | Foxtroit AI",
+    "description": "Catches goods being thrown over the wall, on camera."
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": "Materials thrown over factory or warehouse boundary walls are a real theft vector, and continuous human surveillance across a long perimeter isn't practical."
+    },
+    {
+      "type": "text",
+      "title": "The Solution",
+      "content": "AI models analyze movement and trajectory patterns to recognize a throw event specifically, then trigger an alarm and save video evidence instantly."
+    },
+    {
+      "type": "list",
+      "title": "Tech Stack",
+      "items": [
+        "Video analytics",
+        "Behavior detection"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Outcome",
+      "content": "Perimeter security that doesn't depend on someone watching a monitor continuously."
+    }
+  ]
+}
