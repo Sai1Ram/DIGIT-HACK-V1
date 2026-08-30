@@ -90,7 +90,6 @@ export function HeroNavbar() {
               ${isActive ? "text-primary" : "text-foreground/80"}
               ${aiLink ? "border border-primary p-2 rounded-2xl" : ""}
               `}
-                  target={aiLink ? "_blank" : ""}
                 >
                   {hasDropdown ? (
                     <span className="flex gap-1 items-center">
@@ -180,7 +179,6 @@ export function HeroNavbar() {
                       <Link
                         href={link.href}
                         onClick={() => setMobileOpen(false)}
-                        target={aiLink ? "_blank" : ""}
                       >
                         <button
                           onClick={() =>

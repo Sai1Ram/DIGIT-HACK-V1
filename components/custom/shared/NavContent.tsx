@@ -75,7 +75,6 @@ export default function NavContent() {
                     ${isActive ? "text-primary" : "text-foreground/80"}
                     ${aiLink ? "border border-primary p-2 rounded-2xl" : ""}
                     `}
-                  target={""}
                 >
                   {hasDropdown ? (
                     <span className="flex gap-1 items-center">
@@ -164,7 +163,7 @@ export default function NavContent() {
                     }
                   }}
                 >
-                  <Link href={link.href} target={aiLink ? "_blank" : ""}>
+                  <Link href={link.href}>
                     {link.label}
                   </Link>
 
