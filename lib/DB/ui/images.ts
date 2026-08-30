@@ -23,6 +23,7 @@ import suba from "@/public/images/brandLogo/suba_logo.png";
 import teamax from "@/public/images/brandLogo/teamax_logo.jpg";
 import zorko from "@/public/images/brandLogo/zorko-new-logo-1.webp";
 import kingdomCafe from "@/public/images/brandLogo/7kingdom.jpg";
+import lakme from "@/public/images/brandLogo/lakme.webp";
 
 import retailSoftware from "@/public/images/retailsoftware.jpeg";
 import hospitalityManagement from "@/public/images/hospitalityManagement.png";
@@ -74,7 +75,7 @@ import jmBaxiLogo from "@/public/images/ai-projects/clients/jm-baxi.webp";
 import portallLogo from "@/public/images/ai-projects/clients/portall.webp";
 import waareeLogo from "@/public/images/ai-projects/clients/waaree.webp";
 import tataSteelLogo from "@/public/images/ai-projects/clients/tata-steel.webp";
-import bioconLogo from "@/public/images/ai-projects/clients/biocon.webp";
+import paradipPort from "@/public/images/ai-projects/clients/pradip-port.png";
 export const PRODUCT_IMAGES = {
   "restaurant-management": restaurantManagement,
   "gym-management": gymManagement,
@@ -132,7 +133,16 @@ export const BRAND_IMAGES = {
   suba,
   teamax,
   zorko,
-  kingdomCafe
+  kingdomCafe,
+  lakme,
+  adaniLogo,
+  indianRailwaysLogo,
+  techMahindraLogo,
+  jmBaxiLogo,
+  portallLogo,
+  waareeLogo,
+  tataSteelLogo,
+  paradipPort,
 } as const;
 
 export const TESTIMONIAL_IMAGES = {
@@ -176,7 +186,7 @@ export const AI_CLIENT_LOGOS = {
   portall: portallLogo,
   waaree: waareeLogo,
   "tata-steel": tataSteelLogo,
-  biocon: bioconLogo,
+  "paradip-port": paradipPort,
 } as const;
 
 export type AIClientLogoKey = keyof typeof AI_CLIENT_LOGOS;

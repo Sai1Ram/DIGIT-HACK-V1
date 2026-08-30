@@ -142,5 +142,49 @@
     "name": "Zorko Brand",
     "src": "zorko",
     "link": "https://zorko.in/"
+  },
+  {
+    "id": 25,
+    "name": "Adani Ports & Special Economic Zone (APSEZ)",
+    "src": "adaniLogo",
+    "link": "https://www.adaniports.com/"
+  },
+  {
+    "id": 26,
+    "name": "Indian Railways",
+    "src": "indianRailwaysLogo",
+    "link": "https://www.irctc.co.in/"
+  },
+  {
+    "id": 27,
+    "name": "Tech Mahindra",
+    "src": "techMahindraLogo",
+    "link": "https://www.techmahindra.com/"
+  },
+  {
+    "id": 28,
+    "name": "JM Baxi",
+    "src": "jmBaxiLogo",
+    "link": "https://www.jmbaxi.com/"
+  },
+  {
+    "id": 29,
+    "name": "Portall",
+    "src": "portallLogo",
+    "link": "https://www.portall.in/"
+  },
+  {
+    "id": 30,
+    "name": "Lakme",
+    "src": "lakme",
+    "link": "https://www.lakme.com/"
+  },
+  {
+    "id": 31,
+    "name": "Paradip Port",
+    "src": "paradipPort",
+    "link": "https://paradipport.gov.in/"
   }
+  
 ]
+

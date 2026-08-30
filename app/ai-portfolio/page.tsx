@@ -28,6 +28,15 @@ export default function AIPortfolio() {
       {/* <div className="lg:mt-10 hidden lg:block">
         <QuickNav />
       </div> */}
+      {/* Clients */}
+      <div className="mt-10">
+        <span className="font-mono text-xs uppercase tracking-widest text-gray-400">
+          Trusted by teams building physical-world AI
+        </span>
+        <div className="mt-6">
+          <ClientsStrip />
+        </div>
+      </div>
 
       {/* Project sections */}
       <div className="mt-14 divide-y divide-gray-200">
@@ -38,16 +47,6 @@ export default function AIPortfolio() {
             </section>
           </LazySection>
         ))}
-      </div>
-
-      {/* Clients */}
-      <div className="mt-10">
-        <span className="font-mono text-xs uppercase tracking-widest text-gray-400">
-          Trusted by teams building physical-world AI
-        </span>
-        <div className="mt-6">
-          <ClientsStrip />
-        </div>
       </div>
 
     </main>
