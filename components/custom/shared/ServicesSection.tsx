@@ -34,9 +34,6 @@ interface ServiceItem {
 /** How many viewport-heights of scroll distance are given to each card. */
 const VH_PER_CARD = 100;
 
-/** Section background — reused by the bg class and the top fade overlay so they match exactly. */
-const SECTION_BG = "#0b1e1d";
-
 // Avoids the "useLayoutEffect does nothing on the server" warning during SSR.
 const useIsomorphicLayoutEffect =
   typeof window !== "undefined" ? useLayoutEffect : useEffect;
@@ -140,10 +137,10 @@ export default function ServicesScrollSection({
           {/* Right column — step indicator + clipped, scroll-linked card stack */}
           <div className="flex min-h-0 flex-1 flex-col">
             <div className="flex items-center gap-3 sm:mb-8 sm:gap-4">
-              {SERVICES.map((service, index) => (
+              {SERVICES.slice(0, FEATURED_SERVICES_LIMIT).map((service, index) => (
                 <div
                   key={service.id}
-                  className="flex items-center gap-3 sm:gap-4"
+                  className="flex items-center"
                 >
                   <button
                     type="button"
@@ -154,20 +151,15 @@ export default function ServicesScrollSection({
                   >
                     {String(index + 1).padStart(2, "0")}.
                   </button>
-                  {index < SERVICES.length - 1 && (
-                    <span className="relative h-px w-6 overflow-hidden bg-white/15 sm:w-10">
-                      {index === activeIndex && (
-                        <motion.span
-                          layoutId="service-step-line"
-                          className="absolute inset-0 bg-primary"
-                          transition={{
-                            type: "spring",
-                            stiffness: 300,
-                            damping: 30,
-                          }}
-                        />
-                      )}
-                    </span>
+                  {index < FEATURED_SERVICES_LIMIT - 1 && (
+                    <motion.span
+                      className="relative h-1 overflow-hidden rounded-2xl"
+                      initial={false}
+                      animate={{ width: index === activeIndex ? 60 : 0 }} // 40 ≈ w-10, use 24 for w-6 on mobile
+                      transition={{ duration: 0.4, ease: "easeInOut" }}
+                    >
+                      <span className="absolute inset-0 bg-primary" />
+                    </motion.span>
                   )}
                 </div>
               ))}
